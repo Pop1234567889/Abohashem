@@ -93,6 +93,10 @@ add_sheet(wb, 'المديونية المستحقة AR',
           'المديونية المستحقة لكل عميل بمعدل ائتمان شهرى (انكشاف بالشهور، بدون فائدة) / '
           'Due indebtedness per customer with monthly credit exposure (months, no interest)',
           load_csv('receivables_by_customer.csv'))
+add_sheet(wb, 'الاستحقاق خلال شهر Due1mo',
+          'المبالغ المستحقة لكل عميل بأجل شهر واحد (تاريخ الفاتورة + شهر) / '
+          'Amounts due per customer under a one-month credit term (invoice date + 1 month)',
+          load_csv('due_within_month_by_customer.csv'))
 add_sheet(wb, 'المناديب Salespeople',
           'مديونية كل مندوب والانكشاف الائتمانى / Debt & credit exposure per salesperson',
           load_csv('salespeople_summary.csv'))
