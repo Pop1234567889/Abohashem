@@ -1,0 +1,2492 @@
+[
+ {
+  "code": "802",
+  "customer": "شركة العل اسكندرية",
+  "salesperson": "فارس ايمن",
+  "debit": 130712.57,
+  "credit": 0.0,
+  "phone": "01000155485",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "511",
+  "customer": "طارق سعيد السماعليه",
+  "salesperson": "فارس ايمن",
+  "debit": 104642.81,
+  "credit": 0.0,
+  "phone": "01090942362",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "884",
+  "customer": "ثلجه الوادي",
+  "salesperson": "فارس ايمن",
+  "debit": 92572.75,
+  "credit": 0.0,
+  "phone": null,
+  "area": "بشاير الخير بجوار",
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "890",
+  "customer": "الحاج م حامد شرم الشيخ",
+  "salesperson": "فارس ايمن",
+  "debit": 83825.36,
+  "credit": 0.0,
+  "phone": "01005554848",
+  "area": "ىالشيخ شرم",
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "826",
+  "customer": "ثلجة الملك سامح العربى",
+  "salesperson": "فارس ايمن",
+  "debit": 59712.85,
+  "credit": 0.0,
+  "phone": "01111180298",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "790",
+  "customer": "ثلجة الصقر السويس",
+  "salesperson": "فارس ايمن",
+  "debit": 46564.27,
+  "credit": 0.0,
+  "phone": "01097366686",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "784",
+  "customer": "جزارة السعيد م سعيد",
+  "salesperson": "فارس ايمن",
+  "debit": 26384.88,
+  "credit": 0.0,
+  "phone": "01065848101",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "899",
+  "customer": "ثلجه النقيب ايمن فارس",
+  "salesperson": "فارس ايمن",
+  "debit": 24660.0,
+  "credit": 0.0,
+  "phone": "01207003395",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "772",
+  "customer": "تامر الغربية",
+  "salesperson": "فارس ايمن",
+  "debit": 7840.85,
+  "credit": 0.0,
+  "phone": "01104782640",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "863",
+  "customer": "سيد عنتر",
+  "salesperson": "فارس ايمن",
+  "debit": 6126.38,
+  "credit": 0.0,
+  "phone": "01000987145",
+  "area": "كلية الزراعة بجوار",
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "817",
+  "customer": "ثلجة المهندس م سعيد",
+  "salesperson": "فارس ايمن",
+  "debit": 5921.02,
+  "credit": 0.0,
+  "phone": "01271610150",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "800",
+  "customer": "ضياء م سعيد",
+  "salesperson": "فارس ايمن",
+  "debit": 4812.48,
+  "credit": 0.0,
+  "phone": "01119146662",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "868",
+  "customer": "منفذ اسبيكو ايمن فارس",
+  "salesperson": "فارس ايمن",
+  "debit": 4540.27,
+  "credit": 0.0,
+  "phone": "010181970084",
+  "area": "اسبيكو",
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "921",
+  "customer": "توفيق ابوالنور المحلة",
+  "salesperson": "فارس ايمن",
+  "debit": 3413.75,
+  "credit": 0.0,
+  "phone": "012781333124",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "996",
+  "customer": "مايكل العروبة",
+  "salesperson": "فارس ايمن",
+  "debit": 3238.2,
+  "credit": 0.0,
+  "phone": "01222461915",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "864",
+  "customer": "م السوهاجى",
+  "salesperson": "فارس ايمن",
+  "debit": 1549.2,
+  "credit": 0.0,
+  "phone": "01060939426",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "774",
+  "customer": "رضا علوان م سعيد",
+  "salesperson": "فارس ايمن",
+  "debit": 741.59,
+  "credit": 0.0,
+  "phone": "01027112903",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "997",
+  "customer": "عمر صلح امبابة",
+  "salesperson": "فارس ايمن",
+  "debit": 549.2,
+  "credit": 0.0,
+  "phone": "01123141636",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "953",
+  "customer": "م عادل المحلة",
+  "salesperson": "فارس ايمن",
+  "debit": 491.6,
+  "credit": 0.0,
+  "phone": "0122483664",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "885",
+  "customer": "رمضان سقارة ايمن فارس",
+  "salesperson": "فارس ايمن",
+  "debit": 215.16,
+  "credit": 0.0,
+  "phone": "01065561150",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "906",
+  "customer": "ثلجة خورشيد",
+  "salesperson": "فارس ايمن",
+  "debit": 131.75,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "805",
+  "customer": "حمدى السلم م سعيد",
+  "salesperson": "فارس ايمن",
+  "debit": 93.43,
+  "credit": 0.0,
+  "phone": "01098215198",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "417",
+  "customer": "ابو ربيع بنها",
+  "salesperson": "فارس ايمن",
+  "debit": 28.75,
+  "credit": 0.0,
+  "phone": "01013632486",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "875",
+  "customer": "منفذ رمسيس ايمن فارس",
+  "salesperson": "فارس ايمن",
+  "debit": 7.55,
+  "credit": 0.0,
+  "phone": "01151029095",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "945",
+  "customer": "مختار المحلة",
+  "salesperson": "فارس ايمن",
+  "debit": 2.0,
+  "credit": 0.0,
+  "phone": "01007610307",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "867",
+  "customer": "منفذ الشروق ايمن فارس",
+  "salesperson": "فارس ايمن",
+  "debit": 0.5,
+  "credit": 0.0,
+  "phone": "01124423664",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "865",
+  "customer": "ملك ايمن فارس",
+  "salesperson": "فارس ايمن",
+  "debit": 0.32,
+  "credit": 0.0,
+  "phone": "01210968980",
+  "area": "النهضة",
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "712",
+  "customer": "العالمية كفر الشيخ",
+  "salesperson": "فارس ايمن",
+  "debit": 0.22,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "601",
+  "customer": "كريستال",
+  "salesperson": "فارس ايمن",
+  "debit": 0.0,
+  "credit": 58.59,
+  "phone": "01001117772",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "780",
+  "customer": "ماركت فايف استار",
+  "salesperson": "فارس ايمن",
+  "debit": 0.0,
+  "credit": 49.03,
+  "phone": "01001031434",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "783",
+  "customer": "مصطفى نصر الوطنية شبين",
+  "salesperson": "فارس ايمن",
+  "debit": 0.0,
+  "credit": 3.96,
+  "phone": "01091202754",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "821",
+  "customer": "م سعيد الباجور",
+  "salesperson": "فارس ايمن",
+  "debit": 0.0,
+  "credit": 14.83,
+  "phone": "01004100812",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "804",
+  "customer": "منفذ امان الخانكة م سعيد",
+  "salesperson": "فارس ايمن",
+  "debit": 0.0,
+  "credit": 3.2,
+  "phone": "01118394130",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "866",
+  "customer": "منفذ فايد ايمن فارس",
+  "salesperson": "فارس ايمن",
+  "debit": 0.0,
+  "credit": 0.5,
+  "phone": "01224604161 1 من 1",
+  "area": "صفحه",
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "874",
+  "customer": "امان المحروسة قويسنا",
+  "salesperson": "فارس ايمن",
+  "debit": 0.0,
+  "credit": 121.58,
+  "phone": "01144412470",
+  "area": "المحكمة بجوار",
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "854",
+  "customer": "احمد رياض",
+  "salesperson": "فارس ايمن",
+  "debit": 0.0,
+  "credit": 49.87,
+  "phone": "01014117716",
+  "area": "بشاير الخير بجوار",
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "947",
+  "customer": "الشيخ ياسر ماركت",
+  "salesperson": "فارس ايمن",
+  "debit": 0.0,
+  "credit": 1.8,
+  "phone": "01091241297",
+  "area": null,
+  "report_file": "ايمن فارس 26-6.pdf"
+ },
+ {
+  "code": "984",
+  "customer": "م القماش السماعيلية",
+  "salesperson": "حسن حسام",
+  "debit": 48581.95,
+  "credit": 0.0,
+  "phone": "01000831215",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "975",
+  "customer": "ثلجة الشرقاوى كفر صقر",
+  "salesperson": "حسن حسام",
+  "debit": 41185.35,
+  "credit": 0.0,
+  "phone": "01003302448",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "971",
+  "customer": "شركة الشريف الزقازيق",
+  "salesperson": "حسن حسام",
+  "debit": 39060.0,
+  "credit": 0.0,
+  "phone": "01169930314",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "974",
+  "customer": "احمد سمير بلطيم",
+  "salesperson": "حسن حسام",
+  "debit": 27783.7,
+  "credit": 0.0,
+  "phone": "01010401418",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "986",
+  "customer": "البراهيمية فيصل",
+  "salesperson": "حسن حسام",
+  "debit": 21174.0,
+  "credit": 0.0,
+  "phone": "01005011646",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "976",
+  "customer": "كشرى هند بلبيس",
+  "salesperson": "حسن حسام",
+  "debit": 17940.0,
+  "credit": 0.0,
+  "phone": "01202233198",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "998",
+  "customer": "ثلجة ابوالعز انشاص",
+  "salesperson": "حسن حسام",
+  "debit": 11195.0,
+  "credit": 0.0,
+  "phone": "01204894243",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "985",
+  "customer": "هايبر ابوعمار بلبيس",
+  "salesperson": "حسن حسام",
+  "debit": 10872.6,
+  "credit": 0.0,
+  "phone": "01091241298",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "925",
+  "customer": "ثلجة حور طوخ",
+  "salesperson": "حسن حسام",
+  "debit": 7909.2,
+  "credit": 0.0,
+  "phone": "01037623536",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "965",
+  "customer": "ثلجة الدكتور ابوكبير",
+  "salesperson": "حسن حسام",
+  "debit": 7780.0,
+  "credit": 0.0,
+  "phone": "01001498288",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "940",
+  "customer": "ثلجة البطل حلوان",
+  "salesperson": "حسن حسام",
+  "debit": 6377.5,
+  "credit": 0.0,
+  "phone": "01122233358",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "944",
+  "customer": "النسر البساتين",
+  "salesperson": "حسن حسام",
+  "debit": 5775.8,
+  "credit": 0.0,
+  "phone": "01110112098",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "977",
+  "customer": "شركة الطويل كرداسة",
+  "salesperson": "حسن حسام",
+  "debit": 4880.0,
+  "credit": 0.0,
+  "phone": "01090147272",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "931",
+  "customer": "الغمراوى التجارى المقطم السوق",
+  "salesperson": "حسن حسام",
+  "debit": 4873.0,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "979",
+  "customer": "ثلجة السماعيلية فاقوس",
+  "salesperson": "حسن حسام",
+  "debit": 3720.0,
+  "credit": 0.0,
+  "phone": "01104203744",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "978",
+  "customer": "هايبر مكة فيصل",
+  "salesperson": "حسن حسام",
+  "debit": 3380.0,
+  "credit": 0.0,
+  "phone": "01003374829",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "964",
+  "customer": "ثلجة ابوجزر ابوحماد",
+  "salesperson": "حسن حسام",
+  "debit": 2606.0,
+  "credit": 0.0,
+  "phone": "0100323521",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "982",
+  "customer": "السلمية 2 حسام حسن",
+  "salesperson": "حسن حسام",
+  "debit": 2331.49,
+  "credit": 0.0,
+  "phone": "01113283208",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "973",
+  "customer": "كامل ابوسف عرب الغديرى",
+  "salesperson": "حسن حسام",
+  "debit": 1947.5,
+  "credit": 0.0,
+  "phone": "01021912294",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "970",
+  "customer": "ثلجة الحسن ابوحماد",
+  "salesperson": "حسن حسام",
+  "debit": 1347.85,
+  "credit": 0.0,
+  "phone": "01127483266",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "928",
+  "customer": "ابوعاصم الدهان المدبح",
+  "salesperson": "حسن حسام",
+  "debit": 1275.0,
+  "credit": 0.0,
+  "phone": "01140222246",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "999",
+  "customer": "ثلجة المانة طوخ",
+  "salesperson": "حسن حسام",
+  "debit": 284.1,
+  "credit": 0.0,
+  "phone": "01281835033",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "919",
+  "customer": "ثلجة الصافى طوخ",
+  "salesperson": "حسن حسام",
+  "debit": 254.45,
+  "credit": 0.0,
+  "phone": "01145271099",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "961",
+  "customer": "احمد طنطاوى",
+  "salesperson": "حسن حسام",
+  "debit": 2.8,
+  "credit": 0.0,
+  "phone": "01099191970",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "937",
+  "customer": "ضاحى حلوان",
+  "salesperson": "حسن حسام",
+  "debit": 2.6,
+  "credit": 0.0,
+  "phone": "01157889477",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "963",
+  "customer": "ثلجة ابودياب ابوحماد",
+  "salesperson": "حسن حسام",
+  "debit": 2.1,
+  "credit": 0.0,
+  "phone": "01220721602",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "943",
+  "customer": "الشركة السلمية دار السلم",
+  "salesperson": "حسن حسام",
+  "debit": 1.49,
+  "credit": 0.0,
+  "phone": "01113283208",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "941",
+  "customer": "الفندى البساتين",
+  "salesperson": "حسن حسام",
+  "debit": 1.1,
+  "credit": 0.0,
+  "phone": "01119927171",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "360",
+  "customer": "ثلجه الفيروز عين شمس",
+  "salesperson": "حسن حسام",
+  "debit": 1.0,
+  "credit": 0.0,
+  "phone": "01210777741",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "966",
+  "customer": "مجمدات المجد فاقوس",
+  "salesperson": "حسن حسام",
+  "debit": 0.85,
+  "credit": 0.0,
+  "phone": "01027944699",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "981",
+  "customer": "ثلجة ارابيسك ابوكبير",
+  "salesperson": "حسن حسام",
+  "debit": 0.5,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "980",
+  "customer": "شركة الحرمين حسام حسن",
+  "salesperson": "حسن حسام",
+  "debit": 0.0,
+  "credit": 0.75,
+  "phone": "01154119596",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "967",
+  "customer": "ثلجة المير فاقوس",
+  "salesperson": "حسن حسام",
+  "debit": 0.0,
+  "credit": 1.5,
+  "phone": "01094959009",
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "912",
+  "customer": "ثلجة الخير",
+  "salesperson": "حسن حسام",
+  "debit": 0.0,
+  "credit": 201.48,
+  "phone": null,
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "914",
+  "customer": "السندباد انور سلم",
+  "salesperson": "حسن حسام",
+  "debit": 0.0,
+  "credit": 62.13,
+  "phone": "1 من 1",
+  "area": "صفحه",
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "917",
+  "customer": "الرومانى كرلس انور سلم",
+  "salesperson": "حسن حسام",
+  "debit": 0.0,
+  "credit": 0.36,
+  "phone": null,
+  "area": null,
+  "report_file": "حسام حسن 26-6.pdf"
+ },
+ {
+  "code": "674",
+  "customer": "ابو لطفى",
+  "salesperson": "شعبان",
+  "debit": 10300.37,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "شعبان 26-6.pdf"
+ },
+ {
+  "code": "591",
+  "customer": "رامي شبين",
+  "salesperson": "شعبان",
+  "debit": 4700.0,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "شعبان 26-6.pdf"
+ },
+ {
+  "code": "48",
+  "customer": "ابو شهد",
+  "salesperson": "شعبان",
+  "debit": 4.0,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "شعبان 26-6.pdf"
+ },
+ {
+  "code": "693",
+  "customer": "م فوزى",
+  "salesperson": "شعبان",
+  "debit": 0.0,
+  "credit": 4.5,
+  "phone": null,
+  "area": null,
+  "report_file": "شعبان 26-6.pdf"
+ },
+ {
+  "code": "714",
+  "customer": "مصطفى ابو سويف الدهب بنى",
+  "salesperson": "امام م",
+  "debit": 165939.79,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "455",
+  "customer": "ثلجه المهدي",
+  "salesperson": "امام م",
+  "debit": 161200.75,
+  "credit": 0.0,
+  "phone": "01092903432",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "896",
+  "customer": "م فهد امام",
+  "salesperson": "امام م",
+  "debit": 14055.12,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "898",
+  "customer": "بروتين القصبجي امام",
+  "salesperson": "امام م",
+  "debit": 12443.36,
+  "credit": 0.0,
+  "phone": "01000699451",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "778",
+  "customer": "المصطفى كفر حكيم",
+  "salesperson": "امام م",
+  "debit": 9897.44,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "746",
+  "customer": "ماركت م ابو مريم",
+  "salesperson": "امام م",
+  "debit": 6574.73,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "776",
+  "customer": "يوسف سعد الدايل مطروح",
+  "salesperson": "امام م",
+  "debit": 5836.27,
+  "credit": 0.0,
+  "phone": "01090920537",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "684",
+  "customer": "ثلجة الرضا",
+  "salesperson": "امام م",
+  "debit": 5593.85,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "786",
+  "customer": "م العزالى م امام",
+  "salesperson": "امام م",
+  "debit": 4997.32,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "679",
+  "customer": "ياسر اوسيم",
+  "salesperson": "امام م",
+  "debit": 4663.14,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "758",
+  "customer": "الدوح",
+  "salesperson": "امام م",
+  "debit": 550.65,
+  "credit": 0.0,
+  "phone": "01149497022",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "782",
+  "customer": "ثلجة المسلم",
+  "salesperson": "امام م",
+  "debit": 444.39,
+  "credit": 0.0,
+  "phone": "01148049273",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "939",
+  "customer": "م عطية قنا",
+  "salesperson": "امام م",
+  "debit": 218.75,
+  "credit": 0.0,
+  "phone": "01003520784",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "388",
+  "customer": "ثلجه احمد صيام",
+  "salesperson": "امام م",
+  "debit": 199.24,
+  "credit": 0.0,
+  "phone": "01015442314",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "737",
+  "customer": "بوله",
+  "salesperson": "امام م",
+  "debit": 178.4,
+  "credit": 0.0,
+  "phone": "01226227854",
+  "area": "الحرية شارع",
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "745",
+  "customer": "الحسين ماركت",
+  "salesperson": "امام م",
+  "debit": 160.24,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "730",
+  "customer": "مصطفى جعفر ( الباسط ) احمد عبد",
+  "salesperson": "امام م",
+  "debit": 160.0,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "686",
+  "customer": "احمد بدوى",
+  "salesperson": "امام م",
+  "debit": 147.87,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "743",
+  "customer": "ثلجة م صابر امام",
+  "salesperson": "امام م",
+  "debit": 99.08,
+  "credit": 0.0,
+  "phone": "01007013186",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "713",
+  "customer": "م ابو صالح كرداسة",
+  "salesperson": "امام م",
+  "debit": 87.98,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "960",
+  "customer": "ياسر السلم",
+  "salesperson": "امام م",
+  "debit": 64.9,
+  "credit": 0.0,
+  "phone": "01284208645",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "838",
+  "customer": "شركة تريد جيت",
+  "salesperson": "امام م",
+  "debit": 64.32,
+  "credit": 0.0,
+  "phone": "01069068343",
+  "area": "شيحة منيل",
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "683",
+  "customer": "الصعيدى تلجة الشيماء",
+  "salesperson": "امام م",
+  "debit": 2.8,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "389",
+  "customer": "بروتين قاصد كريم السلم",
+  "salesperson": "امام م",
+  "debit": 2.78,
+  "credit": 0.0,
+  "phone": "0102324242",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "795",
+  "customer": "ثلجة البركة م امام",
+  "salesperson": "امام م",
+  "debit": 2.25,
+  "credit": 0.0,
+  "phone": "01170280598",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "702",
+  "customer": "السلم فيصل",
+  "salesperson": "امام م",
+  "debit": 2.0,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "695",
+  "customer": "اشرف عباس",
+  "salesperson": "امام م",
+  "debit": 1.93,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "717",
+  "customer": "احمد حسن الصالحية",
+  "salesperson": "امام م",
+  "debit": 1.8,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "748",
+  "customer": "ثلجة ابو مالك الخصوص",
+  "salesperson": "امام م",
+  "debit": 1.4,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "842",
+  "customer": "ثلجة الخوة م امام",
+  "salesperson": "امام م",
+  "debit": 1.25,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "685",
+  "customer": "ثلجة عاطف السندباد",
+  "salesperson": "امام م",
+  "debit": 0.99,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "703",
+  "customer": "المتحدة فيصل",
+  "salesperson": "امام م",
+  "debit": 0.9,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "822",
+  "customer": "احمد رضوان الباسط احمد عبد",
+  "salesperson": "امام م",
+  "debit": 0.82,
+  "credit": 0.0,
+  "phone": null,
+  "area": "بشاير الخير بجوار",
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "803",
+  "customer": "ثلجة الشروق امام",
+  "salesperson": "امام م",
+  "debit": 0.64,
+  "credit": 0.0,
+  "phone": "01114689681 1 من 1",
+  "area": "صفحه",
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "843",
+  "customer": "ثلجة الريفى",
+  "salesperson": "امام م",
+  "debit": 0.62,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "742",
+  "customer": "محمود المغربى",
+  "salesperson": "امام م",
+  "debit": 0.6,
+  "credit": 0.0,
+  "phone": "01092448845",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "682",
+  "customer": "ثلجة كيرو",
+  "salesperson": "امام م",
+  "debit": 0.46,
+  "credit": 0.0,
+  "phone": "01009966790",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "767",
+  "customer": "ثلجة حازم جرجس امام",
+  "salesperson": "امام م",
+  "debit": 0.28,
+  "credit": 0.0,
+  "phone": "01270280589",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "731",
+  "customer": "مينا حلوان",
+  "salesperson": "امام م",
+  "debit": 0.0,
+  "credit": 35.78,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "736",
+  "customer": "عمر رزق",
+  "salesperson": "امام م",
+  "debit": 0.0,
+  "credit": 0.21,
+  "phone": "01011830444",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "744",
+  "customer": "م ثلجة بلقس",
+  "salesperson": "امام م",
+  "debit": 0.0,
+  "credit": 0.5,
+  "phone": "01183252355",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "738",
+  "customer": "م نور",
+  "salesperson": "امام م",
+  "debit": 0.0,
+  "credit": 9901.42,
+  "phone": "01119452958",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "740",
+  "customer": "اشواق نبع الخير",
+  "salesperson": "امام م",
+  "debit": 0.0,
+  "credit": 503.82,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "460",
+  "customer": "ثلجه المهندس",
+  "salesperson": "امام م",
+  "debit": 0.0,
+  "credit": 19.66,
+  "phone": "01000568970",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "721",
+  "customer": "ثلجة شغلهم",
+  "salesperson": "امام م",
+  "debit": 0.0,
+  "credit": 0.96,
+  "phone": "01009283600",
+  "area": "النهضة سوق",
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "726",
+  "customer": "عم هانى صفط اللبن",
+  "salesperson": "امام م",
+  "debit": 0.0,
+  "credit": 4.26,
+  "phone": "01090996042",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "848",
+  "customer": "م ياقوت الخصوص",
+  "salesperson": "امام م",
+  "debit": 0.0,
+  "credit": 1.18,
+  "phone": "01011873389",
+  "area": "الخصوص",
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "819",
+  "customer": "ثلجة المى م امام",
+  "salesperson": "امام م",
+  "debit": 0.0,
+  "credit": 0.5,
+  "phone": "01114689681",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "787",
+  "customer": "جرجس مجمدات امام",
+  "salesperson": "امام م",
+  "debit": 0.0,
+  "credit": 7.82,
+  "phone": "01270280599",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "792",
+  "customer": "أ ربيع وكيل الفيوم",
+  "salesperson": "امام م",
+  "debit": 0.0,
+  "credit": 9.34,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "958",
+  "customer": "اولد مشرف السلم",
+  "salesperson": "امام م",
+  "debit": 0.0,
+  "credit": 1.5,
+  "phone": "011184912191",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "959",
+  "customer": "ابانوب شبرا الخيمة",
+  "salesperson": "امام م",
+  "debit": 0.0,
+  "credit": 19.75,
+  "phone": "01280099609",
+  "area": null,
+  "report_file": "محمد امام 26-.pdf"
+ },
+ {
+  "code": "677",
+  "customer": "ميكس فود",
+  "salesperson": "الصعيد امام م",
+  "debit": 351345.46,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام الصعيد 26-6.pdf"
+ },
+ {
+  "code": "710",
+  "customer": "احمد صلح المنيا",
+  "salesperson": "الصعيد امام م",
+  "debit": 328970.85,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام الصعيد 26-6.pdf"
+ },
+ {
+  "code": "532",
+  "customer": "محمود العمده الصعيد",
+  "salesperson": "الصعيد امام م",
+  "debit": 247452.62,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام الصعيد 26-6.pdf"
+ },
+ {
+  "code": "922",
+  "customer": "مصطفى عبدالمجيد",
+  "salesperson": "الصعيد امام م",
+  "debit": 240875.5,
+  "credit": 0.0,
+  "phone": "01142269586",
+  "area": null,
+  "report_file": "محمد امام الصعيد 26-6.pdf"
+ },
+ {
+  "code": "918",
+  "customer": "مصطفى قمر بنى سويف",
+  "salesperson": "الصعيد امام م",
+  "debit": 232542.31,
+  "credit": 0.0,
+  "phone": "01026602772",
+  "area": null,
+  "report_file": "محمد امام الصعيد 26-6.pdf"
+ },
+ {
+  "code": "729",
+  "customer": "حمادة شلبى",
+  "salesperson": "الصعيد امام م",
+  "debit": 79199.66,
+  "credit": 0.0,
+  "phone": "01011590931",
+  "area": null,
+  "report_file": "محمد امام الصعيد 26-6.pdf"
+ },
+ {
+  "code": "852",
+  "customer": "الحاج كفلى خفاجى",
+  "salesperson": "الصعيد امام م",
+  "debit": 46376.27,
+  "credit": 0.0,
+  "phone": "01014320010",
+  "area": "السكة شرق",
+  "report_file": "محمد امام الصعيد 26-6.pdf"
+ },
+ {
+  "code": "968",
+  "customer": "م الزينى قنا",
+  "salesperson": "الصعيد امام م",
+  "debit": 22249.5,
+  "credit": 0.0,
+  "phone": "01001118418",
+  "area": null,
+  "report_file": "محمد امام الصعيد 26-6.pdf"
+ },
+ {
+  "code": "900",
+  "customer": "طارق الدمياطي",
+  "salesperson": "الصعيد امام م",
+  "debit": 3776.2,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام الصعيد 26-6.pdf"
+ },
+ {
+  "code": "844",
+  "customer": "طارق السيد القصر",
+  "salesperson": "الصعيد امام م",
+  "debit": 529.44,
+  "credit": 0.0,
+  "phone": "01003445279",
+  "area": null,
+  "report_file": "محمد امام الصعيد 26-6.pdf"
+ },
+ {
+  "code": "870",
+  "customer": "ثلجة النخبة الصعيد",
+  "salesperson": "الصعيد امام م",
+  "debit": 299.47,
+  "credit": 0.0,
+  "phone": "01000288723",
+  "area": null,
+  "report_file": "محمد امام الصعيد 26-6.pdf"
+ },
+ {
+  "code": "862",
+  "customer": "ملك صبرى الصعيد",
+  "salesperson": "الصعيد امام م",
+  "debit": 249.75,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام الصعيد 26-6.pdf"
+ },
+ {
+  "code": "920",
+  "customer": "صابر وهبة",
+  "salesperson": "الصعيد امام م",
+  "debit": 123.75,
+  "credit": 0.0,
+  "phone": "01099960999",
+  "area": null,
+  "report_file": "محمد امام الصعيد 26-6.pdf"
+ },
+ {
+  "code": "728",
+  "customer": "مايكل اسحاق اسوان",
+  "salesperson": "الصعيد امام م",
+  "debit": 3.09,
+  "credit": 0.0,
+  "phone": "01020045669",
+  "area": null,
+  "report_file": "محمد امام الصعيد 26-6.pdf"
+ },
+ {
+  "code": "846",
+  "customer": "ثلجة الرحمة المنيا",
+  "salesperson": "الصعيد امام م",
+  "debit": 2.0,
+  "credit": 0.0,
+  "phone": "01145634836",
+  "area": "0",
+  "report_file": "محمد امام الصعيد 26-6.pdf"
+ },
+ {
+  "code": "839",
+  "customer": "المعلم ملك اسيوط",
+  "salesperson": "الصعيد امام م",
+  "debit": 0.06,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد امام الصعيد 26-6.pdf"
+ },
+ {
+  "code": "845",
+  "customer": "حماده باهى اسنا",
+  "salesperson": "الصعيد امام م",
+  "debit": 0.0,
+  "credit": 5500.0,
+  "phone": "01006754899",
+  "area": "اسنا",
+  "report_file": "محمد امام الصعيد 26-6.pdf"
+ },
+ {
+  "code": "908",
+  "customer": "احمد عامر اسوان",
+  "salesperson": "الصعيد امام م",
+  "debit": 0.0,
+  "credit": 1.25,
+  "phone": "01223131407",
+  "area": null,
+  "report_file": "محمد امام الصعيد 26-6.pdf"
+ },
+ {
+  "code": "50",
+  "customer": "م اللفى",
+  "salesperson": "بشرى م",
+  "debit": 102037.25,
+  "credit": 0.0,
+  "phone": "01025181968",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "561",
+  "customer": "احمد الرفاعي بردين",
+  "salesperson": "بشرى م",
+  "debit": 41798.3,
+  "credit": 0.0,
+  "phone": "01020023519",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "438",
+  "customer": "ثلجه السيد الوكيل القرين",
+  "salesperson": "بشرى م",
+  "debit": 39564.71,
+  "credit": 0.0,
+  "phone": "01271725565",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "328",
+  "customer": "ابوسليم",
+  "salesperson": "بشرى م",
+  "debit": 38201.64,
+  "credit": 0.0,
+  "phone": "01001164485",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "698",
+  "customer": "عبد الظاهر بشنيتى",
+  "salesperson": "بشرى م",
+  "debit": 37087.16,
+  "credit": 0.0,
+  "phone": "01012300801",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "624",
+  "customer": "هايبر العابد",
+  "salesperson": "بشرى م",
+  "debit": 35242.86,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "718",
+  "customer": "احمد عبود ( النور )",
+  "salesperson": "بشرى م",
+  "debit": 26312.71,
+  "credit": 0.0,
+  "phone": "01061425252",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "475",
+  "customer": "ايمن القورين",
+  "salesperson": "بشرى م",
+  "debit": 16980.7,
+  "credit": 0.0,
+  "phone": "01117591059",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "6",
+  "customer": "احمد عبد الفتاح",
+  "salesperson": "بشرى م",
+  "debit": 11981.41,
+  "credit": 0.0,
+  "phone": "01006900035",
+  "area": "سندوب",
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "646",
+  "customer": "عبد ا عزت نصير البراء",
+  "salesperson": "بشرى م",
+  "debit": 6769.52,
+  "credit": 0.0,
+  "phone": "01090065316",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "719",
+  "customer": "كشرى الطيب ( النور )",
+  "salesperson": "بشرى م",
+  "debit": 5980.0,
+  "credit": 0.0,
+  "phone": "01032975557",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "876",
+  "customer": "مطعم الدمشقى",
+  "salesperson": "بشرى م",
+  "debit": 3250.06,
+  "credit": 0.0,
+  "phone": "01147216173",
+  "area": "اللولى المنطقة",
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "43",
+  "customer": "العلف",
+  "salesperson": "بشرى م",
+  "debit": 2541.0,
+  "credit": 0.0,
+  "phone": "01017799215",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "716",
+  "customer": "ثلجة البدر كفور نجم",
+  "salesperson": "بشرى م",
+  "debit": 2197.55,
+  "credit": 0.0,
+  "phone": "01010950913",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "810",
+  "customer": "الصقر ابو كبير بشرى",
+  "salesperson": "بشرى م",
+  "debit": 2041.4,
+  "credit": 0.0,
+  "phone": "0109889956",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "667",
+  "customer": "م العزونى",
+  "salesperson": "بشرى م",
+  "debit": 1517.43,
+  "credit": 0.0,
+  "phone": "01117965691",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "669",
+  "customer": "عمر الكاشف ابو كبير",
+  "salesperson": "بشرى م",
+  "debit": 567.49,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "623",
+  "customer": "الجمعيه التعاونيه الزقازيق",
+  "salesperson": "بشرى م",
+  "debit": 381.24,
+  "credit": 0.0,
+  "phone": "01227075716",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "916",
+  "customer": "أ / عبدا سليمان",
+  "salesperson": "بشرى م",
+  "debit": 350.62,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "903",
+  "customer": "شوكليت اند تشيز",
+  "salesperson": "بشرى م",
+  "debit": 188.0,
+  "credit": 0.0,
+  "phone": "01098944449",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "654",
+  "customer": "تلجة شريف كبير الكابتن ابو",
+  "salesperson": "بشرى م",
+  "debit": 66.8,
+  "credit": 0.0,
+  "phone": null,
+  "area": "السم سوق",
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "630",
+  "customer": "محمود العدوى الحلقة 2000",
+  "salesperson": "بشرى م",
+  "debit": 54.07,
+  "credit": 0.0,
+  "phone": "01228580007",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "604",
+  "customer": "ثلجه حماده المحطة الرفاعى",
+  "salesperson": "بشرى م",
+  "debit": 19.44,
+  "credit": 0.0,
+  "phone": "01227488805",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "643",
+  "customer": "منفذ بيع كفورنجم المنتجات الوطنية",
+  "salesperson": "بشرى م",
+  "debit": 7.56,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "454",
+  "customer": "مصروالسودان",
+  "salesperson": "بشرى م",
+  "debit": 5.64,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "208",
+  "customer": "حسن شطا",
+  "salesperson": "بشرى م",
+  "debit": 5.2,
+  "credit": 0.0,
+  "phone": "01009566639",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "877",
+  "customer": "مطعم نور الشام",
+  "salesperson": "بشرى م",
+  "debit": 3.53,
+  "credit": 0.0,
+  "phone": null,
+  "area": "بشاير الخير بجوار",
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "888",
+  "customer": "محمود العزوني الدار",
+  "salesperson": "بشرى م",
+  "debit": 3.41,
+  "credit": 0.0,
+  "phone": "01221671576",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "869",
+  "customer": "مطعم ميكس جريل بشرى",
+  "salesperson": "بشرى م",
+  "debit": 2.56,
+  "credit": 0.0,
+  "phone": "01507011154",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "771",
+  "customer": "خير زمان البراهيمية",
+  "salesperson": "بشرى م",
+  "debit": 2.04,
+  "credit": 0.0,
+  "phone": "0125293100",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "834",
+  "customer": "اسلم بهنباى بشرى",
+  "salesperson": "بشرى م",
+  "debit": 2.0,
+  "credit": 0.0,
+  "phone": "0112187706 1 من 1",
+  "area": "ابو جاموس بهناباى صفحه",
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "820",
+  "customer": "ام هايدى م بشرى",
+  "salesperson": "بشرى م",
+  "debit": 2.0,
+  "credit": 0.0,
+  "phone": "0127643794",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "627",
+  "customer": "الكابتن كفر صقر",
+  "salesperson": "بشرى م",
+  "debit": 1.82,
+  "credit": 0.0,
+  "phone": "01009884947",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "747",
+  "customer": "ثلجة الصفا قويسنا",
+  "salesperson": "بشرى م",
+  "debit": 1.56,
+  "credit": 0.0,
+  "phone": "01032414629",
+  "area": "بخوم شبرا",
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "607",
+  "customer": "عكاشه",
+  "salesperson": "بشرى م",
+  "debit": 1.4,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "661",
+  "customer": "تلجة عبده السرو المام دبيج",
+  "salesperson": "بشرى م",
+  "debit": 1.19,
+  "credit": 0.0,
+  "phone": "01110294169",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "603",
+  "customer": "ثلجه ابوهاشم",
+  "salesperson": "بشرى م",
+  "debit": 1.08,
+  "credit": 0.0,
+  "phone": "01005105094",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "631",
+  "customer": "ابوعاصم ستار الحلقة",
+  "salesperson": "بشرى م",
+  "debit": 1.0,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "628",
+  "customer": "مجمدات بداية",
+  "salesperson": "بشرى م",
+  "debit": 1.0,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "620",
+  "customer": "ماركت الفقي",
+  "salesperson": "بشرى م",
+  "debit": 0.5,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "705",
+  "customer": "ثلجة الصفوة شبين القناطر",
+  "salesperson": "بشرى م",
+  "debit": 0.42,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "704",
+  "customer": "الكابتن سالم بلبيس",
+  "salesperson": "بشرى م",
+  "debit": 0.22,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "633",
+  "customer": "هايبر انس صفط زريق",
+  "salesperson": "بشرى م",
+  "debit": 0.2,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "619",
+  "customer": "ثلجه ابو النصر",
+  "salesperson": "بشرى م",
+  "debit": 0.01,
+  "credit": 0.0,
+  "phone": "01148991802",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "676",
+  "customer": "تلجة م غانم حفنا بلبيس",
+  "salesperson": "بشرى م",
+  "debit": 0.0,
+  "credit": 3.06,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "629",
+  "customer": "باسم جعفر",
+  "salesperson": "بشرى م",
+  "debit": 0.0,
+  "credit": 0.42,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "613",
+  "customer": "شركه الماسه",
+  "salesperson": "بشرى م",
+  "debit": 0.0,
+  "credit": 0.07,
+  "phone": "01094496079",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "504",
+  "customer": "حدوته",
+  "salesperson": "بشرى م",
+  "debit": 0.0,
+  "credit": 26.3,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "614",
+  "customer": "ثلجه العبور",
+  "salesperson": "بشرى م",
+  "debit": 0.0,
+  "credit": 5.48,
+  "phone": "01117188999",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "502",
+  "customer": "ثلجه بوجه",
+  "salesperson": "بشرى م",
+  "debit": 0.0,
+  "credit": 1635.8,
+  "phone": "01116850495",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "552",
+  "customer": "الحاج م عبدالعزيز بوجه",
+  "salesperson": "بشرى م",
+  "debit": 0.0,
+  "credit": 9.3,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "506",
+  "customer": "الرحمه بردين",
+  "salesperson": "بشرى م",
+  "debit": 0.0,
+  "credit": 3.39,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "644",
+  "customer": "ابو عمار الزنكلون",
+  "salesperson": "بشرى م",
+  "debit": 0.0,
+  "credit": 1.1,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "611",
+  "customer": "ابوعاصم الخديوى شرويلة",
+  "salesperson": "بشرى م",
+  "debit": 0.0,
+  "credit": 0.35,
+  "phone": "01212007192",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "618",
+  "customer": "وليد بكير",
+  "salesperson": "بشرى م",
+  "debit": 0.0,
+  "credit": 0.04,
+  "phone": "01006951555",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "612",
+  "customer": "موسسه الحبيب النقيب",
+  "salesperson": "بشرى م",
+  "debit": 0.0,
+  "credit": 0.88,
+  "phone": "01012727313",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "895",
+  "customer": "هايبر التوفير م بشري",
+  "salesperson": "بشرى م",
+  "debit": 0.0,
+  "credit": 3.31,
+  "phone": "01007626586",
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "638",
+  "customer": "مجمدات قدرى",
+  "salesperson": "بشرى م",
+  "debit": 0.0,
+  "credit": 627.47,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "621",
+  "customer": "مطعم السوري",
+  "salesperson": "بشرى م",
+  "debit": 0.0,
+  "credit": 11.08,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "891",
+  "customer": "ماركت ابو عدي بشري",
+  "salesperson": "بشرى م",
+  "debit": 0.0,
+  "credit": 0.2,
+  "phone": null,
+  "area": "المعالي",
+  "report_file": "محمد بشرى 26-6.pdf"
+ },
+ {
+  "code": "955",
+  "customer": "ثلجة مصر والسودان",
+  "salesperson": "خليل م",
+  "debit": 11381.6,
+  "credit": 0.0,
+  "phone": "01026997568",
+  "area": null,
+  "report_file": "محمد خليل 26-6.pdf"
+ },
+ {
+  "code": "1007",
+  "customer": "مطعم لهاليبو باب الشعرية",
+  "salesperson": "خليل م",
+  "debit": 10360.0,
+  "credit": 0.0,
+  "phone": "011129127442",
+  "area": null,
+  "report_file": "محمد خليل 26-6.pdf"
+ },
+ {
+  "code": "988",
+  "customer": "م كامل المعتمدية",
+  "salesperson": "خليل م",
+  "debit": 7196.85,
+  "credit": 0.0,
+  "phone": "01227955647",
+  "area": null,
+  "report_file": "محمد خليل 26-6.pdf"
+ },
+ {
+  "code": "1001",
+  "customer": "منفذ امان السيدة زينيب",
+  "salesperson": "خليل م",
+  "debit": 5769.85,
+  "credit": 0.0,
+  "phone": "01002682247",
+  "area": null,
+  "report_file": "محمد خليل 26-6.pdf"
+ },
+ {
+  "code": "915",
+  "customer": "ثلجة زنين انور سلم",
+  "salesperson": "خليل م",
+  "debit": 4470.32,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد خليل 26-6.pdf"
+ },
+ {
+  "code": "987",
+  "customer": "ثلجة الجوهرة امبابة",
+  "salesperson": "خليل م",
+  "debit": 3984.0,
+  "credit": 0.0,
+  "phone": "0114493920",
+  "area": null,
+  "report_file": "محمد خليل 26-6.pdf"
+ },
+ {
+  "code": "991",
+  "customer": "ابوهاشم صفط اللبن",
+  "salesperson": "خليل م",
+  "debit": 2880.0,
+  "credit": 0.0,
+  "phone": "01119412337",
+  "area": null,
+  "report_file": "محمد خليل 26-6.pdf"
+ },
+ {
+  "code": "1000",
+  "customer": "عادل دشيشة المنصورية",
+  "salesperson": "خليل م",
+  "debit": 2071.6,
+  "credit": 0.0,
+  "phone": "01112569925",
+  "area": null,
+  "report_file": "محمد خليل 26-6.pdf"
+ },
+ {
+  "code": "995",
+  "customer": "حسنى حسيب فيصل",
+  "salesperson": "خليل م",
+  "debit": 2064.0,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "محمد خليل 26-6.pdf"
+ },
+ {
+  "code": "992",
+  "customer": "الدكتور الجيزة",
+  "salesperson": "خليل م",
+  "debit": 1436.3,
+  "credit": 0.0,
+  "phone": "01114366564",
+  "area": null,
+  "report_file": "محمد خليل 26-6.pdf"
+ },
+ {
+  "code": "993",
+  "customer": "عادل المصرى الوراق",
+  "salesperson": "خليل م",
+  "debit": 1436.3,
+  "credit": 0.0,
+  "phone": "01122222937",
+  "area": null,
+  "report_file": "محمد خليل 26-6.pdf"
+ },
+ {
+  "code": "989",
+  "customer": "الحرمين امبابة م خليل",
+  "salesperson": "خليل م",
+  "debit": 1380.0,
+  "credit": 0.0,
+  "phone": "01062228033",
+  "area": null,
+  "report_file": "محمد خليل 26-6.pdf"
+ },
+ {
+  "code": "990",
+  "customer": "والى فتوح المريوطية",
+  "salesperson": "خليل م",
+  "debit": 1380.0,
+  "credit": 0.0,
+  "phone": "01065170711",
+  "area": null,
+  "report_file": "محمد خليل 26-6.pdf"
+ },
+ {
+  "code": "1002",
+  "customer": "بوقلظ السيدة زينيب",
+  "salesperson": "خليل م",
+  "debit": 460.0,
+  "credit": 0.0,
+  "phone": "01001333886",
+  "area": null,
+  "report_file": "محمد خليل 26-6.pdf"
+ },
+ {
+  "code": "932",
+  "customer": "ثلجة النور الصف",
+  "salesperson": "خليل م",
+  "debit": 261.6,
+  "credit": 0.0,
+  "phone": "01144264042",
+  "area": null,
+  "report_file": "محمد خليل 26-6.pdf"
+ },
+ {
+  "code": "923",
+  "customer": "عيسى المقطم",
+  "salesperson": "خليل م",
+  "debit": 51.2,
+  "credit": 0.0,
+  "phone": "01221309252",
+  "area": null,
+  "report_file": "محمد خليل 26-6.pdf"
+ },
+ {
+  "code": "994",
+  "customer": "ثلجة الجمال فيصل",
+  "salesperson": "خليل م",
+  "debit": 0.0,
+  "credit": 1.0,
+  "phone": "01195456440",
+  "area": null,
+  "report_file": "محمد خليل 26-6.pdf"
+ },
+ {
+  "code": "1003",
+  "customer": "رضا الجمل القلج",
+  "salesperson": "السيد محمود",
+  "debit": 4292.0,
+  "credit": 0.0,
+  "phone": "01063373039",
+  "area": null,
+  "report_file": "محمود السيد.pdf"
+ },
+ {
+  "code": "1004",
+  "customer": "رضا الصعيدى حدائق القبة",
+  "salesperson": "السيد محمود",
+  "debit": 3996.0,
+  "credit": 0.0,
+  "phone": "01118452222",
+  "area": null,
+  "report_file": "محمود السيد.pdf"
+ },
+ {
+  "code": "1005",
+  "customer": "احمد بدوى سرياقوس",
+  "salesperson": "السيد محمود",
+  "debit": 1896.0,
+  "credit": 0.0,
+  "phone": "01008209439",
+  "area": null,
+  "report_file": "محمود السيد.pdf"
+ },
+ {
+  "code": "962",
+  "customer": "الدوليه",
+  "salesperson": "هاني",
+  "debit": 151628.8,
+  "credit": 0.0,
+  "phone": "01017469948",
+  "area": null,
+  "report_file": "هانى 26-6.pdf"
+ },
+ {
+  "code": "47",
+  "customer": "سامح توفيق",
+  "salesperson": "هاني",
+  "debit": 67393.0,
+  "credit": 0.0,
+  "phone": "01000650067",
+  "area": null,
+  "report_file": "هانى 26-6.pdf"
+ },
+ {
+  "code": "36",
+  "customer": "البوب",
+  "salesperson": "هاني",
+  "debit": 54442.9,
+  "credit": 0.0,
+  "phone": "01003643040",
+  "area": null,
+  "report_file": "هانى 26-6.pdf"
+ },
+ {
+  "code": "3",
+  "customer": "السرجانى",
+  "salesperson": "هاني",
+  "debit": 35638.6,
+  "credit": 0.0,
+  "phone": "01002686668",
+  "area": null,
+  "report_file": "هانى 26-6.pdf"
+ },
+ {
+  "code": "924",
+  "customer": "باسم راس سدر",
+  "salesperson": "هاني",
+  "debit": 25623.29,
+  "credit": 0.0,
+  "phone": "01201243303",
+  "area": null,
+  "report_file": "هانى 26-6.pdf"
+ },
+ {
+  "code": "4",
+  "customer": "مترو",
+  "salesperson": "هاني",
+  "debit": 23611.36,
+  "credit": 0.0,
+  "phone": null,
+  "area": "خاقان ميت",
+  "report_file": "هانى 26-6.pdf"
+ },
+ {
+  "code": "67",
+  "customer": "مطعم جدو",
+  "salesperson": "هاني",
+  "debit": 18042.5,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "هانى 26-6.pdf"
+ },
+ {
+  "code": "27",
+  "customer": "قوقه ماركت",
+  "salesperson": "هاني",
+  "debit": 11960.2,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "هانى 26-6.pdf"
+ },
+ {
+  "code": "10",
+  "customer": "المحل ابو هاشم",
+  "salesperson": "هاني",
+  "debit": 9349.17,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "هانى 26-6.pdf"
+ },
+ {
+  "code": "270",
+  "customer": "سمك البر الشرقي",
+  "salesperson": "هاني",
+  "debit": 8351.0,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "هانى 26-6.pdf"
+ },
+ {
+  "code": "5",
+  "customer": "الكوثر شبين الكوم",
+  "salesperson": "هاني",
+  "debit": 7122.5,
+  "credit": 0.0,
+  "phone": null,
+  "area": "المصلحه كفر",
+  "report_file": "هانى 26-6.pdf"
+ },
+ {
+  "code": "725",
+  "customer": "احمد كرشة",
+  "salesperson": "هاني",
+  "debit": 3100.0,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "هانى 26-6.pdf"
+ },
+ {
+  "code": "21",
+  "customer": "ضياء",
+  "salesperson": "هاني",
+  "debit": 2489.23,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "هانى 26-6.pdf"
+ },
+ {
+  "code": "927",
+  "customer": "رضا الطازج",
+  "salesperson": "هاني",
+  "debit": 2091.0,
+  "credit": 0.0,
+  "phone": "01026852155",
+  "area": null,
+  "report_file": "هانى 26-6.pdf"
+ },
+ {
+  "code": "853",
+  "customer": "احمد تبع ا ساهر",
+  "salesperson": "هاني",
+  "debit": 1440.0,
+  "credit": 0.0,
+  "phone": null,
+  "area": "بشاير الخير بجوار",
+  "report_file": "هانى 26-6.pdf"
+ },
+ {
+  "code": "926",
+  "customer": "ثلجة عيد الكوم ابويوسف ذات",
+  "salesperson": "هاني",
+  "debit": 1335.0,
+  "credit": 0.0,
+  "phone": "01006289078",
+  "area": null,
+  "report_file": "هانى 26-6.pdf"
+ },
+ {
+  "code": "933",
+  "customer": "خالد منافذ",
+  "salesperson": "هاني",
+  "debit": 939.9,
+  "credit": 0.0,
+  "phone": "01016050162",
+  "area": null,
+  "report_file": "هانى 26-6.pdf"
+ },
+ {
+  "code": "7",
+  "customer": "هايبر ماركاتو",
+  "salesperson": "هاني",
+  "debit": 880.0,
+  "credit": 0.0,
+  "phone": "01019412435",
+  "area": null,
+  "report_file": "هانى 26-6.pdf"
+ },
+ {
+  "code": "909",
+  "customer": "تامر الكيلنى",
+  "salesperson": "هاني",
+  "debit": 145.61,
+  "credit": 0.0,
+  "phone": "01203195678",
+  "area": null,
+  "report_file": "هانى 26-6.pdf"
+ },
+ {
+  "code": "668",
+  "customer": "اولد الدونى",
+  "salesperson": "هاني",
+  "debit": 2.6,
+  "credit": 0.0,
+  "phone": null,
+  "area": null,
+  "report_file": "هانى 26-6.pdf"
+ },
+ {
+  "code": "720",
+  "customer": "شركة فرشلى",
+  "salesperson": "هاني",
+  "debit": 0.87,
+  "credit": 0.0,
+  "phone": "01019173096",
+  "area": null,
+  "report_file": "هانى 26-6.pdf"
+ },
+ {
+  "code": "583",
+  "customer": "موتزريل",
+  "salesperson": "هاني",
+  "debit": 0.0,
+  "credit": 0.2,
+  "phone": null,
+  "area": null,
+  "report_file": "هانى 26-6.pdf"
+ }
+]
