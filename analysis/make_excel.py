@@ -89,6 +89,10 @@ for k, lab in LABELS.items():
     srows.append([lab, summary.get(k)])
 add_sheet(wb, 'الملخص Summary', 'ملخص عام / Overview — أبو هاشم للحوم', srows, first=True)
 
+add_sheet(wb, 'المديونية المستحقة AR',
+          'المديونية المستحقة لكل عميل بمعدل ائتمان شهرى (انكشاف بالشهور، بدون فائدة) / '
+          'Due indebtedness per customer with monthly credit exposure (months, no interest)',
+          load_csv('receivables_by_customer.csv'))
 add_sheet(wb, 'المناديب Salespeople',
           'مديونية كل مندوب والانكشاف الائتمانى / Debt & credit exposure per salesperson',
           load_csv('salespeople_summary.csv'))
