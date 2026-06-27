@@ -93,6 +93,10 @@ add_sheet(wb, 'المديونية المستحقة AR',
           'المديونية المستحقة لكل عميل بمعدل ائتمان شهرى (انكشاف بالشهور، بدون فائدة) / '
           'Due indebtedness per customer with monthly credit exposure (months, no interest)',
           load_csv('receivables_by_customer.csv'))
+add_sheet(wb, 'اعمار الديون Aging',
+          'تقسيم أعمار الديون لمراحل لكل عميل (0-30 / 31-60 / 61-90 / +90 يوم + رصيد مرحّل أقدم) / '
+          'A/R aging buckets per customer (0-30 / 31-60 / 61-90 / 90+ days + older carryover)',
+          load_csv('aging_by_customer.csv'))
 add_sheet(wb, 'الاستحقاق خلال شهر Due1mo',
           'المبالغ المستحقة لكل عميل بأجل شهر واحد (تاريخ الفاتورة + شهر) / '
           'Amounts due per customer under a one-month credit term (invoice date + 1 month)',
