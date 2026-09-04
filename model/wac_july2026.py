@@ -467,7 +467,9 @@ def main():
             note = (note + " — " if note else "") + "رصيد أول المدة بلا سعر مُثبت ⇒ المتوسط من المشتريات فقط"
         if (not w or not w["buy_qty"]) and price:
             note = (note + " — " if note else "") + "لا مشتريات فى يوليو ⇒ السعر ثابت كما فى يونيه"
-        val = qty * price if price else None
+        # القيمة تُحتسب بدقة العرض (كمية مقرَّبة لخانتين × سعر مقرَّب لأربع) حتى يتطابق
+        # حاصل الضرب داخل الملف مع القيمة المعروضة إلى القرش
+        val = round(r2(qty) * r4(price), 2) if price else None
         if val:
             total_val += val
         if price is None and qty:
@@ -586,7 +588,7 @@ def main():
         jp = j.get("price") or None
         sku = resolve_sku(label, jp, products)
         price = sku["july"] if sku else jp
-        val = qty * price if price else None
+        val = round(r2(qty) * r4(price), 2) if price else None
         if val:
             fg_total += val
         chg = ((price / jp - 1) * 100) if (price and jp) else None
