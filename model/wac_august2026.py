@@ -75,6 +75,23 @@ AUGUST_MAP.update({
 })
 
 
+# ───── أسماء أُعيدت تسميتها فى نسخة جرد أغسطس المُنقَّحة ─────
+# (الاسم الجديد بجرد أغسطس) → (الاسم المقابل بجرد يوليو) حتى يظل رصيد أول المدة مربوطًا.
+AUG_ALIAS = {
+    "فلانك + مجمل رصيد اللحمة بالنفق": "فلانك",
+    "كروت كبده علب 350": "كروت كبده شرائح 350",
+    "كروت استربس": "كروت مفروم صويا ازرق 350",
+    "أكياس بانيه استربس 5 الهنا": "أكياس بانيه الهنا 5 ك",
+    "فلتر هواء دبابة": "فلتر هواء",
+}
+_ALIAS = {norm(k): v for k, v in AUG_ALIAS.items()}
+
+
+def canon(label):
+    """الاسم المعتمد للبحث عن رصيد أول المدة (يعالج إعادة التسمية بين الشهرين)."""
+    return _ALIAS.get(norm(label), label)
+
+
 # ─────────────────────────── قراءة الأرصدة ───────────────────────────
 def read_june():
     """ملف يونيه — يُستخدم فقط لربط أسماء بنود الوصفات وتكاليف التعبئة."""
@@ -109,7 +126,7 @@ def read_july():
 def read_august():
     ws = openpyxl.load_workbook(F_AUG, data_only=True)["Sheet1"]
     raw, fg = [], []
-    for r in ws.iter_rows(min_row=5, max_row=153, values_only=True):
+    for r in ws.iter_rows(min_row=5, max_row=200, values_only=True):
         if r[0]:
             raw.append((str(r[0]).strip(), num(r[6]) or 0.0))
         if r[7] and norm(r[7]) != "0":
@@ -148,8 +165,8 @@ def main():
     style_header(ws, 4, len(head))
     total_val, unpriced, rows_val = 0.0, [], []
     for label, qty in aug_raw:
-        key = norm(label)
-        pooled = label in MEAT_POOL
+        key = norm(canon(label))
+        pooled = canon(label) in MEAT_POOL
         wkey = norm(POOL_KEY) if pooled else key
         w = wac.get(wkey)
         j = july_raw.get(key, {})
@@ -158,7 +175,9 @@ def main():
         note = ""
         if pooled:
             note = "سعر موحَّد لمجمّع اللحوم الهندى (كتف/رقبه/سن/أرباع)"
-        if key not in july_raw:
+        if norm(label) in _ALIAS:
+            note = f"أُعيدت تسميته بجرد أغسطس؛ رصيد أول المدة مأخوذ من «{canon(label)}» بجرد يوليو"
+        elif key not in july_raw:
             note = (note + " — " if note else "") + "صنف جديد لم يكن مدرجًا بجرد يوليو"
         if w and w["buy_qty"] and not w["open_priced"] and w["open_qty"]:
             note = (note + " — " if note else "") + "رصيد أول المدة بلا سعر مُثبت ⇒ المتوسط من المشتريات فقط"
@@ -222,14 +241,14 @@ def main():
     style_header(ws, 4, len(head2))
     seen = set()
     for label, _ in aug_raw:
-        key = norm(POOL_KEY) if label in MEAT_POOL else norm(label)
+        key = norm(POOL_KEY) if canon(label) in MEAT_POOL else norm(canon(label))
         if key in seen:
             continue
         w = wac.get(key)
         if not w or not w["buy_qty"]:
             continue
         seen.add(key)
-        j = july_raw.get(norm(label), {})
+        j = july_raw.get(norm(canon(label)), {})
         disp = f"{POOL_KEY} (كتف/رقبه/سن/أرباع)" if label in MEAT_POOL else label
         ws.append([disp, r2(w["open_qty"]), r4(j.get("price")), r2(w["open_val"]),
                    r2(w["buy_qty"]), r2(w["buy_val"]), r4(w["buy_val"] / w["buy_qty"]),
@@ -423,10 +442,10 @@ def main():
     for row in chk.iter_rows(min_row=5, values_only=True):
         if not row[0] or str(row[0]).startswith("إجمالى"):
             continue
-        key = norm(POOL_KEY) if row[0] in MEAT_POOL else norm(row[0])
+        key = norm(POOL_KEY) if canon(row[0]) in MEAT_POOL else norm(canon(row[0]))
         w = wac.get(key)
         expect = (w["price"] if w and w["price"]
-                  else (july_raw.get(norm(row[0]), {}).get("price") or None))
+                  else (july_raw.get(norm(canon(row[0])), {}).get("price") or None))
         if expect is None and row[8] is None:
             continue
         if expect is None or row[8] is None or abs(round(expect, 4) - row[8]) > 5e-5:
@@ -479,7 +498,7 @@ def main():
             codes.setdefault(norm(p["dest"]), p["code"])
     rows_val.sort(key=lambda x: -x[3])
     for i, (lb, q, pr, v, jp) in enumerate(rows_val[:20], 1):
-        key = norm(POOL_KEY) if lb in MEAT_POOL else norm(lb)
+        key = norm(POOL_KEY) if canon(lb) in MEAT_POOL else norm(canon(lb))
         w = wac.get(key)
         code = codes.get(key, "—")
         if w:
@@ -492,9 +511,9 @@ def main():
     A("## ٤. خطوات الاحتساب للأصناف الأكبر أثرًا\n")
     moved = []
     for lb, q in aug_raw:
-        key = norm(POOL_KEY) if lb in MEAT_POOL else norm(lb)
+        key = norm(POOL_KEY) if canon(lb) in MEAT_POOL else norm(canon(lb))
         w = wac.get(key)
-        jp = july_raw.get(norm(lb), {}).get("price")
+        jp = july_raw.get(norm(canon(lb)), {}).get("price")
         if w and w["buy_qty"] and w["price"]:
             moved.append((w["tot_val"], lb, w, jp))
     moved.sort(key=lambda x: -x[0])
@@ -560,10 +579,10 @@ def main():
     A("### اختبار الاتساق (كمية أول المدة + المشتريات ≥ جرد آخر المدة)\n")
     bad = []
     for lb, q in aug_raw:
-        key = norm(POOL_KEY) if lb in MEAT_POOL else norm(lb)
+        key = norm(POOL_KEY) if canon(lb) in MEAT_POOL else norm(canon(lb))
         w = wac.get(key)
-        if w and q - w["tot_qty"] > 0.5 and lb not in MEAT_POOL:
-            pr = w["price"] or july_raw.get(norm(lb), {}).get("price") or 0.0
+        if w and q - w["tot_qty"] > 0.5 and canon(lb) not in MEAT_POOL:
+            pr = w["price"] or july_raw.get(norm(canon(lb)), {}).get("price") or 0.0
             bad.append((lb, w["tot_qty"], q, (q - w["tot_qty"]) * pr))
     bad.sort(key=lambda x: -x[3])
     if bad:
