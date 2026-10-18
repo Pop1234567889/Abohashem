@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""متوسط التكلفة المرجّح (WAC) للخامات آخر أغسطس 2026 + ملف تسعير جرد آخر سبتمبر.
+"""متوسط التكلفة المرجّح (WAC) للخامات آخر أغسطس 2026.
 
 المعادلة (دورية — Periodic WAC، نفس سلسلة يونيه ← يوليو):
     متوسط أغسطس = (كمية جرد 31/7 × متوسط يوليو + قيمة مشتريات أغسطس)
@@ -14,7 +14,6 @@
 
 المخرجات:
     تسعير جرد اخر شهر ٨ سنة ٢٠٢٦.xlsx   الاحتساب الكامل بمعادلات Excel حيّة
-    تسعير جرد اخر شهر ٩ سنة ٢٠٢٦.xlsx   جرد آخر سبتمبر بأسعار أغسطس — الكميات فارغة للتعبئة
     WAC_AUGUST_2026_REPORT.md            تقرير المراجعة
 
 التشغيل:  python3 model/wac_august_2026.py   (يتطلب openpyxl و pdftotext)
@@ -38,7 +37,6 @@ F_CNT = ROOT / "جرد شهر ٨ سنة ٢٠٢٦.xlsx"
 F_PUR = ROOT / "تقرير المشتريات شهر ٨ سنة ٢٠٢٦.pdf"
 F_BOM = ROOT / "ABOHASHEM_تسعير_المنتجات_بمتوسط_التكلفة_يونيه2026.xlsx"
 OUT_AUG = ROOT / "تسعير جرد اخر شهر ٨ سنة ٢٠٢٦.xlsx"
-OUT_SEP = ROOT / "تسعير جرد اخر شهر ٩ سنة ٢٠٢٦.xlsx"
 OUT_MD = ROOT / "WAC_AUGUST_2026_REPORT.md"
 
 JUL_RAW_TOTAL = 2016665.61      # إجمالى قيمة مخزون الخامات آخر يوليو كما بملف يوليو
@@ -136,8 +134,8 @@ def load_july():
     return raw, codes, fg, kg
 
 
-def load_purchases():
-    out = subprocess.run(["pdftotext", "-layout", str(F_PUR), "-"], capture_output=True, check=True).stdout
+def load_purchases(path=F_PUR):
+    out = subprocess.run(["pdftotext", "-layout", str(path), "-"], capture_output=True, check=True).stdout
     lines = [BIDI.sub("", unicodedata.normalize("NFKC", x)).translate(DIGITS) for x in out.decode().splitlines()]
     row = re.compile(r"^\s*(\d+(?:\.\d+)?)\s+(\d+(?:\.\d+)?)\s+(\d{4}/\d{2}/\d{2})\s+([\d,]+(?:\.\d+)?)\s+"
                      r"([\d,]+(?:\.\d+)?)\s*(\d{6,})\s+(\d+)\s+(\S+)\s+(.+?)\s+(\d+)\s*$")
@@ -595,66 +593,6 @@ def build_august(items, pool, purchases, printed, jul, fg_rows, recipes, kg_aug,
     return {"raw_row": raw_row, "raw_tot": raw_tot, "fg_tot": fg_tot, "step_rows": step_rows}
 
 
-# ---------------------------------------------------------------- ملف سبتمبر (نفس شكل «تسعير جرد» المعتاد)
-def build_september(count_raw, items, fg_rows):
-    wb = openpyxl.Workbook()
-    ws = wb.active
-    ws.title = "جرد آخر سبتمبر"
-    ws.sheet_view.rightToLeft = True
-    for i, w in enumerate([30, 12, 10, 12, 12, 12, 12, 12, 14, 30, 12, 12, 14, 60], 1):
-        ws.column_dimensions[get_column_letter(i)].width = w
-    ws.cell(2, 1, "جرد شهر 9 لعام 2026 — مُسعّر بمتوسط التكلفة المرجّح آخر أغسطس").font = Font(bold=True, size=13)
-    ws.merge_cells("A2:N2")
-    ws.cell(2, 1).alignment = CEN
-    ws.page_setup.orientation = "landscape"
-    ws.page_setup.fitToWidth, ws.page_setup.fitToHeight = 1, 0
-    ws.sheet_properties.pageSetUpPr.fitToPage = True
-    ws.cell(3, 1, "الأسعار = متوسط التكلفة المرجّح آخر أغسطس 2026 (ملف «تسعير جرد اخر شهر ٨ سنة ٢٠٢٦»). "
-                  "أدخل كميات جرد 30/9 بأعمدة المواقع فتُحتسب القيمة تلقائيًا. لم تُدرج مشتريات سبتمبر "
-                  "(غير متوفرة) — عند توفرها يُعاد احتساب المتوسط.").font = Font(italic=True, size=10, color="C00000")
-    ws.merge_cells("A3:N3")
-    ws.cell(3, 1).alignment = RTL
-    ws.row_dimensions[3].height = 32
-    hdr = ["اسم الصنف", "الرصيد النهائي المصنع", "النفق", "الرصيد النهائي النهضه", "الرصيد النهائي المنوفية",
-           "الرصيد النهائي التغليف", "الإجمالي", "السعر", "القيمة", "اسم الصنف", "الرصيد النهائي المصنع",
-           "السعر", "الاجمالى", "ملاحظة التسعير"]
-    for c, t in enumerate(hdr, 1):
-        x = ws.cell(4, c, t)
-        x.font, x.fill, x.alignment, x.border = Font(bold=True, color="FFFFFF"), HEAD, CEN, BOX
-    ws.row_dimensions[4].height = 36
-    ws.freeze_panes = "B5"
-    last = 4
-    for i, c in enumerate(count_raw):
-        r = 5 + i
-        x = items[key(c["name"])]
-        put(ws, r, 1, c["name"])
-        for col in range(2, 7):
-            put(ws, r, col, None, NUM)
-        put(ws, r, 7, f'=IF(COUNT(B{r}:F{r})=0,"",SUM(B{r}:F{r}))', NUM)
-        put(ws, r, 8, x["wac"], PRICE, None if x["wac"] is not None else FLAG)
-        put(ws, r, 9, f'=IF(OR(G{r}="",H{r}=""),"",G{r}*H{r})', NUM)
-        last = max(last, r)
-    fg_notes = []
-    for i, f in enumerate(fg_rows):
-        r = 5 + i
-        put(ws, r, 10, f["name"])
-        put(ws, r, 11, None, NUM)
-        put(ws, r, 12, f["aug_price"], PRICE, None if f["aug_price"] is not None else FLAG)
-        put(ws, r, 13, f'=IF(OR(K{r}="",L{r}=""),"",K{r}*L{r})', NUM)
-        if f["aug_price"] is None:
-            put(ws, r, 14, "بلا سعر — لا وصفة ولا سعر سابق؛ يلزم إدخال سعره", fill=FLAG)
-            fg_notes.append(f["name"])
-        last = max(last, r)
-    tot = last + 2
-    put(ws, tot, 1, "إجمالى قيمة الخامات", fill=TOT, bold=True)
-    put(ws, tot, 9, f"=SUM(I5:I{last})", NUM, TOT, True)
-    put(ws, tot, 10, "إجمالى قيمة المنتج التام", fill=TOT, bold=True)
-    put(ws, tot, 13, f"=SUM(M5:M{last})", NUM, TOT, True)
-    put(ws, tot + 1, 1, "إجمالى قيمة المخزون الكلى آخر سبتمبر", fill=TOT, bold=True)
-    put(ws, tot + 1, 9, f"=I{tot}+M{tot}", NUM, TOT, True)
-    wb.save(OUT_SEP)
-
-
 # ---------------------------------------------------------------- منهجية + تقرير
 def methodology(items, purchases, fg_rows, recipes):
     rules = [
@@ -673,8 +611,7 @@ def methodology(items, purchases, fg_rows, recipes):
         ("كمية جرد 31/8", "مجموع أعمدة المواقع الخمسة (المصنع، النفق، النهضه، المنوفية، التغليف) بملف الجرد؛ صفوف معادلة الإجمالى المختلفة مذكورة أدناه."),
         ("المنتج التام", "سعر كل SKU = الوزن × سعر كجم الوصفة بأسعار أغسطس + تكلفة التعبئة — نفس الوصفات ومعاملات الإنتاجية "
                          "وتكاليف التعبئة المستخدمة فى يوليو دون تغيير. الأصناف خارج الوصفات التسع يُبقى سعر يوليو."),
-        ("ملف سبتمبر", "«تسعير جرد اخر شهر ٩ سنة ٢٠٢٦.xlsx» بنفس شكل ملفات الجرد؛ السعر = متوسط أغسطس والكميات فارغة للتعبئة. "
-                       "لا توجد مشتريات سبتمبر بالمستودع؛ عند توفرها يُعاد احتساب متوسط سبتمبر بنفس المعادلة."),
+        ("سبتمبر", "تقييم جرد آخر سبتمبر فى «model/wac_september_2026.py» (رصيد أول المدة = جرد 31/8 × متوسط أغسطس + مشتريات سبتمبر)."),
         ("خارج النطاق", "الأسعار تمثل تكلفة الخامات المباشرة (+ التعبئة للمنتج التام) ولا تشمل الأجور ولا الأعباء الصناعية غير المباشرة."),
     ]
     flags, seen = [], set()
@@ -708,7 +645,7 @@ def methodology(items, purchases, fg_rows, recipes):
     return rules, flags
 
 
-def add_methodology(rules, flags, sep_check):
+def add_methodology(rules, flags):
     wb = openpyxl.load_workbook(OUT_AUG)
     ws = sheet(wb, S_METH, [24, 55, 70])
     title_rows(ws, "المنهجية، الافتراضات، والاستثناءات", None, 3)
@@ -726,13 +663,6 @@ def add_methodology(rules, flags, sep_check):
         r += 1
         for c, v in enumerate(t, 1):
             put(ws, r, c, v, fill=FLAG)
-    wc = wb[S_REC]
-    rr = wc.max_row + 1
-    put(wc, rr, 1, "أسعار ملف جرد آخر سبتمبر = متوسط أغسطس المحسوب مستقلًا (فحص عبر الملفين بالسكربت)")
-    put(wc, rr, 2, sep_check[0])
-    put(wc, rr, 3, sep_check[1])
-    put(wc, rr, 4, sep_check[0] - sep_check[1])
-    put(wc, rr, 5, "✔ مطابق" if sep_check[0] == sep_check[1] else "✘ فرق")
     wb.save(OUT_AUG)
 
 
@@ -806,17 +736,15 @@ def write_report(items, pool, purchases, printed, fg_rows, kg_aug, kg_jul_tab, t
     L = []
     w = L.append
     mapped = sum(p["total"] for p in purchases if p["item"] != NO_MATCH)
-    w("# ABOHASHEM FOR MEAT — متوسط التكلفة المرجّح للخامات آخر أغسطس 2026 وتسعير جرد آخر سبتمبر\n")
+    w("# ABOHASHEM FOR MEAT — متوسط التكلفة المرجّح للخامات آخر أغسطس 2026\n")
     w("**الملفات:** `تسعير جرد اخر شهر ٨ سنة ٢٠٢٦.xlsx` (الاحتساب الكامل بمعادلات حيّة) — "
-      "`تسعير جرد اخر شهر ٩ سنة ٢٠٢٦.xlsx` (جرد سبتمبر بأسعار أغسطس، الكميات للتعبئة) — "
-      "السكربت `model/wac_august_2026.py`.\n")
+      "السكربت `model/wac_august_2026.py`. تقييم سبتمبر: `WAC_SEPTEMBER_2026_REPORT.md`.\n")
     w("## ١. المعادلة\n")
     w("```\nمتوسط أغسطس = (كمية جرد 31/7 × متوسط يوليو + قيمة مشتريات أغسطس)\n"
       "             ÷ (كمية جرد 31/7 + كمية مشتريات أغسطس)\n```\n")
     w("- رصيد أول المدة = جرد 31/7 مُقيَّمًا بمتوسط يوليو (استمرار سلسلة يونيه ← يوليو).\n"
       "- قيمة الشراء = «الإجمالى» بالفاتورة. كل الأسعار مقرّبة لـ 4 أرقام عشرية.\n"
-      "- لا مشتريات ⇒ سعر يوليو ثابت. رصيد بلا سعر ⇒ يُستبعد من البسط والمقام.\n"
-      "- ملف سبتمبر مُسعّر بمتوسط أغسطس لأن مشتريات سبتمبر غير متوفرة؛ عند توفرها يُعاد احتساب المتوسط.\n")
+      "- لا مشتريات ⇒ سعر يوليو ثابت. رصيد بلا سعر ⇒ يُستبعد من البسط والمقام.\n")
     w("## ٢. الإجماليات\n")
     w("| البند | القيمة (ج.م) |\n|---|---:|")
     w(f"| قيمة رصيد أول المدة (جرد 31/7 × متوسط يوليو) | {totals['open_total']:,.2f} |")
@@ -865,7 +793,7 @@ def write_report(items, pool, purchases, printed, fg_rows, kg_aug, kg_jul_tab, t
     w("| الفحص | النتيجة |\n|---|---|")
     for lab, a, b, res in totals["checks"]:
         w(f"| {lab} | {res} |")
-    w("| كل متوسط مكتوب بالمصنّف (الجرد، الخطوات، ملف سبتمبر) = الاحتساب المستقل بالسكربت لأربعة أرقام عشرية | ✔ مطابق |")
+    w("| كل متوسط مكتوب بالمصنّف (الجرد، الخطوات) = الاحتساب المستقل بالسكربت لأربعة أرقام عشرية | ✔ مطابق |")
     w("| إعادة احتساب كل المعادلات بـ LibreOffice — لا أخطاء #DIV/0! أو #REF! | ✔ |\n")
     w("## ٧. البنود المُعلَّمة للمراجعة\n")
     w("| النوع | الصنف / البند | التفصيل |\n|---|---|---|")
@@ -937,17 +865,8 @@ def main():
             assert x["wac"] is None, x["name"]
 
     idx = build_august(items, pool, purchases, printed, jul, fg_rows, recipes, kg_aug, kg_jul_tab)
-    build_september(count_raw, items, fg_rows)
-
-    # مطابقة ملف سبتمبر مع الاحتساب المستقل
-    ws = openpyxl.load_workbook(OUT_SEP).active
-    n_ok = n_all = 0
-    for r in range(5, 5 + len(count_raw)):
-        n_all += 1
-        n_ok += ws.cell(r, 8).value == ind.get(key(ws.cell(r, 1).value))
     rules, flags = methodology(items, purchases, fg_rows, recipes)
-    add_methodology(rules, flags, (n_ok, n_all))
-    assert n_ok == n_all, (n_ok, n_all)
+    add_methodology(rules, flags)
 
     totals = recalc_and_verify(items, fg_rows, kg_aug, idx)
     codes_by_item = defaultdict(set)
@@ -960,7 +879,7 @@ def main():
     print(f"raw stock 31/8 {totals['raw_total']:,.2f} | finished goods {totals['fg_total']:,.2f}")
     print(f"max deviation re-deriving July FG prices from recipes: {fg_dev[0]:.4f} ({fg_dev[1]})")
     print(f"items priced: {sum(1 for x in items.values() if x['wac'] is not None)}/{len(items)}; "
-          f"September prices verified {n_ok}/{n_all}; flags {len(flags)}")
+          f"flags {len(flags)}")
 
 
 if __name__ == "__main__":
