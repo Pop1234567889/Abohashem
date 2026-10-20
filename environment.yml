@@ -1,0 +1,9 @@
+# بيئة الفحص الآلى (python-package-conda.yml): قراءة Excel و pdftotext لتقارير المشتريات
+name: abohashem
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - openpyxl>=3.1
+  - poppler
+  - pytest
