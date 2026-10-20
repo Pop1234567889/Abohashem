@@ -68,12 +68,12 @@ SEP_UNMATCHED = {
     "442": "أكياس تغليف «مقطعات» 5 ك — لا يوجد بند مقابل بالجرد (أكياس 5 ك الموجودة مخصصة لسجق/بانيه/عجينة) — لم تُحمَّل",
 }
 SUSPECT_INVOICE = "1111115217"
-UNRESOLVED = {
-    "مفروم فراخ شعبي": "فاتورة 1111115217 (09/09): «مفروم فراخ C» 1,500 كجم بسعر 57 بينما نطاق الرتبة C 30–35، "
-                       "وفى نفس الفاتورة «مفروم فراخ A» بسعر 30 بينما نطاق A 55–60 — السعران يبدوان معكوسين",
-    "مفروم فراخ فاخر": "فاتورة 1111115217 (09/09): «مفروم فراخ A» 450 كجم بسعر 30 بينما نطاق الرتبة A 55–60، "
-                       "وفى نفس الفاتورة «مفروم فراخ C» بسعر 57 — السعران يبدوان معكوسين",
-}
+# أكدت الإدارة (20/10/2026) أن سعرَى الرتبتين بالفاتورة معكوسان: C (كود 372) = 30 و A (كود 370) = 57
+INVOICE_CORRECTIONS = {(SUSPECT_INVOICE, "372"): 30.0, (SUSPECT_INVOICE, "370"): 57.0}
+CORRECTION_NOTE = ("فاتورة 1111115217 (09/09) سجّلت «مفروم فراخ C» بسعر 57 و«مفروم فراخ A» بسعر 30 (خارج نطاق كل رتبة)؛ "
+                   "أكدت الإدارة أن السعرين معكوسان فاحتُسبت C = 30 و A = 57")
+CORRECTED_ITEMS = ("مفروم فراخ شعبي", "مفروم فراخ فاخر")
+UNRESOLVED = {}     # صنف معلّق ⇒ يُترك سعره بالملف وتُحسب الوصفات بسعر أغسطس — لا أصناف معلّقة حاليًا
 # أسطر سعرها شاذ عن باقى مشتريات نفس الصنف بالشهر — تدخل الاحتساب كما سُجّلت مع التنويه
 PRICE_OUTLIERS = {(76, "190"): "صميد 50 كجم بسعر 26.40 مقابل 16.25–17.00 لباقى الأسطر",
                   (58, "87"): "جلتومات 25 كجم بسعر 132 مقابل 80 لسطر الشراء الآخر"}
@@ -145,6 +145,17 @@ def build_opening(aug_wac, aug2_raw):
     return opening, checks
 
 
+def correct_purchases(purchases):
+    """يطبّق تصحيح الأسعار المؤكَّد على أسطر الفاتورة، مع الإبقاء على المسجّل بالتقرير للمطابقة."""
+    for p in purchases:
+        p["total_recorded"] = p["total"]
+        new = INVOICE_CORRECTIONS.get((p["invoice"], p["code"]))
+        if new is not None:
+            assert abs(p["qty"] * p["price"] - p["total"]) < 0.01, p
+            p.update(price_recorded=p["price"], price=new, total=round(p["qty"] * new, 2), corrected=True)
+    assert sum(p.get("corrected", False) for p in purchases) == len(INVOICE_CORRECTIONS)
+
+
 def map_purchases(purchases, codes, targets):
     for p in purchases:
         if p["code"] in SEP_UNMATCHED:
@@ -161,8 +172,9 @@ def map_purchases(purchases, codes, targets):
             assert key(item) in targets, f"code {p['code']} maps to {item}, not in the September count"
             item = targets[key(item)]["name"]
         note = PRICE_OUTLIERS.get((p["idx"], p["code"]))
-        if p["invoice"] == SUSPECT_INVOICE and p["code"] in ("370", "372"):
-            note = "سعر يبدو معكوسًا مع السطر الآخر بنفس الفاتورة — الصنف تُرك سعره دون تغيير"
+        if p.get("corrected"):
+            note = (f"سعر مُصحّح: سُجّل بالتقرير {p['price_recorded']:g} (إجمالى {p['total_recorded']:,.2f}) — "
+                    "أكدت الإدارة أن سعرَى الرتبتين بالفاتورة معكوسان")
         p.update(item=item, conf=conf, basis=basis + (f" | ⚠ {note}" if note else ""), outlier=bool(note))
 
 
@@ -189,6 +201,7 @@ def compute(sep_raw, opening, purchases):
         t["pq"] += p["qty"]
         t["pv"] += p["total"]
         t["n"] += 1
+        t["corrected"] = t.get("corrected", False) or p.get("corrected", False)
     pool["wac"] = wac(pool["open_q"], pool["open_p"], pool["pq"], pool["pv"])
     for x in items.values():
         x["wac"] = pool["wac"] if x["name"] in POOL_MEMBERS else wac(x["open_q"], x["open_p"], x["pq"], x["pv"])
@@ -207,29 +220,34 @@ def status(x):
         return "بلا سعر — لا سعر أغسطس ولا مشتريات سبتمبر" + (" (السعر الموجود تُرك)" if x["orig_price"] else "")
     if x["pq"] > 0 and x["open_p"] is None:
         return "المتوسط من مشتريات سبتمبر فقط (أول المدة بلا سعر)" if x["open_q"] else "المتوسط = متوسط سعر الشراء"
+    if x.get("corrected"):
+        return "قياسى: (أول المدة + المشتريات) بعد تصحيح سعرَى الفاتورة 1111115217"
     if x["pq"] > 0:
         return "قياسى: (أول المدة + المشتريات)"
     return "لا مشتريات فى سبتمبر ⇒ سعر أغسطس ثابت"
 
 
+SCN_APPLIED = "بعكس سعرَى الفاتورة (C=30، A=57) — المعتمد"
+
+
 def scenarios(items, purchases):
-    """متوسط صنفَى الفراخ المفرومة فى ثلاث قراءات للفاتورة المتعارضة."""
+    """متوسط صنفَى الفراخ المفرومة فى قراءات الفاتورة الثلاث — للإفصاح عن أثر التصحيح المعتمد."""
     out = {}
-    for nm in UNRESOLVED:
+    for nm in CORRECTED_ITEMS:
         x = items[key(nm)]
         lines = [p for p in purchases if p["item"] == nm]
         sus = [p for p in lines if p["invoice"] == SUSPECT_INVOICE]
         rest_q = sum(p["qty"] for p in lines if p not in sus)
         rest_v = sum(p["total"] for p in lines if p not in sus)
-        swapped_v = sum(p["qty"] * (57.0 if p["code"] == "370" else 30.0) for p in sus)
         sus_q = sum(p["qty"] for p in sus)
         oq, op = x["open_q"], x["open_p"]
         out[nm] = {
-            "كما سُجّلت بالتقرير": wac(oq, op, x["pq"], x["pv"]),
+            "كما سُجّلت بالتقرير": wac(oq, op, x["pq"], rest_v + sum(p["total_recorded"] for p in sus)),
             "باستبعاد الفاتورة 1111115217": wac(oq, op, rest_q, rest_v),
-            "بعكس سعرَى الفاتورة (C=30، A=57)": wac(oq, op, rest_q + sus_q, rest_v + swapped_v),
-            "_aug": op, "_file": x["orig_price"], "_close_q": x["qty"],
+            SCN_APPLIED: wac(oq, op, rest_q + sus_q, rest_v + sum(p["total"] for p in sus)),
+            "_aug": op, "_orig": x["orig_price"], "_file": x["file_price"], "_close_q": x["qty"],
         }
+        assert out[nm][SCN_APPLIED] == x["wac"] == x["file_price"], (nm, out[nm], x["wac"])
     return out
 
 
@@ -334,7 +352,7 @@ def update_september_file(items, fg_rows):
 # ---------------------------------------------------------------- مصنّف الاحتساب
 S_MAIN, S_PUR, S_OPEN = "احتساب متوسط سبتمبر", "مشتريات سبتمبر التفصيلية", "رصيد أول المدة (31-8)"
 S_BOM, S_KG, S_FG = "تفصيل الوصفات بأسعار سبتمبر", "سعر الكجم من الوصفات", "المنتج التام آخر سبتمبر"
-S_SCN, S_REC, S_NOTE = "الفراخ المفرومة (معلّق)", "المطابقة", "المنهجية والاستثناءات"
+S_SCN, S_REC, S_NOTE = "الفراخ المفرومة (التصحيح)", "المطابقة", "المنهجية والاستثناءات"
 
 
 def build_calc(items, pool, purchases, printed, opening, recipes, kg_sep, kg_aug, kg_jul_tab, fg_rows, scn, prov_items):
@@ -342,24 +360,29 @@ def build_calc(items, pool, purchases, printed, opening, recipes, kg_sep, kg_aug
     wb.remove(wb.active)
 
     # المشتريات
-    wp = sheet(wb, S_PUR, [5, 11, 8, 30, 7, 10, 10, 13, 26, 9, 60, 12])
-    title_rows(wp, "مشتريات الخامات — الفترة 01/09/2026 حتى 30/09/2026 (المصدر: تقرير المشتريات فى الفترة)", None, 12)
+    wp = sheet(wb, S_PUR, [5, 11, 8, 30, 7, 10, 10, 13, 26, 9, 60, 12, 14])
+    title_rows(wp, "مشتريات الخامات — الفترة 01/09/2026 حتى 30/09/2026 (المصدر: تقرير المشتريات فى الفترة)",
+               "عمودا السعر والإجمالى بعد تصحيح الفاتورة 1111115217؛ العمود الأخير = الإجمالى كما سُجّل بالتقرير.", 13)
     header(wp, 3, ["م", "التاريخ", "كود الصنف", "اسم الصنف بالمشتريات", "الوحدة", "الكمية", "سعر الشراء",
-                   "الإجمالى", "الصنف المقابل بالجرد", "درجة الثقة", "أساس المطابقة", "رقم الفاتورة"])
+                   "الإجمالى", "الصنف المقابل بالجرد", "درجة الثقة", "أساس المطابقة", "رقم الفاتورة",
+                   "الإجمالى المسجّل بالتقرير"])
     for i, p in enumerate(purchases):
         r = 4 + i
         fl = FLAG if p["item"] == NO_MATCH or p["conf"] == "متوسطة" or p.get("outlier") else None
         for c, v in enumerate([p["idx"], p["date"], p["code"], p["name"], p["unit"], p["qty"], p["price"], p["total"],
-                               p["item"], p["conf"], p["basis"], p["invoice"]], 1):
-            put(wp, r, c, v, NUM if c in (6, 8) else PRICE if c == 7 else None, fl)
+                               p["item"], p["conf"], p["basis"], p["invoice"], p["total_recorded"]], 1):
+            put(wp, r, c, v, NUM if c in (6, 8, 13) else PRICE if c == 7 else None, fl)
     pf, pl = 4, 3 + len(purchases)
     pt = pl + 2
-    put(wp, pt, 4, "إجمالى مشتريات سبتمبر", fill=TOT, bold=True)
+    put(wp, pt, 4, "إجمالى مشتريات سبتمبر (بعد التصحيح)", fill=TOT, bold=True)
     put(wp, pt, 8, f"=SUM(H{pf}:H{pl})", NUM, TOT, True)
+    put(wp, pt, 13, f"=SUM(M{pf}:M{pl})", NUM, TOT, True)
     put(wp, pt + 1, 4, "الإجمالى المطبوع بالتقرير", fill=TOT)
-    put(wp, pt + 1, 8, printed, NUM, TOT)
+    put(wp, pt + 1, 13, printed, NUM, TOT)
     put(wp, pt + 2, 4, "منها: بلا مقابل بالجرد (مستبعدة)", fill=TOT)
     put(wp, pt + 2, 8, f'=SUMIF(I{pf}:I{pl},"{NO_MATCH}",H{pf}:H{pl})', NUM, TOT)
+    put(wp, pt + 3, 4, "أثر تصحيح الفاتورة 1111115217 (بعد − كما سُجّل)", fill=TOT)
+    put(wp, pt + 3, 8, f"=H{pt}-M{pt}", NUM, TOT)
     IR, QR, VR = (f"{q(S_PUR)}!$I${pf}:$I${pl}", f"{q(S_PUR)}!$F${pf}:$F${pl}", f"{q(S_PUR)}!$H${pf}:$H${pl}")
 
     # رصيد أول المدة
@@ -534,18 +557,21 @@ def build_calc(items, pool, purchases, printed, opening, recipes, kg_sep, kg_aug
     put(wf, fg_tot + 2, 6, f"=F{fg_tot}+{q(S_MAIN)}!L{m_tot}", NUM, TOT, True)
 
     # السيناريوهات
-    wsn = sheet(wb, S_SCN, [44, 16, 16])
-    title_rows(wsn, "صنفا الفراخ المفرومة — بيانات شراء متعارضة (السعر بملف سبتمبر تُرك كما هو)", None, 3)
+    wsn = sheet(wb, S_SCN, [52, 16, 16])
+    title_rows(wsn, "صنفا الفراخ المفرومة — تصحيح الفاتورة 1111115217 (معتمد بتأكيد الإدارة)", None, 3)
     header(wsn, 3, ["القراءة", "مفروم فراخ شعبي", "مفروم فراخ فاخر"])
     labels = [k for k in scn["مفروم فراخ شعبي"] if not k.startswith("_")]
     r = 4
-    for lab in labels + ["_aug", "_file", "_close_q"]:
-        put(wsn, r, 1, {"_aug": "متوسط أغسطس (للمقارنة)", "_file": "السعر الموجود بملف سبتمبر (تُرك)",
-                        "_close_q": "كمية جرد 30/9"}.get(lab, "متوسط سبتمبر — " + lab))
+    for lab in labels + ["_aug", "_orig", "_file", "_close_q"]:
+        put(wsn, r, 1, {"_aug": "متوسط أغسطس (للمقارنة)", "_orig": "السعر الذى كان بملف جرد سبتمبر",
+                        "_file": "السعر المُدخل بملف سبتمبر الآن", "_close_q": "كمية جرد 30/9"}
+            .get(lab, "متوسط سبتمبر — " + lab), fill=SUBH if lab in (SCN_APPLIED, "_file") else None,
+            bold=lab in (SCN_APPLIED, "_file"))
         for c, nm in ((2, "مفروم فراخ شعبي"), (3, "مفروم فراخ فاخر")):
-            put(wsn, r, c, scn[nm][lab], NUM if lab == "_close_q" else PRICE)
+            put(wsn, r, c, scn[nm][lab], NUM if lab == "_close_q" else PRICE,
+                SUBH if lab in (SCN_APPLIED, "_file") else None)
         r += 1
-    put(wsn, r + 1, 1, UNRESOLVED["مفروم فراخ شعبي"])
+    put(wsn, r + 1, 1, CORRECTION_NOTE)
     wsn.merge_cells(start_row=r + 1, start_column=1, end_row=r + 1, end_column=3)
     wsn.row_dimensions[r + 1].height = 48
 
@@ -554,7 +580,10 @@ def build_calc(items, pool, purchases, printed, opening, recipes, kg_sep, kg_aug
     title_rows(wc, "المطابقة النهائية — كل فحص يجب أن يكون الفرق صفرًا", None, 5)
     header(wc, 3, ["الفحص", "القيمة المحسوبة", "القيمة المرجعية", "الفرق", "النتيجة"])
     checks = [
-        ("إجمالى أسطر مشتريات سبتمبر = الإجمالى المطبوع بالتقرير", f"={q(S_PUR)}!H{pt}", f"={q(S_PUR)}!H{pt + 1}", 0.005),
+        ("إجمالى أسطر مشتريات سبتمبر كما سُجّلت = الإجمالى المطبوع بالتقرير",
+         f"={q(S_PUR)}!M{pt}", f"={q(S_PUR)}!M{pt + 1}", 0.005),
+        ("أثر تصحيح الفاتورة 1111115217 = Σ الكمية × (السعر المصحّح − المسجّل)", f"={q(S_PUR)}!H{pt + 3}",
+         sum(p["qty"] * (p["price"] - p["price_recorded"]) for p in purchases if p.get("corrected")), 0.005),
         ("المشتريات المحمّلة على الأصناف + المجمّع + المستبعدة = إجمالى المشتريات",
          f"={q(S_MAIN)}!F{m_tot}+{q(S_MAIN)}!F{pr}+{q(S_PUR)}!H{pt + 2}", f"={q(S_PUR)}!H{pt}", 0.005),
         ("قيمة أول المدة بورقة الاحتساب = قيمة أصناف جرد 31/8 المنقولة لسبتمبر",
@@ -627,6 +656,8 @@ def main():
 
     sep_raw, sep_fg = read_count(F_CNT9)
     purchases, printed = A.load_purchases(F_PUR9)
+    correct_purchases(purchases)
+    assert abs(sum(p["total_recorded"] for p in purchases) - printed) < 0.005
     targets = {key(x["name"]): x for x in sep_raw}
     map_purchases(purchases, codes, targets)
     items, pool = compute(sep_raw, opening, purchases)
@@ -736,6 +767,7 @@ def main():
 
 def notes(items, purchases, fg_rows, open_checks, opening, scn):
     mapped = sum(p["total"] for p in purchases if p["item"] != NO_MATCH)
+    fix = sum(p["total"] - p["total_recorded"] for p in purchases)
     rules = [
         ("نطاق العمل", "متوسط التكلفة المرجّح (WAC) للخامات فقط — لم تُستخدم FIFO / LIFO / التكلفة المعيارية."),
         ("المعادلة", "متوسط سبتمبر = (كمية جرد 31/8 × متوسط أغسطس + قيمة مشتريات سبتمبر) ÷ (كمية جرد 31/8 + كمية "
@@ -743,21 +775,26 @@ def notes(items, purchases, fg_rows, open_checks, opening, scn):
         ("رصيد أول المدة", "الجرد الفعلى المعدَّل «جر د شهر 8.xlsx» (مجموع المواقع الخمسة) × متوسط أغسطس المُعاد احتسابه "
                            "من مصادره؛ طوبق السعر مع ملف «تسعير جرد اخر شهر ٨ -2» لكل صنف مشترك (لا فرق)."),
         ("المشتريات", f"تقرير المشتريات 01/09–30/09/2026: {len(purchases)} سطرًا، الإجمالى مطابق للمطبوع. قيمة الشراء = "
-                      f"«الإجمالى» بالفاتورة (7 أسطر بها فرق تقريب بين الكمية × السعر والإجمالى). المحمَّل على الأصناف "
-                      f"{mapped:,.2f} ج.م."),
+                      f"«الإجمالى» بالفاتورة (7 أسطر بها فرق تقريب بين الكمية × السعر والإجمالى)، بعد تصحيح سطرَى "
+                      f"الفاتورة 1111115217 (أثر {fix:+,.2f} ج.م). المحمَّل على الأصناف {mapped:,.2f} ج.م."),
         ("ربط الأكواد", "الكود المستخدم فى يوليو/أغسطس يُربط بنفس الصنف؛ الأكواد الجديدة رُبطت بالاسم ونطاق السعر بدرجة ثقة "
                         "مُسجّلة. مجمّع اللحوم الهندى متوسط واحد للبنود الأربعة."),
-        ("أصناف معلّقة", "صنفا الفراخ المفرومة (شعبي/فاخر) تُرك سعرهما بالملف كما هو لتعارض فاتورة 1111115217؛ "
-                         "ثلاث قراءات بديلة بورقة «الفراخ المفرومة (معلّق)». الوصفات تستخدم لهما سعر أغسطس مؤقتًا."),
+        ("تصحيح فاتورة", f"{CORRECTION_NOTE}. صنفا الفراخ المفرومة (شعبي/فاخر) سُعّرا بالمتوسط بعد التصحيح، "
+                         f"والوصفات تستخدم هذا السعر؛ القراءات البديلة للإفصاح بورقة «{S_SCN}»."),
         ("أصناف بلا مشتريات", "يبقى سعر أغسطس كما هو. رصيد بلا سعر يُستبعد من البسط والمقام."),
         ("ملف سبتمبر", "«تسعير جرد اخر شهر ٩ سنة ٢٠٢٦.xlsx» نسخة من «جرد شهر 9.xlsx» تغيّرت فيها خانات السعر فقط "
-                       "(عمود H للخامات و L للمنتج التام)؛ تحقق آلى من عدم تغيّر أى خانة أخرى. أُضيفت تعليقات على الأصناف المعلّقة "
-                       "أو بلا سعر."),
+                       "(عمود H للخامات و L للمنتج التام)، وأُضيفت =K×L بعمود M الفارغ لصفوف المنتج التام المُسعّرة؛ "
+                       "تحقق آلى من عدم تغيّر أى خانة أخرى. الأصناف بلا سعر تُركت كما هى."),
         ("المنتج التام", "الوزن × سعر كجم الوصفة بأسعار سبتمبر + تكلفة التعبئة؛ الأصناف خارج الوصفات بآخر سعر متاح."),
     ]
     flags, seen = [], set()
+    for p in purchases:
+        if p.get("corrected"):
+            flags.append(("تصحيح سعر فاتورة", f"سطر {p['idx']} كود {p['code']} «{p['name']}» ← {p['item']}",
+                          f"المسجّل {p['price_recorded']:g} × {p['qty']:,.0f} = {p['total_recorded']:,.2f}؛ المعتمد "
+                          f"{p['price']:g} × {p['qty']:,.0f} = {p['total']:,.2f} (تأكيد الإدارة: السعران معكوسان)"))
     for nm, s in scn.items():
-        flags.append(("سعر معلّق", nm, UNRESOLVED[nm] + " — " + "، ".join(
+        flags.append(("أثر التصحيح", nm, f"السعر بالملف {s['_orig']} ← {s['_file']:.4f}؛ القراءات: " + "، ".join(
             f"{k}: {v:.4f}" for k, v in s.items() if not k.startswith("_"))))
     for p in purchases:
         if p["code"] in seen and not p.get("outlier"):
@@ -806,24 +843,34 @@ def write_report(items, pool, purchases, printed, opening, open_val, aug2_total,
     w(f"| رصيد أول المدة (جرد 31/8 المعدَّل × متوسط أغسطس) | {open_val:,.2f} |")
     w(f"| إجمالى ملف «تسعير جرد اخر شهر ٨ -2» (الفرق = فروق كميات بينه وبين الجرد المعدَّل، أغلبها «زيت سيارات» 2 مقابل 16) "
       f"| {aug2_total:,.2f} |")
+    fix = sum(p["total"] - p["total_recorded"] for p in purchases)
     w(f"| مشتريات سبتمبر (إجمالى التقرير، {len(purchases)} سطرًا) | {printed:,.2f} |")
+    w(f"| أثر تصحيح الفاتورة 1111115217 | {fix:,.2f} |")
+    w(f"| مشتريات سبتمبر بعد التصحيح | {printed + fix:,.2f} |")
     w(f"| منها محمّلة على أصناف الجرد | {mapped:,.2f} |")
-    w(f"| منها بلا مقابل بالجرد (مستبعدة) | {printed - mapped:,.2f} |")
+    w(f"| منها بلا مقابل بالجرد (مستبعدة) | {printed + fix - mapped:,.2f} |")
     w(f"| **مخزون الخامات 30/9 (بالأسعار المُدخلة بالملف)** | **{raw_val:,.2f}** |")
     w(f"| **مخزون المنتج التام 30/9** | **{fg_val:,.2f}** |")
     w(f"| **إجمالى المخزون 30/9** | **{raw_val + fg_val:,.2f}** |\n")
     w(f"أُدخل {len(changed)} سعرًا بملف سبتمبر (عمود H للخامات و L للمنتج التام). عمود M (قيمة المنتج التام) كان فارغًا "
       f"بالملف الأصلى فأُضيفت له =K×L فى {len(added)} صفًا مُسعّرًا فقط. لم تتغير أى خانة أخرى — لا قيمة ولا معادلة ولا "
       "تنسيق (تحقق آلى خانة بخانة).\n")
-    w("## ٣. ⚠ صنفان معلّقان — مفروم الفراخ\n")
-    w(UNRESOLVED["مفروم فراخ شعبي"] + ". عملًا بقاعدة «لا يُغيَّر سعر صنف لا يمكن تقييمه بثقة» **تُرك السعر الموجود بالملف** "
-      "لحين مراجعة الفاتورة الأصلية:\n")
-    w("| القراءة | مفروم فراخ شعبي | مفروم فراخ فاخر |\n|---|---:|---:|")
-    for lab in [k for k in scn["مفروم فراخ شعبي"] if not k.startswith("_")]:
-        w(f"| متوسط سبتمبر — {lab} | {scn['مفروم فراخ شعبي'][lab]:.4f} | {scn['مفروم فراخ فاخر'][lab]:.4f} |")
-    w(f"| متوسط أغسطس | {scn['مفروم فراخ شعبي']['_aug']:.4f} | {scn['مفروم فراخ فاخر']['_aug']:.4f} |")
-    w(f"| **السعر الموجود بالملف (تُرك)** | **{scn['مفروم فراخ شعبي']['_file']}** | **{scn['مفروم فراخ فاخر']['_file']}** |")
-    w(f"| كمية جرد 30/9 | {scn['مفروم فراخ شعبي']['_close_q']:,.2f} | {scn['مفروم فراخ فاخر']['_close_q']:,.2f} |\n")
+    sh, fa = scn["مفروم فراخ شعبي"], scn["مفروم فراخ فاخر"]
+    w("## ٣. مفروم الفراخ — تصحيح الفاتورة 1111115217\n")
+    w(CORRECTION_NOTE + ". بناءً عليه سُعّر الصنفان بالمتوسط بعد التصحيح، وأُعيد تسعير الوصفات التى تستخدمهما:\n")
+    w("| السطر | الكمية | السعر المسجّل | الإجمالى المسجّل | السعر المعتمد | الإجمالى المعتمد |\n|---|---:|---:|---:|---:|---:|")
+    for p in purchases:
+        if p.get("corrected"):
+            w(f"| {p['idx']} — كود {p['code']} «{p['name']}» | {p['qty']:,.0f} | {p['price_recorded']:g} | "
+              f"{p['total_recorded']:,.2f} | {p['price']:g} | {p['total']:,.2f} |")
+    w("\n| القراءة | مفروم فراخ شعبي | مفروم فراخ فاخر |\n|---|---:|---:|")
+    for lab in [k for k in sh if not k.startswith("_")]:
+        b = "**" if lab == SCN_APPLIED else ""
+        w(f"| {b}متوسط سبتمبر — {lab}{b} | {b}{sh[lab]:.4f}{b} | {b}{fa[lab]:.4f}{b} |")
+    w(f"| متوسط أغسطس | {sh['_aug']:.4f} | {fa['_aug']:.4f} |")
+    w(f"| السعر الذى كان بملف جرد سبتمبر | {sh['_orig']} | {fa['_orig']} |")
+    w(f"| كمية جرد 30/9 | {sh['_close_q']:,.2f} | {fa['_close_q']:,.2f} |")
+    w(f"| قيمة 30/9 بالسعر المعتمد | {sh['_close_q'] * sh['_file']:,.2f} | {fa['_close_q'] * fa['_file']:,.2f} |\n")
     w("الرتبة B (كود 371، 1,800 كجم بسعر 34) حُمّلت على «شعبي» لعدم وجود بند B بالجرد — داخلة فى القراءات الثلاث.\n")
     w("## ٤. جدول المراجعة — الأصناف التى عليها مشتريات فى سبتمبر\n")
     w("| كود الشراء | الصنف | كمية أول المدة | قيمة أول المدة | كمية المشتريات | قيمة المشتريات | إجمالى الكمية | "
@@ -863,7 +910,7 @@ def write_report(items, pool, purchases, printed, opening, open_val, aug2_total,
     w("| المنتج | أغسطس | سبتمبر | التغير |\n|---|---:|---:|---:|")
     for rn in kg_sep:
         w(f"| {rn} | {kg_aug[rn]:.4f} | {kg_sep[rn]:.4f} | {kg_sep[rn] / kg_aug[rn] - 1:+.2%} |")
-    w("\nالوصفات التى تحتوى مفروم الفراخ محسوبة بسعر أغسطس للمفروم (مؤقت).\n")
+    w("\nالوصفات التى تحتوى مفروم الفراخ محسوبة بمتوسط سبتمبر للمفروم بعد تصحيح الفاتورة.\n")
     w("## ٧. المطابقة النهائية\n")
     w("| الفحص | النتيجة |\n|---|---|")
     for lab, res in rec:
