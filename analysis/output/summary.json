@@ -1,0 +1,16 @@
+{
+ "period_start": "2026-06-02",
+ "period_end": "2026-06-27",
+ "period_days": 26,
+ "invoices": 256,
+ "zero_invoices": 40,
+ "line_items": 652,
+ "distinct_items": 33,
+ "distinct_customers_invoiced": 110,
+ "salespeople": 9,
+ "total_sales_EGP": 3376569.54,
+ "total_qty": 56088.5,
+ "total_paid_EGP": 6945.6,
+ "total_remaining_EGP": 3369623.94,
+ "total_outstanding_debt_EGP": 3692545.42
+}
