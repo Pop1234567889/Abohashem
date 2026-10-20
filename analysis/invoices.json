@@ -1,0 +1,9850 @@
+[
+ {
+  "page": 1,
+  "invoice_no": "b1593",
+  "date": "2026/6/2",
+  "customer": "المحل ابو هاشم",
+  "customer_code": "10",
+  "total_qty": 82.0,
+  "invoice_total": 6278.8,
+  "paid": 0.0,
+  "remaining": 6278.8,
+  "items": [
+   {
+    "item_code": "1",
+    "name": "مفروم صافى 400 جم",
+    "unit": "طبق",
+    "unit_price": 82.8,
+    "qty": 30.0,
+    "line_total": 2484.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "7",
+    "name": "سجق 350 جم ابو هاشم",
+    "unit": "طبق",
+    "unit_price": 40.05,
+    "qty": 10.0,
+    "line_total": 400.5,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "114",
+    "name": "كفته ابو هاشم 800",
+    "unit": "طبق",
+    "unit_price": 69.5,
+    "qty": 10.0,
+    "line_total": 695.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "255",
+    "name": "برجر ابو هاشم جامبو 1.5 كيلو",
+    "unit": "طبق",
+    "unit_price": 137.5,
+    "qty": 5.0,
+    "line_total": 687.5,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "421",
+    "name": "برجر ابو هاشم 1 ك",
+    "unit": "طبق",
+    "unit_price": 95.0,
+    "qty": 1.0,
+    "line_total": 95.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "8",
+    "name": "كفته 350 جم ابو هاشم",
+    "unit": "طبق",
+    "unit_price": 32.8,
+    "qty": 6.0,
+    "line_total": 196.8,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "107",
+    "name": "سجق 800 ابو هاشم",
+    "unit": "طبق",
+    "unit_price": 86.0,
+    "qty": 20.0,
+    "line_total": 1720.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 2,
+  "invoice_no": "b1594",
+  "date": "2026/6/4",
+  "customer": "م نور",
+  "customer_code": "738",
+  "total_qty": 180.0,
+  "invoice_total": 10260.0,
+  "paid": 0.0,
+  "remaining": 10260.0,
+  "items": [
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.0,
+    "qty": 180.0,
+    "line_total": 10260.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 3,
+  "invoice_no": "b1595",
+  "date": "2026/6/4",
+  "customer": "ثلجة مصر والسودان",
+  "customer_code": "955",
+  "total_qty": 20.0,
+  "invoice_total": 7500.0,
+  "paid": 0.0,
+  "remaining": 7500.0,
+  "items": [
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 20.0,
+    "line_total": 7500.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 4,
+  "invoice_no": "B1596",
+  "date": "2026/6/3",
+  "customer": "احمد صلح المنيا",
+  "customer_code": "710",
+  "total_qty": 240.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 120.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 120.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 5,
+  "invoice_no": "B1597",
+  "date": "2026/6/3",
+  "customer": "محمود العمده الصعيد",
+  "customer_code": "532",
+  "total_qty": 132.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 132.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 6,
+  "invoice_no": "B1598",
+  "date": "2026/6/8",
+  "customer": "ماركت م ابو مريم",
+  "customer_code": "746",
+  "total_qty": 4.0,
+  "invoice_total": 1480.0,
+  "paid": 0.0,
+  "remaining": 1480.0,
+  "items": [
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 4.0,
+    "line_total": 1480.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 7,
+  "invoice_no": "B1599",
+  "date": "2026/6/8",
+  "customer": "ثلجه المهندس",
+  "customer_code": "460",
+  "total_qty": 12.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 12.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 8,
+  "invoice_no": "B1965",
+  "date": "2026/6/7",
+  "customer": "ثلجة الصقر السويس",
+  "customer_code": "790",
+  "total_qty": 435.0,
+  "invoice_total": 15262.5,
+  "paid": 0.0,
+  "remaining": 15262.5,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 225.0,
+    "line_total": 6120.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 75.0,
+    "line_total": 2167.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "108",
+    "name": "سجق الهنا 350",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 75.0,
+    "line_total": 2295.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "2",
+    "name": "كبده اسكندرانى 400 ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 60.0,
+    "line_total": 4680.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 9,
+  "invoice_no": "B1966",
+  "date": "2026/6/7",
+  "customer": "ثلجة الصقر السويس",
+  "customer_code": "790",
+  "total_qty": 16.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 15.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "114",
+    "name": "كفته ابو هاشم 800",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 1.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 10,
+  "invoice_no": "B1967",
+  "date": "2026/6/8",
+  "customer": "رمضان سقارة ايمن فارس",
+  "customer_code": "885",
+  "total_qty": 276.0,
+  "invoice_total": 10643.7,
+  "paid": 0.0,
+  "remaining": 10643.7,
+  "items": [
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 75.0,
+    "line_total": 2167.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 105.0,
+    "line_total": 2856.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 36.0,
+    "line_total": 2050.2,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 60.0,
+    "line_total": 3570.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 11,
+  "invoice_no": "B1968",
+  "date": "2026/6/8",
+  "customer": "رمضان سقارة ايمن فارس",
+  "customer_code": "885",
+  "total_qty": 45.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 45.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 12,
+  "invoice_no": "B1969",
+  "date": "2026/6/8",
+  "customer": "ثلجة المهندس م سعيد",
+  "customer_code": "817",
+  "total_qty": 339.0,
+  "invoice_total": 13805.7,
+  "paid": 0.0,
+  "remaining": 13805.7,
+  "items": [
+   {
+    "item_code": "108",
+    "name": "سجق الهنا 350",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 30.0,
+    "line_total": 918.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 120.0,
+    "line_total": 3264.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 96.0,
+    "line_total": 5467.2,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 45.0,
+    "line_total": 1300.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 48.0,
+    "line_total": 2856.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 13,
+  "invoice_no": "B1970",
+  "date": "2026/6/8",
+  "customer": "ثلجة المهندس م سعيد",
+  "customer_code": "817",
+  "total_qty": 15.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 15.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 14,
+  "invoice_no": "B1971",
+  "date": "2026/6/9",
+  "customer": "جزارة السعيد م سعيد",
+  "customer_code": "784",
+  "total_qty": 42.0,
+  "invoice_total": 5405.25,
+  "paid": 0.0,
+  "remaining": 5405.25,
+  "items": [
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 12.0,
+    "line_total": 4500.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 15.0,
+    "line_total": 459.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 15.0,
+    "line_total": 446.25,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 15,
+  "invoice_no": "b1972",
+  "date": "2026/6/13",
+  "customer": "شركة العل اسكندرية",
+  "customer_code": "802",
+  "total_qty": 550.0,
+  "invoice_total": 43381.5,
+  "paid": 0.0,
+  "remaining": 43381.5,
+  "items": [
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 180.0,
+    "line_total": 11934.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 75.0,
+    "line_total": 2040.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 75.0,
+    "line_total": 2167.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 40.0,
+    "line_total": 15000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 180.0,
+    "line_total": 12240.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 16,
+  "invoice_no": "b1973",
+  "date": "2026/6/11",
+  "customer": "طارق سعيد السماعليه",
+  "customer_code": "511",
+  "total_qty": 936.0,
+  "invoice_total": 46211.1,
+  "paid": 0.0,
+  "remaining": 46211.1,
+  "items": [
+   {
+    "item_code": "420",
+    "name": "برجر الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 61.0,
+    "qty": 396.0,
+    "line_total": 20532.6,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 360.0,
+    "line_total": 20502.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 60.0,
+    "line_total": 1632.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 75.0,
+    "line_total": 2167.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "108",
+    "name": "سجق الهنا 350",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 45.0,
+    "line_total": 1377.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 17,
+  "invoice_no": "b1974",
+  "date": "2026/6/11",
+  "customer": "طارق سعيد السماعليه",
+  "customer_code": "511",
+  "total_qty": 63.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "420",
+    "name": "برجر الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 48.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 15.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 18,
+  "invoice_no": "b1975",
+  "date": "2026/6/13",
+  "customer": "شركة العل اسكندرية",
+  "customer_code": "802",
+  "total_qty": 24.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 24.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 19,
+  "invoice_no": "b1976",
+  "date": "2026/6/15",
+  "customer": "عمر صلح امبابة",
+  "customer_code": "997",
+  "total_qty": 60.0,
+  "invoice_total": 4717.2,
+  "paid": 0.0,
+  "remaining": 4717.2,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 12.0,
+    "line_total": 816.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 12.0,
+    "line_total": 795.6,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "420",
+    "name": "برجر الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 61.0,
+    "qty": 12.0,
+    "line_total": 622.2,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 12.0,
+    "line_total": 683.4,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 12.0,
+    "line_total": 1800.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 20,
+  "invoice_no": "b1977",
+  "date": "2026/6/15",
+  "customer": "مايكل العروبة",
+  "customer_code": "996",
+  "total_qty": 36.0,
+  "invoice_total": 3238.2,
+  "paid": 0.0,
+  "remaining": 3238.2,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 12.0,
+    "line_total": 816.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "420",
+    "name": "برجر الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 61.0,
+    "qty": 12.0,
+    "line_total": 622.2,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 12.0,
+    "line_total": 1800.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 21,
+  "invoice_no": "b1978",
+  "date": "2026/6/16",
+  "customer": "ثلجه النقيب ايمن فارس",
+  "customer_code": "899",
+  "total_qty": 124.0,
+  "invoice_total": 9660.0,
+  "paid": 0.0,
+  "remaining": 9660.0,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 120.0,
+    "line_total": 8160.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 4.0,
+    "line_total": 1500.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 22,
+  "invoice_no": "b1979",
+  "date": "2026/6/18",
+  "customer": "ثلجه الوادي",
+  "customer_code": "884",
+  "total_qty": 1306.0,
+  "invoice_total": 90880.0,
+  "paid": 0.0,
+  "remaining": 90880.0,
+  "items": [
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 900.0,
+    "line_total": 59670.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "398",
+    "name": "بانيه 900 جرام اسباشيل",
+    "unit": "كيس",
+    "unit_price": 62.0,
+    "qty": 380.0,
+    "line_total": 23560.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 16.0,
+    "line_total": 6000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "441",
+    "name": "استربس اسبشيال 900 جرام",
+    "unit": "كيس",
+    "unit_price": 165.0,
+    "qty": 10.0,
+    "line_total": 1650.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 23,
+  "invoice_no": "b1980",
+  "date": "2026/6/21",
+  "customer": "منفذ اسبيكو ايمن فارس",
+  "customer_code": "868",
+  "total_qty": 36.0,
+  "invoice_total": 2295.0,
+  "paid": 0.0,
+  "remaining": 2295.0,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 12.0,
+    "line_total": 816.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 12.0,
+    "line_total": 795.6,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 12.0,
+    "line_total": 683.4,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 24,
+  "invoice_no": "b1981",
+  "date": "2026/6/21",
+  "customer": "سيد عنتر",
+  "customer_code": "863",
+  "total_qty": 100.0,
+  "invoice_total": 5995.2,
+  "paid": 0.0,
+  "remaining": 5995.2,
+  "items": [
+   {
+    "item_code": "420",
+    "name": "برجر الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 61.0,
+    "qty": 12.0,
+    "line_total": 622.2,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 48.0,
+    "line_total": 2856.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 30.0,
+    "line_total": 867.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "441",
+    "name": "استربس اسبشيال 900 جرام",
+    "unit": "كيس",
+    "unit_price": 165.0,
+    "qty": 10.0,
+    "line_total": 1650.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 25,
+  "invoice_no": "b1982",
+  "date": "2026/6/18",
+  "customer": "ثلجه الوادي",
+  "customer_code": "884",
+  "total_qty": 60.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 60.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 26,
+  "invoice_no": "b1983",
+  "date": "2026/6/22",
+  "customer": "ثلجه النقيب ايمن فارس",
+  "customer_code": "899",
+  "total_qty": 40.0,
+  "invoice_total": 15000.0,
+  "paid": 0.0,
+  "remaining": 15000.0,
+  "items": [
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 40.0,
+    "line_total": 15000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 27,
+  "invoice_no": "b1984",
+  "date": "2026/6/23",
+  "customer": "ثلجة الصقر السويس",
+  "customer_code": "790",
+  "total_qty": 375.0,
+  "invoice_total": 11041.5,
+  "paid": 0.0,
+  "remaining": 11041.5,
+  "items": [
+   {
+    "item_code": "108",
+    "name": "سجق الهنا 350",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 225.0,
+    "line_total": 6885.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 105.0,
+    "line_total": 2856.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 45.0,
+    "line_total": 1300.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 28,
+  "invoice_no": "b1985",
+  "date": "2026/6/23",
+  "customer": "ثلجة الصقر السويس",
+  "customer_code": "790",
+  "total_qty": 15.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 15.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 29,
+  "invoice_no": "b1986",
+  "date": "2026/6/23",
+  "customer": "تامر الغربية",
+  "customer_code": "772",
+  "total_qty": 444.0,
+  "invoice_total": 25537.8,
+  "paid": 0.0,
+  "remaining": 25537.8,
+  "items": [
+   {
+    "item_code": "99",
+    "name": "سجق الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 73.0,
+    "qty": 132.0,
+    "line_total": 8190.6,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 84.0,
+    "line_total": 4783.8,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "420",
+    "name": "برجر الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 61.0,
+    "qty": 84.0,
+    "line_total": 4355.4,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.0,
+    "qty": 144.0,
+    "line_total": 8208.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 30,
+  "invoice_no": "b1987",
+  "date": "2026/6/23",
+  "customer": "تامر الغربية",
+  "customer_code": "772",
+  "total_qty": 24.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "420",
+    "name": "برجر الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 12.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 12.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 31,
+  "invoice_no": "b1988",
+  "date": "2026/6/25",
+  "customer": "عمر صلح امبابة",
+  "customer_code": "997",
+  "total_qty": 24.0,
+  "invoice_total": 1632.0,
+  "paid": 0.0,
+  "remaining": 1632.0,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 24.0,
+    "line_total": 1632.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 32,
+  "invoice_no": "b1989",
+  "date": "2026/6/25",
+  "customer": "جزارة السعيد م سعيد",
+  "customer_code": "784",
+  "total_qty": 40.0,
+  "invoice_total": 15000.0,
+  "paid": 0.0,
+  "remaining": 15000.0,
+  "items": [
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 40.0,
+    "line_total": 15000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 33,
+  "invoice_no": "b2018",
+  "date": "2026/6/10",
+  "customer": "احمد صلح المنيا",
+  "customer_code": "710",
+  "total_qty": 1067.0,
+  "invoice_total": 89685.5,
+  "paid": 0.0,
+  "remaining": 89685.5,
+  "items": [
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 525.0,
+    "line_total": 16065.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "405",
+    "name": "سجق اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 39.0,
+    "qty": 150.0,
+    "line_total": 4972.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 120.0,
+    "line_total": 7956.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 60.0,
+    "line_total": 4080.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 120.0,
+    "line_total": 45000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 20.0,
+    "line_total": 7400.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 58.5,
+    "qty": 72.0,
+    "line_total": 4212.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 34,
+  "invoice_no": "b2049",
+  "date": "2026/6/10",
+  "customer": "عميل نقدى",
+  "customer_code": "1",
+  "total_qty": 1.0,
+  "invoice_total": 150.0,
+  "paid": 150.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 1.0,
+    "line_total": 150.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 35,
+  "invoice_no": "b2085",
+  "date": "2026/6/3",
+  "customer": "بروتين القصبجي امام",
+  "customer_code": "898",
+  "total_qty": 270.0,
+  "invoice_total": 11194.5,
+  "paid": 0.0,
+  "remaining": 11194.5,
+  "items": [
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 60.0,
+    "line_total": 3570.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 75.0,
+    "line_total": 2167.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 60.0,
+    "line_total": 3417.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 75.0,
+    "line_total": 2040.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 36,
+  "invoice_no": "b2086",
+  "date": "2026/6/3",
+  "customer": "م العزالى م امام",
+  "customer_code": "786",
+  "total_qty": 270.0,
+  "invoice_total": 9460.5,
+  "paid": 0.0,
+  "remaining": 9460.5,
+  "items": [
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 60.0,
+    "line_total": 3570.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 105.0,
+    "line_total": 3034.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 105.0,
+    "line_total": 2856.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 37,
+  "invoice_no": "b2087",
+  "date": "2026/6/3",
+  "customer": "المحل ابو هاشم",
+  "customer_code": "10",
+  "total_qty": 20.0,
+  "invoice_total": 1340.0,
+  "paid": 0.0,
+  "remaining": 1340.0,
+  "items": [
+   {
+    "item_code": "2",
+    "name": "كبده اسكندرانى 400",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 20.0,
+    "line_total": 1340.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 38,
+  "invoice_no": "b2088",
+  "date": "2026/6/4",
+  "customer": "المحل ابو هاشم",
+  "customer_code": "10",
+  "total_qty": 20.0,
+  "invoice_total": 1340.0,
+  "paid": 0.0,
+  "remaining": 1340.0,
+  "items": [
+   {
+    "item_code": "2",
+    "name": "كبده اسكندرانى 400",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 20.0,
+    "line_total": 1340.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 39,
+  "invoice_no": "B2090",
+  "date": "2026/6/6",
+  "customer": "م العزالى م امام",
+  "customer_code": "786",
+  "total_qty": 306.0,
+  "invoice_total": 11449.5,
+  "paid": 0.0,
+  "remaining": 11449.5,
+  "items": [
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 105.0,
+    "line_total": 3034.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 105.0,
+    "line_total": 2856.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 60.0,
+    "line_total": 3417.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 36.0,
+    "line_total": 2142.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 40,
+  "invoice_no": "B2091",
+  "date": "2026/6/6",
+  "customer": "ثلجة الرضا",
+  "customer_code": "684",
+  "total_qty": 93.0,
+  "invoice_total": 4049.4,
+  "paid": 0.0,
+  "remaining": 4049.4,
+  "items": [
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 36.0,
+    "line_total": 2142.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 12.0,
+    "line_total": 683.4,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 45.0,
+    "line_total": 1224.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 41,
+  "invoice_no": "B2092",
+  "date": "2026/6/7",
+  "customer": "ثلجه المهندس",
+  "customer_code": "460",
+  "total_qty": 300.0,
+  "invoice_total": 17085.0,
+  "paid": 0.0,
+  "remaining": 17085.0,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 300.0,
+    "line_total": 17085.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 42,
+  "invoice_no": "B2094",
+  "date": "2026/6/7",
+  "customer": "المحل ابو هاشم",
+  "customer_code": "10",
+  "total_qty": 37.5,
+  "invoice_total": 4535.0,
+  "paid": 0.0,
+  "remaining": 4535.0,
+  "items": [
+   {
+    "item_code": "1",
+    "name": "مفروم صافى 400 جم ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 82.8,
+    "qty": 30.0,
+    "line_total": 2484.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "33",
+    "name": "كيلو مفروم هندى",
+    "unit": "كيلو",
+    "unit_price": 262.0,
+    "qty": 5.5,
+    "line_total": 1441.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 305.0,
+    "qty": 2.0,
+    "line_total": 610.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 43,
+  "invoice_no": "B2095",
+  "date": "2026/6/8",
+  "customer": "م فوزى",
+  "customer_code": "693",
+  "total_qty": 40.0,
+  "invoice_total": 15000.0,
+  "paid": 0.0,
+  "remaining": 15000.0,
+  "items": [
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 40.0,
+    "line_total": 15000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 44,
+  "invoice_no": "b2096",
+  "date": "2026/6/14",
+  "customer": "الدوليه",
+  "customer_code": "962",
+  "total_qty": 737.0,
+  "invoice_total": 52103.0,
+  "paid": 0.0,
+  "remaining": 52103.0,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 75.0,
+    "line_total": 2040.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 375.0,
+    "line_total": 11475.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 96.0,
+    "line_total": 6528.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 180.0,
+    "line_total": 27000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "435",
+    "name": "عجينة بقرى 5 ك",
+    "unit": "كيلو",
+    "unit_price": 460.0,
+    "qty": 11.0,
+    "line_total": 5060.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 45,
+  "invoice_no": "b2097",
+  "date": "2026/6/14",
+  "customer": "المحل ابو هاشم",
+  "customer_code": "10",
+  "total_qty": 78.0,
+  "invoice_total": 5632.3,
+  "paid": 0.0,
+  "remaining": 5632.3,
+  "items": [
+   {
+    "item_code": "2",
+    "name": "كبده اسكندرانى 400 ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 30.0,
+    "line_total": 2010.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "7",
+    "name": "سجق 350 جم ابو هاشم",
+    "unit": "طبق",
+    "unit_price": 40.05,
+    "qty": 10.0,
+    "line_total": 400.5,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "107",
+    "name": "سجق 800 ابو هاشم",
+    "unit": "طبق",
+    "unit_price": 86.0,
+    "qty": 20.0,
+    "line_total": 1720.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "114",
+    "name": "كفته ابو هاشم 800",
+    "unit": "طبق",
+    "unit_price": 69.5,
+    "qty": 10.0,
+    "line_total": 695.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "8",
+    "name": "كفته 350 جم ابو هاشم",
+    "unit": "طبق",
+    "unit_price": 32.8,
+    "qty": 6.0,
+    "line_total": 196.8,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 305.0,
+    "qty": 2.0,
+    "line_total": 610.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 46,
+  "invoice_no": "B2098",
+  "date": "2026/6/15",
+  "customer": "البوب",
+  "customer_code": "36",
+  "total_qty": 336.0,
+  "invoice_total": 56008.2,
+  "paid": 0.0,
+  "remaining": 56008.2,
+  "items": [
+   {
+    "item_code": "80",
+    "name": "برجر 1200 جم",
+    "unit": "طبق",
+    "unit_price": 165.0,
+    "qty": 162.0,
+    "line_total": 24057.0,
+    "discount_pct": 10.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "255",
+    "name": "برجر ابو هاشم جامبو 1.5 كيلو",
+    "unit": "طبق",
+    "unit_price": 200.0,
+    "qty": 54.0,
+    "line_total": 9720.0,
+    "discount_pct": 10.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "107",
+    "name": "سجق 800 ابو هاشم",
+    "unit": "طبق",
+    "unit_price": 132.0,
+    "qty": 32.0,
+    "line_total": 3801.6,
+    "discount_pct": 10.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "114",
+    "name": "كفته ابو هاشم 800",
+    "unit": "طبق",
+    "unit_price": 117.0,
+    "qty": 32.0,
+    "line_total": 3369.6,
+    "discount_pct": 10.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 36.0,
+    "line_total": 13500.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "2",
+    "name": "كبده اسكندرانى 400 ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 20.0,
+    "line_total": 1560.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 47,
+  "invoice_no": "B2099",
+  "date": "2026/6/15",
+  "customer": "احمد العبد شعبان",
+  "customer_code": "837",
+  "total_qty": 32.0,
+  "invoice_total": 12000.0,
+  "paid": 0.0,
+  "remaining": 12000.0,
+  "items": [
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 32.0,
+    "line_total": 12000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 48,
+  "invoice_no": "B2100",
+  "date": "2026/6/15",
+  "customer": "سامح توفيق",
+  "customer_code": "47",
+  "total_qty": 52.0,
+  "invoice_total": 19500.0,
+  "paid": 0.0,
+  "remaining": 19500.0,
+  "items": [
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 52.0,
+    "line_total": 19500.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 49,
+  "invoice_no": "b2118",
+  "date": "2026/6/2",
+  "customer": "م السوهاجى",
+  "customer_code": "864",
+  "total_qty": 50.0,
+  "invoice_total": 3543.6,
+  "paid": 0.0,
+  "remaining": 3543.6,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 12.0,
+    "line_total": 723.6,
+    "discount_pct": 10.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.5,
+    "qty": 36.0,
+    "line_total": 2070.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 375.0,
+    "qty": 2.0,
+    "line_total": 750.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 50,
+  "invoice_no": "b2119",
+  "date": "2026/6/3",
+  "customer": "عميل نقدى",
+  "customer_code": "1",
+  "total_qty": 2.0,
+  "invoice_total": 560.0,
+  "paid": 560.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "33",
+    "name": "كيلو مفروم هندى",
+    "unit": "كيلو",
+    "unit_price": 280.0,
+    "qty": 2.0,
+    "line_total": 560.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 51,
+  "invoice_no": "b2120",
+  "date": "2026/6/4",
+  "customer": "م السوهاجى",
+  "customer_code": "864",
+  "total_qty": 12.0,
+  "invoice_total": 756.0,
+  "paid": 0.0,
+  "remaining": 756.0,
+  "items": [
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 12.0,
+    "line_total": 756.0,
+    "discount_pct": 10.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 52,
+  "invoice_no": "B2122",
+  "date": "2026/6/7",
+  "customer": "مطعم السوري",
+  "customer_code": "621",
+  "total_qty": 12.0,
+  "invoice_total": 723.6,
+  "paid": 0.0,
+  "remaining": 723.6,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 12.0,
+    "line_total": 723.6,
+    "discount_pct": 10.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 53,
+  "invoice_no": "B2123",
+  "date": "2026/6/7",
+  "customer": "م السوهاجى",
+  "customer_code": "864",
+  "total_qty": 60.0,
+  "invoice_total": 3517.2,
+  "paid": 0.0,
+  "remaining": 3517.2,
+  "items": [
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.5,
+    "qty": 36.0,
+    "line_total": 2070.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 24.0,
+    "line_total": 1447.2,
+    "discount_pct": 10.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 54,
+  "invoice_no": "B2124",
+  "date": "2026/6/7",
+  "customer": "عميل نقدى",
+  "customer_code": "1",
+  "total_qty": 1.0,
+  "invoice_total": 115.0,
+  "paid": 115.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "114",
+    "name": "كفته ابو هاشم 800",
+    "unit": "طبق",
+    "unit_price": 115.0,
+    "qty": 1.0,
+    "line_total": 115.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 55,
+  "invoice_no": "B2125",
+  "date": "2026/6/7",
+  "customer": "عميل نقدى",
+  "customer_code": "1",
+  "total_qty": 1.0,
+  "invoice_total": 110.0,
+  "paid": 110.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "114",
+    "name": "كفته ابو هاشم 800",
+    "unit": "طبق",
+    "unit_price": 110.0,
+    "qty": 1.0,
+    "line_total": 110.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 56,
+  "invoice_no": "B2126",
+  "date": "2026/6/9",
+  "customer": "م السوهاجى",
+  "customer_code": "864",
+  "total_qty": 12.0,
+  "invoice_total": 756.0,
+  "paid": 0.0,
+  "remaining": 756.0,
+  "items": [
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 12.0,
+    "line_total": 756.0,
+    "discount_pct": 10.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 57,
+  "invoice_no": "b2127",
+  "date": "2026/6/10",
+  "customer": "مطعم السوري",
+  "customer_code": "621",
+  "total_qty": 1.0,
+  "invoice_total": 150.0,
+  "paid": 0.0,
+  "remaining": 150.0,
+  "items": [
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 1.0,
+    "line_total": 150.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 58,
+  "invoice_no": "b2128",
+  "date": "2026/6/10",
+  "customer": "عميل نقدى",
+  "customer_code": "1",
+  "total_qty": 1.0,
+  "invoice_total": 150.0,
+  "paid": 0.0,
+  "remaining": 150.0,
+  "items": [
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 1.0,
+    "line_total": 150.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 59,
+  "invoice_no": "b2129",
+  "date": "2026/6/10",
+  "customer": "عميل نقدى",
+  "customer_code": "1",
+  "total_qty": 1.0,
+  "invoice_total": 150.0,
+  "paid": 150.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 1.0,
+    "line_total": 150.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 60,
+  "invoice_no": "b2130",
+  "date": "2026/6/11",
+  "customer": "عميل نقدى",
+  "customer_code": "1",
+  "total_qty": 4.0,
+  "invoice_total": 705.0,
+  "paid": 705.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 1.0,
+    "line_total": 375.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "255",
+    "name": "برجر ابو هاشم جامبو 1.5 كيلو",
+    "unit": "طبق",
+    "unit_price": 180.0,
+    "qty": 1.0,
+    "line_total": 180.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "2",
+    "name": "كبده اسكندرانى 400 ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 75.0,
+    "qty": 2.0,
+    "line_total": 150.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 61,
+  "invoice_no": "b2131",
+  "date": "2026/6/11",
+  "customer": "مطعم السوري",
+  "customer_code": "621",
+  "total_qty": 84.0,
+  "invoice_total": 7116.0,
+  "paid": 0.0,
+  "remaining": 7116.0,
+  "items": [
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.5,
+    "qty": 48.0,
+    "line_total": 2760.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 24.0,
+    "line_total": 3600.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 12.0,
+    "line_total": 756.0,
+    "discount_pct": 10.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 62,
+  "invoice_no": "b2132",
+  "date": "2026/6/11",
+  "customer": "المحل ابو هاشم",
+  "customer_code": "10",
+  "total_qty": 11.0,
+  "invoice_total": 2210.0,
+  "paid": 0.0,
+  "remaining": 2210.0,
+  "items": [
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 6.0,
+    "line_total": 900.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "33",
+    "name": "كيلو مفروم هندى",
+    "unit": "كيلو",
+    "unit_price": 262.0,
+    "qty": 5.0,
+    "line_total": 1310.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 63,
+  "invoice_no": "b2133",
+  "date": "2026/6/13",
+  "customer": "م السوهاجى",
+  "customer_code": "864",
+  "total_qty": 2.0,
+  "invoice_total": 750.0,
+  "paid": 0.0,
+  "remaining": 750.0,
+  "items": [
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 375.0,
+    "qty": 2.0,
+    "line_total": 750.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 64,
+  "invoice_no": "b2134",
+  "date": "2026/6/14",
+  "customer": "عميل نقدى",
+  "customer_code": "1",
+  "total_qty": 1.0,
+  "invoice_total": 150.0,
+  "paid": 150.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 1.0,
+    "line_total": 150.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 65,
+  "invoice_no": "b2135",
+  "date": "2026/6/14",
+  "customer": "عميل نقدى",
+  "customer_code": "1",
+  "total_qty": 6.0,
+  "invoice_total": 1275.0,
+  "paid": 1275.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 3.0,
+    "line_total": 450.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "33",
+    "name": "كيلو مفروم هندى",
+    "unit": "كيلو",
+    "unit_price": 275.0,
+    "qty": 3.0,
+    "line_total": 825.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 66,
+  "invoice_no": "b2136",
+  "date": "2026/6/14",
+  "customer": "عميل نقدى",
+  "customer_code": "1",
+  "total_qty": 2.0,
+  "invoice_total": 300.0,
+  "paid": 300.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 2.0,
+    "line_total": 300.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 67,
+  "invoice_no": "b2137",
+  "date": "2026/6/15",
+  "customer": "عميل نقدى",
+  "customer_code": "1",
+  "total_qty": 3.0,
+  "invoice_total": 360.0,
+  "paid": 360.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "440",
+    "name": "استربس الهنا 1 كيلو",
+    "unit": "كيلو",
+    "unit_price": 120.0,
+    "qty": 3.0,
+    "line_total": 360.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 68,
+  "invoice_no": "b2138",
+  "date": "2026/6/15",
+  "customer": "عميل نقدى",
+  "customer_code": "1",
+  "total_qty": 2.0,
+  "invoice_total": 300.0,
+  "paid": 300.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 2.0,
+    "line_total": 300.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 69,
+  "invoice_no": "b2139",
+  "date": "2026/6/17",
+  "customer": "عميل نقدى",
+  "customer_code": "1",
+  "total_qty": 6.0,
+  "invoice_total": 430.0,
+  "paid": 430.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.0,
+    "qty": 2.0,
+    "line_total": 114.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 2.0,
+    "line_total": 156.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 2.0,
+    "line_total": 160.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 70,
+  "invoice_no": "b2140",
+  "date": "2026/6/17",
+  "customer": "م السوهاجى",
+  "customer_code": "864",
+  "total_qty": 24.0,
+  "invoice_total": 1380.0,
+  "paid": 0.0,
+  "remaining": 1380.0,
+  "items": [
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.5,
+    "qty": 24.0,
+    "line_total": 1380.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 71,
+  "invoice_no": "b2141",
+  "date": "2026/6/17",
+  "customer": "م السوهاجى",
+  "customer_code": "864",
+  "total_qty": 10.0,
+  "invoice_total": 1650.0,
+  "paid": 0.0,
+  "remaining": 1650.0,
+  "items": [
+   {
+    "item_code": "441",
+    "name": "استربس اسبشيال 900 جرام",
+    "unit": "كيس",
+    "unit_price": 165.0,
+    "qty": 10.0,
+    "line_total": 1650.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 72,
+  "invoice_no": "b2142",
+  "date": "2026/6/24",
+  "customer": "عميل نقدى",
+  "customer_code": "1",
+  "total_qty": 1.0,
+  "invoice_total": 70.0,
+  "paid": 70.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "99",
+    "name": "سجق الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 1.0,
+    "line_total": 70.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 73,
+  "invoice_no": "b2143",
+  "date": "2026/6/18",
+  "customer": "عميل نقدى",
+  "customer_code": "1",
+  "total_qty": 2.0,
+  "invoice_total": 150.0,
+  "paid": 150.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "2",
+    "name": "كبده اسكندرانى 400 ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 75.0,
+    "qty": 2.0,
+    "line_total": 150.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 74,
+  "invoice_no": "b2144",
+  "date": "2026/6/18",
+  "customer": "عميل نقدى",
+  "customer_code": "1",
+  "total_qty": 1.0,
+  "invoice_total": 180.0,
+  "paid": 180.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "255",
+    "name": "برجر ابو هاشم جامبو 1.5 كيلو",
+    "unit": "طبق",
+    "unit_price": 180.0,
+    "qty": 1.0,
+    "line_total": 180.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 75,
+  "invoice_no": "b2145",
+  "date": "2026/6/17",
+  "customer": "مطعم السوري",
+  "customer_code": "621",
+  "total_qty": 46.0,
+  "invoice_total": 3720.0,
+  "paid": 0.0,
+  "remaining": 3720.0,
+  "items": [
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.5,
+    "qty": 36.0,
+    "line_total": 2070.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "441",
+    "name": "استربس اسبشيال 900 جرام",
+    "unit": "كيس",
+    "unit_price": 165.0,
+    "qty": 10.0,
+    "line_total": 1650.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 76,
+  "invoice_no": "b2146",
+  "date": "2026/6/17",
+  "customer": "م السوهاجى",
+  "customer_code": "864",
+  "total_qty": 24.0,
+  "invoice_total": 1479.6,
+  "paid": 0.0,
+  "remaining": 1479.6,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 12.0,
+    "line_total": 723.6,
+    "discount_pct": 10.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 12.0,
+    "line_total": 756.0,
+    "discount_pct": 10.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 77,
+  "invoice_no": "b2148",
+  "date": "2026/6/24",
+  "customer": "م السوهاجى",
+  "customer_code": "864",
+  "total_qty": 49.0,
+  "invoice_total": 3234.6,
+  "paid": 0.0,
+  "remaining": 3234.6,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 12.0,
+    "line_total": 723.6,
+    "discount_pct": 10.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 12.0,
+    "line_total": 756.0,
+    "discount_pct": 10.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.5,
+    "qty": 24.0,
+    "line_total": 1380.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 375.0,
+    "qty": 1.0,
+    "line_total": 375.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 78,
+  "invoice_no": "b2149",
+  "date": "2026/6/27",
+  "customer": "عميل نقدى",
+  "customer_code": "1",
+  "total_qty": 1.0,
+  "invoice_total": 150.0,
+  "paid": 150.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 1.0,
+    "line_total": 150.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 79,
+  "invoice_no": "b2150",
+  "date": "2026/6/27",
+  "customer": "مطعم السوري",
+  "customer_code": "621",
+  "total_qty": 34.0,
+  "invoice_total": 2870.0,
+  "paid": 0.0,
+  "remaining": 2870.0,
+  "items": [
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 55.0,
+    "qty": 24.0,
+    "line_total": 1320.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "447",
+    "name": "استربس الهنا 900 جرام",
+    "unit": "كيس",
+    "unit_price": 155.0,
+    "qty": 10.0,
+    "line_total": 1550.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 80,
+  "invoice_no": "b2166",
+  "date": "2026/6/2",
+  "customer": "تامر الغربية",
+  "customer_code": "772",
+  "total_qty": 300.0,
+  "invoice_total": 17911.2,
+  "paid": 0.0,
+  "remaining": 17911.2,
+  "items": [
+   {
+    "item_code": "99",
+    "name": "سجق الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 73.0,
+    "qty": 120.0,
+    "line_total": 7446.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 84.0,
+    "line_total": 4998.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 96.0,
+    "line_total": 5467.2,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 81,
+  "invoice_no": "b2167",
+  "date": "2026/6/2",
+  "customer": "تامر الغربية",
+  "customer_code": "772",
+  "total_qty": 12.0,
+  "invoice_total": 804.0,
+  "paid": 0.0,
+  "remaining": 804.0,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 12.0,
+    "line_total": 804.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 82,
+  "invoice_no": "b2224",
+  "date": "2026/6/2",
+  "customer": "شركة الطويل كرداسة",
+  "customer_code": "977",
+  "total_qty": 23.0,
+  "invoice_total": 4880.0,
+  "paid": 0.0,
+  "remaining": 4880.0,
+  "items": [
+   {
+    "item_code": "435",
+    "name": "عجينة بقرى 5 ك",
+    "unit": "كيلو",
+    "unit_price": 460.0,
+    "qty": 6.0,
+    "line_total": 2760.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 4.0,
+    "line_total": 1500.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "398",
+    "name": "بانيه 900 جرام اسباشيل",
+    "unit": "كيس",
+    "unit_price": 62.0,
+    "qty": 10.0,
+    "line_total": 620.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "255",
+    "name": "برجر ابو هاشم جامبو 1.5 كيلو",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 1.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 1.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "114",
+    "name": "كفته ابو هاشم 800",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 1.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 83,
+  "invoice_no": "b2225",
+  "date": "2026/6/2",
+  "customer": "هايبر مكة فيصل",
+  "customer_code": "978",
+  "total_qty": 16.0,
+  "invoice_total": 3380.0,
+  "paid": 0.0,
+  "remaining": 3380.0,
+  "items": [
+   {
+    "item_code": "435",
+    "name": "عجينة بقرى 5 ك",
+    "unit": "كيلو",
+    "unit_price": 460.0,
+    "qty": 6.0,
+    "line_total": 2760.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "398",
+    "name": "بانيه 900 جرام اسباشيل",
+    "unit": "كيس",
+    "unit_price": 62.0,
+    "qty": 10.0,
+    "line_total": 620.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 84,
+  "invoice_no": "b2226",
+  "date": "2026/6/3",
+  "customer": "ثلجة ابوجزر ابوحماد",
+  "customer_code": "964",
+  "total_qty": 5.0,
+  "invoice_total": 1850.0,
+  "paid": 0.0,
+  "remaining": 1850.0,
+  "items": [
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 5.0,
+    "line_total": 1850.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 85,
+  "invoice_no": "b2227",
+  "date": "2026/6/3",
+  "customer": "ثلجة ابودياب ابوحماد",
+  "customer_code": "963",
+  "total_qty": 29.0,
+  "invoice_total": 1611.85,
+  "paid": 0.0,
+  "remaining": 1611.85,
+  "items": [
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 12.0,
+    "line_total": 795.6,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 15.0,
+    "line_total": 446.25,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 1.0,
+    "line_total": 370.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "405",
+    "name": "سجق اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 1.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 86,
+  "invoice_no": "b2228",
+  "date": "2026/6/3",
+  "customer": "ثلجة الحسن ابوحماد",
+  "customer_code": "970",
+  "total_qty": 40.0,
+  "invoice_total": 2480.0,
+  "paid": 0.0,
+  "remaining": 2480.0,
+  "items": [
+   {
+    "item_code": "398",
+    "name": "بانيه 900 جرام اسباشيل",
+    "unit": "كيس",
+    "unit_price": 62.0,
+    "qty": 40.0,
+    "line_total": 2480.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 87,
+  "invoice_no": "b2229",
+  "date": "2026/6/3",
+  "customer": "ثلجة السماعيلية فاقوس",
+  "customer_code": "979",
+  "total_qty": 112.0,
+  "invoice_total": 6820.0,
+  "paid": 0.0,
+  "remaining": 6820.0,
+  "items": [
+   {
+    "item_code": "398",
+    "name": "بانيه 900 جرام اسباشيل",
+    "unit": "كيس",
+    "unit_price": 62.0,
+    "qty": 110.0,
+    "line_total": 6820.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 2.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 88,
+  "invoice_no": "b2230",
+  "date": "2026/6/3",
+  "customer": "ثلجة الدكتور ابوكبير",
+  "customer_code": "965",
+  "total_qty": 4.0,
+  "invoice_total": 1480.0,
+  "paid": 0.0,
+  "remaining": 1480.0,
+  "items": [
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 4.0,
+    "line_total": 1480.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 89,
+  "invoice_no": "b2231",
+  "date": "2026/6/4",
+  "customer": "شركة الشريف الزقازيق",
+  "customer_code": "971",
+  "total_qty": 110.0,
+  "invoice_total": 6820.0,
+  "paid": 0.0,
+  "remaining": 6820.0,
+  "items": [
+   {
+    "item_code": "398",
+    "name": "بانيه 900 جرام اسباشيل",
+    "unit": "كيس",
+    "unit_price": 62.0,
+    "qty": 110.0,
+    "line_total": 6820.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 90,
+  "invoice_no": "B2232",
+  "date": "2026/6/6",
+  "customer": "الغمراوى المقطم السوق التجارى",
+  "customer_code": "931",
+  "total_qty": 105.0,
+  "invoice_total": 5444.25,
+  "paid": 0.0,
+  "remaining": 5444.25,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 60.0,
+    "line_total": 4080.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 30.0,
+    "line_total": 918.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 15.0,
+    "line_total": 446.25,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 91,
+  "invoice_no": "B2233",
+  "date": "2026/6/6",
+  "customer": "شركة الحرمين حسام حسن",
+  "customer_code": "980",
+  "total_qty": 270.0,
+  "invoice_total": 12584.25,
+  "paid": 0.0,
+  "remaining": 12584.25,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 60.0,
+    "line_total": 4080.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 75.0,
+    "line_total": 2295.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 60.0,
+    "line_total": 3978.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 75.0,
+    "line_total": 2231.25,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 92,
+  "invoice_no": "B2235",
+  "date": "2026/6/7",
+  "customer": "ثلجة الدكتور ابوكبير",
+  "customer_code": "965",
+  "total_qty": 15.0,
+  "invoice_total": 6360.0,
+  "paid": 0.0,
+  "remaining": 6360.0,
+  "items": [
+   {
+    "item_code": "435",
+    "name": "عجينة بقرى 5 ك",
+    "unit": "كيلو",
+    "unit_price": 460.0,
+    "qty": 9.0,
+    "line_total": 4140.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 6.0,
+    "line_total": 2220.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 93,
+  "invoice_no": "B2236",
+  "date": "2026/6/7",
+  "customer": "ثلجة ارابيسك ابوكبير",
+  "customer_code": "981",
+  "total_qty": 117.0,
+  "invoice_total": 6196.5,
+  "paid": 0.0,
+  "remaining": 6196.5,
+  "items": [
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 60.0,
+    "line_total": 3978.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 15.0,
+    "line_total": 459.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 12.0,
+    "line_total": 816.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 15.0,
+    "line_total": 446.25,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "405",
+    "name": "سجق اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 39.0,
+    "qty": 15.0,
+    "line_total": 497.25,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 94,
+  "invoice_no": "B2237",
+  "date": "2026/6/7",
+  "customer": "ثلجة ارابيسك ابوكبير",
+  "customer_code": "981",
+  "total_qty": 3.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 1.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 1.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 1.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 95,
+  "invoice_no": "B2238",
+  "date": "2026/6/8",
+  "customer": "الغمراوى المقطم السوق التجارى",
+  "customer_code": "931",
+  "total_qty": 9.0,
+  "invoice_total": 1620.0,
+  "paid": 0.0,
+  "remaining": 1620.0,
+  "items": [
+   {
+    "item_code": "255",
+    "name": "برجر ابو هاشم جامبو 1.5 كيلو",
+    "unit": "طبق",
+    "unit_price": 200.0,
+    "qty": 9.0,
+    "line_total": 1620.0,
+    "discount_pct": 10.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 96,
+  "invoice_no": "B2239",
+  "date": "2026/6/8",
+  "customer": "حسام حسن2 السلمية",
+  "customer_code": "982",
+  "total_qty": 54.0,
+  "invoice_total": 2331.49,
+  "paid": 0.0,
+  "remaining": 2331.49,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 12.0,
+    "line_total": 755.9,
+    "discount_pct": 21.26,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 15.0,
+    "line_total": 425.2,
+    "discount_pct": 21.26,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 15.0,
+    "line_total": 413.38,
+    "discount_pct": 21.26,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 12.0,
+    "line_total": 737.01,
+    "discount_pct": 21.26,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 97,
+  "invoice_no": "B2240",
+  "date": "2026/6/8",
+  "customer": "ثلجة حور طوخ",
+  "customer_code": "925",
+  "total_qty": 51.0,
+  "invoice_total": 2853.45,
+  "paid": 0.0,
+  "remaining": 2853.45,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 12.0,
+    "line_total": 816.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 15.0,
+    "line_total": 446.25,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 24.0,
+    "line_total": 1591.2,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 98,
+  "invoice_no": "B2241",
+  "date": "2026/6/8",
+  "customer": "انوار مكة البساتين",
+  "customer_code": "983",
+  "total_qty": 3.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 1.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 1.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 1.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 99,
+  "invoice_no": "B2245",
+  "date": "2026/6/9",
+  "customer": "ثلجة ابوجزر ابوحماد",
+  "customer_code": "964",
+  "total_qty": 34.0,
+  "invoice_total": 7300.0,
+  "paid": 0.0,
+  "remaining": 7300.0,
+  "items": [
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 10.0,
+    "line_total": 3700.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 24.0,
+    "line_total": 3600.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 100,
+  "invoice_no": "B2246",
+  "date": "2026/6/9",
+  "customer": "ثلجة حور طوخ",
+  "customer_code": "925",
+  "total_qty": 27.0,
+  "invoice_total": 2246.25,
+  "paid": 0.0,
+  "remaining": 2246.25,
+  "items": [
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 15.0,
+    "line_total": 446.25,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 12.0,
+    "line_total": 1800.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 101,
+  "invoice_no": "b2247",
+  "date": "2026/6/10",
+  "customer": "ثلجة البطل حلوان",
+  "customer_code": "940",
+  "total_qty": 135.0,
+  "invoice_total": 6375.0,
+  "paid": 0.0,
+  "remaining": 6375.0,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 60.0,
+    "line_total": 4080.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 75.0,
+    "line_total": 2295.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 102,
+  "invoice_no": "b2248",
+  "date": "2026/6/11",
+  "customer": "م القماش السماعيلية",
+  "customer_code": "984",
+  "total_qty": 318.0,
+  "invoice_total": 18125.4,
+  "paid": 0.0,
+  "remaining": 18125.4,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 60.0,
+    "line_total": 4080.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 60.0,
+    "line_total": 4080.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 108.0,
+    "line_total": 7160.4,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 30.0,
+    "line_total": 892.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 30.0,
+    "line_total": 918.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "405",
+    "name": "سجق اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 39.0,
+    "qty": 30.0,
+    "line_total": 994.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 103,
+  "invoice_no": "b2250",
+  "date": "2026/6/11",
+  "customer": "م القماش السماعيلية",
+  "customer_code": "984",
+  "total_qty": 24.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 12.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 12.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 104,
+  "invoice_no": "b2251",
+  "date": "2026/6/4",
+  "customer": "محمود العمده الصعيد",
+  "customer_code": "532",
+  "total_qty": 1256.0,
+  "invoice_total": 100460.0,
+  "paid": 0.0,
+  "remaining": 100460.0,
+  "items": [
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 1200.0,
+    "line_total": 79560.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 36.0,
+    "line_total": 13500.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 20.0,
+    "line_total": 7400.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 105,
+  "invoice_no": "b2252",
+  "date": "2026/6/4",
+  "customer": "ابو لطفى",
+  "customer_code": "674",
+  "total_qty": 105.0,
+  "invoice_total": 10640.8,
+  "paid": 0.0,
+  "remaining": 10640.8,
+  "items": [
+   {
+    "item_code": "107",
+    "name": "سجق 800 ابو هاشم",
+    "unit": "طبق",
+    "unit_price": 132.0,
+    "qty": 16.0,
+    "line_total": 1900.8,
+    "discount_pct": 10.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "255",
+    "name": "برجر ابو هاشم جامبو 1.5 كيلو",
+    "unit": "طبق",
+    "unit_price": 200.0,
+    "qty": 9.0,
+    "line_total": 1620.0,
+    "discount_pct": 10.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "1",
+    "name": "مفروم صافى 400 جم",
+    "unit": "طبق",
+    "unit_price": 100.0,
+    "qty": 40.0,
+    "line_total": 4000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "2",
+    "name": "كبده اسكندرانى 400",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 40.0,
+    "line_total": 3120.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 106,
+  "invoice_no": "b2253",
+  "date": "2026/6/3",
+  "customer": "احمد صلح المنيا",
+  "customer_code": "710",
+  "total_qty": 1326.0,
+  "invoice_total": 61710.0,
+  "paid": 0.0,
+  "remaining": 61710.0,
+  "items": [
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 450.0,
+    "line_total": 13770.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 225.0,
+    "line_total": 6693.75,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 240.0,
+    "line_total": 15912.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "405",
+    "name": "سجق اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 39.0,
+    "qty": 75.0,
+    "line_total": 2486.25,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 336.0,
+    "line_total": 22848.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 107,
+  "invoice_no": "b2254",
+  "date": "2026/6/3",
+  "customer": "احمد صلح المنيا",
+  "customer_code": "710",
+  "total_qty": 1320.0,
+  "invoice_total": 58752.0,
+  "paid": 0.0,
+  "remaining": 58752.0,
+  "items": [
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 360.0,
+    "line_total": 21420.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 360.0,
+    "line_total": 20502.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 300.0,
+    "line_total": 8160.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 300.0,
+    "line_total": 8670.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 108,
+  "invoice_no": "b2256",
+  "date": "2026/6/3",
+  "customer": "احمد صلح المنيا",
+  "customer_code": "710",
+  "total_qty": 450.0,
+  "invoice_total": 30540.0,
+  "paid": 0.0,
+  "remaining": 30540.0,
+  "items": [
+   {
+    "item_code": "398",
+    "name": "بانيه 900 جرام اسباشيل",
+    "unit": "كيس",
+    "unit_price": 64.0,
+    "qty": 200.0,
+    "line_total": 12800.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 58.5,
+    "qty": 240.0,
+    "line_total": 14040.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 10.0,
+    "line_total": 3700.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 109,
+  "invoice_no": "b2257",
+  "date": "2026/6/7",
+  "customer": "ابو لطفى",
+  "customer_code": "674",
+  "total_qty": 24.0,
+  "invoice_total": 2851.2,
+  "paid": 0.0,
+  "remaining": 2851.2,
+  "items": [
+   {
+    "item_code": "421",
+    "name": "برجر ابو هاشم 1 ك",
+    "unit": "طبق",
+    "unit_price": 132.0,
+    "qty": 24.0,
+    "line_total": 2851.2,
+    "discount_pct": 10.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 110,
+  "invoice_no": "B2258",
+  "date": "2026/6/8",
+  "customer": "حمادة شلبى",
+  "customer_code": "729",
+  "total_qty": 1920.0,
+  "invoice_total": 95502.6,
+  "paid": 0.0,
+  "remaining": 95502.6,
+  "items": [
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 540.0,
+    "line_total": 32130.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 564.0,
+    "line_total": 32119.8,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "99",
+    "name": "سجق الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 73.0,
+    "qty": 216.0,
+    "line_total": 13402.8,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 300.0,
+    "line_total": 8670.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "108",
+    "name": "سجق الهنا 350",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 300.0,
+    "line_total": 9180.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 111,
+  "invoice_no": "B2259",
+  "date": "2026/6/8",
+  "customer": "حمادة شلبى",
+  "customer_code": "729",
+  "total_qty": 630.0,
+  "invoice_total": 65190.0,
+  "paid": 0.0,
+  "remaining": 65190.0,
+  "items": [
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 58.5,
+    "qty": 540.0,
+    "line_total": 31590.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 30.0,
+    "line_total": 11100.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 60.0,
+    "line_total": 22500.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 112,
+  "invoice_no": "B2260",
+  "date": "2026/6/8",
+  "customer": "حمادة شلبى",
+  "customer_code": "729",
+  "total_qty": 336.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 300.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 36.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 113,
+  "invoice_no": "b2261",
+  "date": "2026/6/9",
+  "customer": "م الزينى قنا",
+  "customer_code": "968",
+  "total_qty": 600.0,
+  "invoice_total": 35241.0,
+  "paid": 0.0,
+  "remaining": 35241.0,
+  "items": [
+   {
+    "item_code": "99",
+    "name": "سجق الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 73.0,
+    "qty": 120.0,
+    "line_total": 7446.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 180.0,
+    "line_total": 10710.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 300.0,
+    "line_total": 17085.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 114,
+  "invoice_no": "b2263",
+  "date": "2026/6/9",
+  "customer": "ميكس فود",
+  "customer_code": "677",
+  "total_qty": 5436.0,
+  "invoice_total": 266000.7,
+  "paid": 0.0,
+  "remaining": 266000.7,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 990.0,
+    "line_total": 26928.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "108",
+    "name": "سجق الهنا 350",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 375.0,
+    "line_total": 11475.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 1956.0,
+    "line_total": 111394.2,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 315.0,
+    "line_total": 9103.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 1800.0,
+    "line_total": 107100.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 115,
+  "invoice_no": "b2264",
+  "date": "2026/6/9",
+  "customer": "ميكس فود",
+  "customer_code": "677",
+  "total_qty": 750.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 750.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 116,
+  "invoice_no": "b2265",
+  "date": "2026/6/14",
+  "customer": "حمادة شلبى",
+  "customer_code": "729",
+  "total_qty": 120.0,
+  "invoice_total": 18000.0,
+  "paid": 0.0,
+  "remaining": 18000.0,
+  "items": [
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 120.0,
+    "line_total": 18000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 117,
+  "invoice_no": "b2266",
+  "date": "2026/6/15",
+  "customer": "مصطفى عبدالمجيد",
+  "customer_code": "922",
+  "total_qty": 655.0,
+  "invoice_total": 70916.0,
+  "paid": 0.0,
+  "remaining": 70916.0,
+  "items": [
+   {
+    "item_code": "1",
+    "name": "مفروم صافى 400 جم ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 100.0,
+    "qty": 200.0,
+    "line_total": 20000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "2",
+    "name": "كبده اسكندرانى 400 ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 200.0,
+    "line_total": 15600.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "8",
+    "name": "كفته 350 جم ابو هاشم",
+    "unit": "طبق",
+    "unit_price": 56.0,
+    "qty": 60.0,
+    "line_total": 3360.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "114",
+    "name": "كفته ابو هاشم 800",
+    "unit": "طبق",
+    "unit_price": 117.0,
+    "qty": 32.0,
+    "line_total": 3744.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "421",
+    "name": "برجر ابو هاشم 1 ك",
+    "unit": "طبق",
+    "unit_price": 132.0,
+    "qty": 36.0,
+    "line_total": 4752.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "255",
+    "name": "برجر ابو هاشم جامبو 1.5 كيلو",
+    "unit": "طبق",
+    "unit_price": 200.0,
+    "qty": 27.0,
+    "line_total": 5400.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "107",
+    "name": "سجق 800 ابو هاشم",
+    "unit": "طبق",
+    "unit_price": 132.0,
+    "qty": 80.0,
+    "line_total": 10560.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 20.0,
+    "line_total": 7500.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 118,
+  "invoice_no": "b2267",
+  "date": "2026/6/15",
+  "customer": "مصطفى عبدالمجيد",
+  "customer_code": "922",
+  "total_qty": 2178.0,
+  "invoice_total": 82140.6,
+  "paid": 0.0,
+  "remaining": 82140.6,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 324.0,
+    "line_total": 22032.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 210.0,
+    "line_total": 6426.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "405",
+    "name": "سجق اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 39.0,
+    "qty": 375.0,
+    "line_total": 12431.25,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "406",
+    "name": "سجق اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 84.0,
+    "qty": 84.0,
+    "line_total": 5997.6,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 1185.0,
+    "line_total": 35253.75,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 119,
+  "invoice_no": "b2268",
+  "date": "2026/6/15",
+  "customer": "مصطفى عبدالمجيد",
+  "customer_code": "922",
+  "total_qty": 180.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 90.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 90.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 120,
+  "invoice_no": "b2269",
+  "date": "2026/6/15",
+  "customer": "مصطفى عبدالمجيد",
+  "customer_code": "922",
+  "total_qty": 420.0,
+  "invoice_total": 63000.0,
+  "paid": 0.0,
+  "remaining": 63000.0,
+  "items": [
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 420.0,
+    "line_total": 63000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 121,
+  "invoice_no": "b2270",
+  "date": "2026/6/15",
+  "customer": "مصطفى ابو الدهب بنى سويف",
+  "customer_code": "714",
+  "total_qty": 2226.0,
+  "invoice_total": 68758.2,
+  "paid": 0.0,
+  "remaining": 68758.2,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 750.0,
+    "line_total": 20400.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 720.0,
+    "line_total": 20808.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "108",
+    "name": "سجق الهنا 350",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 600.0,
+    "line_total": 18360.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 72.0,
+    "line_total": 4284.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 60.0,
+    "line_total": 3417.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "99",
+    "name": "سجق الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 73.0,
+    "qty": 24.0,
+    "line_total": 1489.2,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 122,
+  "invoice_no": "b2271",
+  "date": "2026/6/15",
+  "customer": "مصطفى ابو الدهب بنى سويف",
+  "customer_code": "714",
+  "total_qty": 180.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 180.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 123,
+  "invoice_no": "b2272",
+  "date": "2026/6/15",
+  "customer": "مصطفى ابو الدهب بنى سويف",
+  "customer_code": "714",
+  "total_qty": 436.0,
+  "invoice_total": 48906.0,
+  "paid": 0.0,
+  "remaining": 48906.0,
+  "items": [
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 52.0,
+    "line_total": 19500.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "421",
+    "name": "برجر ابو هاشم 1 ك",
+    "unit": "طبق",
+    "unit_price": 119.0,
+    "qty": 24.0,
+    "line_total": 2856.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 60.0,
+    "line_total": 9000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 58.5,
+    "qty": 300.0,
+    "line_total": 17550.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 124,
+  "invoice_no": "b2273",
+  "date": "2026/6/15",
+  "customer": "مصطفى ابو الدهب بنى سويف",
+  "customer_code": "714",
+  "total_qty": 54.0,
+  "invoice_total": 2550.0,
+  "paid": 0.0,
+  "remaining": 2550.0,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 24.0,
+    "line_total": 1632.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 30.0,
+    "line_total": 918.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 125,
+  "invoice_no": "b2274",
+  "date": "2026/6/17",
+  "customer": "محمود صبحي",
+  "customer_code": "887",
+  "total_qty": 96.0,
+  "invoice_total": 8564.0,
+  "paid": 0.0,
+  "remaining": 8564.0,
+  "items": [
+   {
+    "item_code": "1",
+    "name": "مفروم صافى 400 جم ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 100.0,
+    "qty": 40.0,
+    "line_total": 4000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "2",
+    "name": "كبده اسكندرانى 400 ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 20.0,
+    "line_total": 1560.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "7",
+    "name": "سجق 350 جم ابو هاشم",
+    "unit": "طبق",
+    "unit_price": 55.0,
+    "qty": 20.0,
+    "line_total": 1100.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "107",
+    "name": "سجق 800 ابو هاشم",
+    "unit": "طبق",
+    "unit_price": 119.0,
+    "qty": 16.0,
+    "line_total": 1904.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 126,
+  "invoice_no": "b2275",
+  "date": "2026/6/17",
+  "customer": "هايبر كنده شعبان",
+  "customer_code": "882",
+  "total_qty": 42.0,
+  "invoice_total": 3988.0,
+  "paid": 0.0,
+  "remaining": 3988.0,
+  "items": [
+   {
+    "item_code": "2",
+    "name": "كبده اسكندرانى 400 ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 20.0,
+    "line_total": 1560.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "421",
+    "name": "برجر ابو هاشم 1 ك",
+    "unit": "طبق",
+    "unit_price": 119.0,
+    "qty": 12.0,
+    "line_total": 1428.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "1",
+    "name": "مفروم صافى 400 جم ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 100.0,
+    "qty": 10.0,
+    "line_total": 1000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 127,
+  "invoice_no": "b2276",
+  "date": "2026/6/17",
+  "customer": "ابو لطفى",
+  "customer_code": "674",
+  "total_qty": 202.0,
+  "invoice_total": 18408.0,
+  "paid": 0.0,
+  "remaining": 18408.0,
+  "items": [
+   {
+    "item_code": "2",
+    "name": "كبده اسكندرانى 400 ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 60.0,
+    "line_total": 4680.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "1",
+    "name": "مفروم صافى 400 جم ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 100.0,
+    "qty": 40.0,
+    "line_total": 4000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "114",
+    "name": "كفته ابو هاشم 800",
+    "unit": "طبق",
+    "unit_price": 105.5,
+    "qty": 16.0,
+    "line_total": 1688.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "107",
+    "name": "سجق 800 ابو هاشم",
+    "unit": "طبق",
+    "unit_price": 119.0,
+    "qty": 16.0,
+    "line_total": 1904.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "7",
+    "name": "سجق 350 جم ابو هاشم",
+    "unit": "طبق",
+    "unit_price": 55.0,
+    "qty": 40.0,
+    "line_total": 2200.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "421",
+    "name": "برجر ابو هاشم 1 ك",
+    "unit": "طبق",
+    "unit_price": 119.0,
+    "qty": 24.0,
+    "line_total": 2856.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "255",
+    "name": "برجر ابو هاشم جامبو 1.5 كيلو",
+    "unit": "طبق",
+    "unit_price": 180.0,
+    "qty": 6.0,
+    "line_total": 1080.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 128,
+  "invoice_no": "b2279",
+  "date": "2026/6/21",
+  "customer": "احمد صلح المنيا",
+  "customer_code": "710",
+  "total_qty": 60.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 60.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 129,
+  "invoice_no": "b2280",
+  "date": "2026/6/21",
+  "customer": "احمد صلح المنيا",
+  "customer_code": "710",
+  "total_qty": 675.0,
+  "invoice_total": 31709.25,
+  "paid": 0.0,
+  "remaining": 31709.25,
+  "items": [
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 300.0,
+    "line_total": 8925.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 240.0,
+    "line_total": 16320.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "405",
+    "name": "سجق اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 39.0,
+    "qty": 75.0,
+    "line_total": 2486.25,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 60.0,
+    "line_total": 3978.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 130,
+  "invoice_no": "b2281",
+  "date": "2026/6/21",
+  "customer": "احمد صلح المنيا",
+  "customer_code": "710",
+  "total_qty": 60.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 60.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 131,
+  "invoice_no": "b2283",
+  "date": "2026/6/21",
+  "customer": "محمود العمده الصعيد",
+  "customer_code": "532",
+  "total_qty": 156.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 156.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 132,
+  "invoice_no": "b2284",
+  "date": "2026/6/21",
+  "customer": "محمود العمده الصعيد",
+  "customer_code": "532",
+  "total_qty": 1540.0,
+  "invoice_total": 126485.2,
+  "paid": 0.0,
+  "remaining": 126485.2,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 900.0,
+    "line_total": 61200.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "406",
+    "name": "سجق اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 84.0,
+    "qty": 240.0,
+    "line_total": 17136.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 240.0,
+    "line_total": 14280.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 84.0,
+    "line_total": 5569.2,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 40.0,
+    "line_total": 14800.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 36.0,
+    "line_total": 13500.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 133,
+  "invoice_no": "b2286",
+  "date": "2026/6/21",
+  "customer": "حمادة شلبى",
+  "customer_code": "729",
+  "total_qty": 60.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 60.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 134,
+  "invoice_no": "b2287",
+  "date": "2026/6/21",
+  "customer": "حمادة شلبى",
+  "customer_code": "729",
+  "total_qty": 1005.0,
+  "invoice_total": 51522.0,
+  "paid": 0.0,
+  "remaining": 51522.0,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 225.0,
+    "line_total": 6120.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 180.0,
+    "line_total": 10710.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "99",
+    "name": "سجق الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 73.0,
+    "qty": 240.0,
+    "line_total": 14892.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 55.0,
+    "qty": 360.0,
+    "line_total": 19800.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 135,
+  "invoice_no": "b2314",
+  "date": "2026/6/2",
+  "customer": "مطعم نور الشام",
+  "customer_code": "877",
+  "total_qty": 85.0,
+  "invoice_total": 5155.0,
+  "paid": 0.0,
+  "remaining": 5155.0,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 60.0,
+    "line_total": 3417.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.0,
+    "qty": 24.0,
+    "line_total": 1368.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 1.0,
+    "line_total": 370.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 136,
+  "invoice_no": "b2316",
+  "date": "2026/6/2",
+  "customer": "الحاج م عبدالعزيز بوجه",
+  "customer_code": "552",
+  "total_qty": 162.0,
+  "invoice_total": 6747.3,
+  "paid": 0.0,
+  "remaining": 6747.3,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 36.0,
+    "line_total": 2050.2,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 60.0,
+    "line_total": 1632.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 24.0,
+    "line_total": 1428.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 15.0,
+    "line_total": 433.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "108",
+    "name": "سجق الهنا 350",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 15.0,
+    "line_total": 459.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "99",
+    "name": "سجق الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 73.0,
+    "qty": 12.0,
+    "line_total": 744.6,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 137,
+  "invoice_no": "b2317",
+  "date": "2026/6/2",
+  "customer": "الحاج م عبدالعزيز بوجه",
+  "customer_code": "552",
+  "total_qty": 15.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 15.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 138,
+  "invoice_no": "b2318",
+  "date": "2026/6/3",
+  "customer": "هايبر العابد",
+  "customer_code": "624",
+  "total_qty": 600.0,
+  "invoice_total": 35394.0,
+  "paid": 0.0,
+  "remaining": 35394.0,
+  "items": [
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 480.0,
+    "line_total": 28560.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 120.0,
+    "line_total": 6834.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 139,
+  "invoice_no": "b2319",
+  "date": "2026/6/3",
+  "customer": "هايبر العابد",
+  "customer_code": "624",
+  "total_qty": 48.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 48.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 140,
+  "invoice_no": "b2320",
+  "date": "2026/6/4",
+  "customer": "ابوسليم",
+  "customer_code": "328",
+  "total_qty": 720.0,
+  "invoice_total": 23919.0,
+  "paid": 0.0,
+  "remaining": 23919.0,
+  "items": [
+   {
+    "item_code": "108",
+    "name": "سجق الهنا 350",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 150.0,
+    "line_total": 4590.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 150.0,
+    "line_total": 4335.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 120.0,
+    "line_total": 6834.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 300.0,
+    "line_total": 8160.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 141,
+  "invoice_no": "b2321",
+  "date": "2026/6/4",
+  "customer": "مطعم الدمشقى",
+  "customer_code": "876",
+  "total_qty": 48.0,
+  "invoice_total": 2765.4,
+  "paid": 0.0,
+  "remaining": 2765.4,
+  "items": [
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 12.0,
+    "line_total": 714.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 12.0,
+    "line_total": 683.4,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.0,
+    "qty": 24.0,
+    "line_total": 1368.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 142,
+  "invoice_no": "b2322",
+  "date": "2026/6/4",
+  "customer": "م العزونى",
+  "customer_code": "667",
+  "total_qty": 42.0,
+  "invoice_total": 1524.9,
+  "paid": 0.0,
+  "remaining": 1524.9,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 12.0,
+    "line_total": 683.4,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 15.0,
+    "line_total": 408.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 15.0,
+    "line_total": 433.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 143,
+  "invoice_no": "b2323",
+  "date": "2026/6/4",
+  "customer": "عبد ا عزت نصير البراء",
+  "customer_code": "646",
+  "total_qty": 24.0,
+  "invoice_total": 1428.0,
+  "paid": 0.0,
+  "remaining": 1428.0,
+  "items": [
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 24.0,
+    "line_total": 1428.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 144,
+  "invoice_no": "b2324",
+  "date": "2026/6/4",
+  "customer": "ابوسليم",
+  "customer_code": "328",
+  "total_qty": 135.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 135.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 145,
+  "invoice_no": "B2325",
+  "date": "2026/6/6",
+  "customer": "عبد ا عزت نصير البراء",
+  "customer_code": "646",
+  "total_qty": 60.0,
+  "invoice_total": 1734.0,
+  "paid": 0.0,
+  "remaining": 1734.0,
+  "items": [
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 30.0,
+    "line_total": 867.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 15.0,
+    "line_total": 408.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "108",
+    "name": "سجق الهنا 350",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 15.0,
+    "line_total": 459.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 146,
+  "invoice_no": "B2326",
+  "date": "2026/6/7",
+  "customer": "عبد الظاهر بشنيتى",
+  "customer_code": "698",
+  "total_qty": 792.0,
+  "invoice_total": 29502.0,
+  "paid": 0.0,
+  "remaining": 29502.0,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 60.0,
+    "line_total": 4080.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 60.0,
+    "line_total": 3978.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 225.0,
+    "line_total": 6120.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 150.0,
+    "line_total": 4335.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "108",
+    "name": "سجق الهنا 350",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 225.0,
+    "line_total": 6885.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.0,
+    "qty": 72.0,
+    "line_total": 4104.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 147,
+  "invoice_no": "B2327",
+  "date": "2026/6/7",
+  "customer": "عبد الظاهر بشنيتى",
+  "customer_code": "698",
+  "total_qty": 45.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 45.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 148,
+  "invoice_no": "B2328",
+  "date": "2026/6/8",
+  "customer": "حدوته",
+  "customer_code": "504",
+  "total_qty": 645.0,
+  "invoice_total": 31059.0,
+  "paid": 0.0,
+  "remaining": 31059.0,
+  "items": [
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 300.0,
+    "line_total": 17850.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 120.0,
+    "line_total": 6834.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 150.0,
+    "line_total": 4335.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 75.0,
+    "line_total": 2040.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 149,
+  "invoice_no": "B2329",
+  "date": "2026/6/8",
+  "customer": "ابوسليم",
+  "customer_code": "328",
+  "total_qty": 12.0,
+  "invoice_total": 4500.0,
+  "paid": 0.0,
+  "remaining": 4500.0,
+  "items": [
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 12.0,
+    "line_total": 4500.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 150,
+  "invoice_no": "B2330",
+  "date": "2026/6/8",
+  "customer": "حدوته",
+  "customer_code": "504",
+  "total_qty": 120.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 120.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 151,
+  "invoice_no": "B2331",
+  "date": "2026/6/9",
+  "customer": "احمد عبود ( النور )",
+  "customer_code": "718",
+  "total_qty": 56.0,
+  "invoice_total": 9542.0,
+  "paid": 0.0,
+  "remaining": 9542.0,
+  "items": [
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 36.0,
+    "line_total": 2142.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 20.0,
+    "line_total": 7400.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 152,
+  "invoice_no": "B2332",
+  "date": "2026/6/9",
+  "customer": "كشرى الطيب ( النور )",
+  "customer_code": "719",
+  "total_qty": 26.0,
+  "invoice_total": 5980.0,
+  "paid": 0.0,
+  "remaining": 5980.0,
+  "items": [
+   {
+    "item_code": "292",
+    "name": "عجينه سجق 5 كيلو الهنا",
+    "unit": "طبق",
+    "unit_price": 230.0,
+    "qty": 26.0,
+    "line_total": 5980.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 153,
+  "invoice_no": "B2333",
+  "date": "2026/6/9",
+  "customer": "مطعم نور الشام",
+  "customer_code": "877",
+  "total_qty": 49.0,
+  "invoice_total": 3104.8,
+  "paid": 0.0,
+  "remaining": 3104.8,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 24.0,
+    "line_total": 1366.8,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.0,
+    "qty": 24.0,
+    "line_total": 1368.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 1.0,
+    "line_total": 370.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 154,
+  "invoice_no": "B2334",
+  "date": "2026/6/9",
+  "customer": "هايبر العابد",
+  "customer_code": "624",
+  "total_qty": 1500.0,
+  "invoice_total": 42840.0,
+  "paid": 0.0,
+  "remaining": 42840.0,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 600.0,
+    "line_total": 16320.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 600.0,
+    "line_total": 17340.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "108",
+    "name": "سجق الهنا 350",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 300.0,
+    "line_total": 9180.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 155,
+  "invoice_no": "B2335",
+  "date": "2026/6/9",
+  "customer": "هايبر العابد",
+  "customer_code": "624",
+  "total_qty": 120.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 120.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 156,
+  "invoice_no": "b2336",
+  "date": "2026/6/10",
+  "customer": "عبد ا عزت نصير البراء",
+  "customer_code": "646",
+  "total_qty": 78.0,
+  "invoice_total": 3600.6,
+  "paid": 0.0,
+  "remaining": 3600.6,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 48.0,
+    "line_total": 2733.6,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "108",
+    "name": "سجق الهنا 350",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 15.0,
+    "line_total": 459.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 15.0,
+    "line_total": 408.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 157,
+  "invoice_no": "b2337",
+  "date": "2026/6/11",
+  "customer": "م اللفى",
+  "customer_code": "50",
+  "total_qty": 770.0,
+  "invoice_total": 91753.5,
+  "paid": 0.0,
+  "remaining": 91753.5,
+  "items": [
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 200.0,
+    "line_total": 75000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "108",
+    "name": "سجق الهنا 350",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 150.0,
+    "line_total": 4590.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 150.0,
+    "line_total": 4080.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 30.0,
+    "line_total": 867.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 150.0,
+    "line_total": 4462.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 90.0,
+    "line_total": 2754.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 158,
+  "invoice_no": "b2338",
+  "date": "2026/6/13",
+  "customer": "ثلجه بوجه",
+  "customer_code": "502",
+  "total_qty": 364.0,
+  "invoice_total": 15117.0,
+  "paid": 0.0,
+  "remaining": 15117.0,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 120.0,
+    "line_total": 6834.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 165.0,
+    "line_total": 4488.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 4.0,
+    "line_total": 1500.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "108",
+    "name": "سجق الهنا 350",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 75.0,
+    "line_total": 2295.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 159,
+  "invoice_no": "b2339",
+  "date": "2026/6/13",
+  "customer": "ثلجه بوجه",
+  "customer_code": "502",
+  "total_qty": 15.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 15.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 160,
+  "invoice_no": "b2340",
+  "date": "2026/6/13",
+  "customer": "م اللفى",
+  "customer_code": "50",
+  "total_qty": 1.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 1.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 161,
+  "invoice_no": "b2341",
+  "date": "2026/6/13",
+  "customer": "عميل نقدى",
+  "customer_code": "1",
+  "total_qty": 1.0,
+  "invoice_total": 150.0,
+  "paid": 150.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 1.0,
+    "line_total": 150.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 162,
+  "invoice_no": "b2342",
+  "date": "2026/6/14",
+  "customer": "احمد الرفاعي بردين",
+  "customer_code": "561",
+  "total_qty": 18.0,
+  "invoice_total": 6660.0,
+  "paid": 0.0,
+  "remaining": 6660.0,
+  "items": [
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 18.0,
+    "line_total": 6660.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 163,
+  "invoice_no": "b2343",
+  "date": "2026/6/14",
+  "customer": "الحاج م عبدالعزيز بوجه",
+  "customer_code": "552",
+  "total_qty": 132.0,
+  "invoice_total": 6007.8,
+  "paid": 0.0,
+  "remaining": 6007.8,
+  "items": [
+   {
+    "item_code": "108",
+    "name": "سجق الهنا 350",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 30.0,
+    "line_total": 918.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "99",
+    "name": "سجق الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 73.0,
+    "qty": 24.0,
+    "line_total": 1489.2,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 48.0,
+    "line_total": 2733.6,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 30.0,
+    "line_total": 867.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 164,
+  "invoice_no": "b2344",
+  "date": "2026/6/15",
+  "customer": "مطعم نور الشام",
+  "customer_code": "877",
+  "total_qty": 85.0,
+  "invoice_total": 5155.6,
+  "paid": 0.0,
+  "remaining": 5155.6,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 48.0,
+    "line_total": 2733.6,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.0,
+    "qty": 36.0,
+    "line_total": 2052.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 1.0,
+    "line_total": 370.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 165,
+  "invoice_no": "b2345",
+  "date": "2026/6/15",
+  "customer": "ام هايدى م بشرى",
+  "customer_code": "820",
+  "total_qty": 40.0,
+  "invoice_total": 15000.0,
+  "paid": 0.0,
+  "remaining": 15000.0,
+  "items": [
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 40.0,
+    "line_total": 15000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 166,
+  "invoice_no": "b2346",
+  "date": "2026/6/16",
+  "customer": "هايبر العابد",
+  "customer_code": "624",
+  "total_qty": 600.0,
+  "invoice_total": 35241.0,
+  "paid": 0.0,
+  "remaining": 35241.0,
+  "items": [
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 420.0,
+    "line_total": 24990.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 180.0,
+    "line_total": 10251.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 167,
+  "invoice_no": "b2347",
+  "date": "2026/6/16",
+  "customer": "تلجة شريف الكابتن ابو كبير",
+  "customer_code": "654",
+  "total_qty": 60.0,
+  "invoice_total": 6927.0,
+  "paid": 0.0,
+  "remaining": 6927.0,
+  "items": [
+   {
+    "item_code": "108",
+    "name": "سجق الهنا 350",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 45.0,
+    "line_total": 1377.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 15.0,
+    "line_total": 5550.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 168,
+  "invoice_no": "b2348",
+  "date": "2026/6/16",
+  "customer": "عبد الظاهر بشنيتى",
+  "customer_code": "698",
+  "total_qty": 73.0,
+  "invoice_total": 8270.0,
+  "paid": 0.0,
+  "remaining": 8270.0,
+  "items": [
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.0,
+    "qty": 60.0,
+    "line_total": 3420.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 8.0,
+    "line_total": 3000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 5.0,
+    "line_total": 1850.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 169,
+  "invoice_no": "b2349",
+  "date": "2026/6/16",
+  "customer": "مطعم ميكس جريل بشرى",
+  "customer_code": "869",
+  "total_qty": 12.0,
+  "invoice_total": 683.4,
+  "paid": 0.0,
+  "remaining": 683.4,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 12.0,
+    "line_total": 683.4,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 170,
+  "invoice_no": "B2357",
+  "date": "2026/6/15",
+  "customer": "المحل ابو هاشم",
+  "customer_code": "10",
+  "total_qty": 45.0,
+  "invoice_total": 5244.0,
+  "paid": 0.0,
+  "remaining": 5244.0,
+  "items": [
+   {
+    "item_code": "1",
+    "name": "مفروم صافى 400 جم ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 82.8,
+    "qty": 30.0,
+    "line_total": 2484.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "33",
+    "name": "كيلو مفروم هندى",
+    "unit": "كيلو",
+    "unit_price": 262.0,
+    "qty": 5.0,
+    "line_total": 1310.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "441",
+    "name": "استربس اسبشيال 900 جرام",
+    "unit": "كيس",
+    "unit_price": 145.0,
+    "qty": 10.0,
+    "line_total": 1450.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 171,
+  "invoice_no": "b2358",
+  "date": "2026/6/16",
+  "customer": "رضا الجمل القلج",
+  "customer_code": "1,003",
+  "total_qty": 46.0,
+  "invoice_total": 4292.0,
+  "paid": 0.0,
+  "remaining": 4292.0,
+  "items": [
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 12.0,
+    "line_total": 936.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 12.0,
+    "line_total": 960.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 58.0,
+    "qty": 12.0,
+    "line_total": 696.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "441",
+    "name": "استربس اسبشيال 900 جرام",
+    "unit": "كيس",
+    "unit_price": 170.0,
+    "qty": 10.0,
+    "line_total": 1700.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 172,
+  "invoice_no": "b2360",
+  "date": "2026/6/16",
+  "customer": "احمد بدوى سرياقوس",
+  "customer_code": "1,005",
+  "total_qty": 24.0,
+  "invoice_total": 1896.0,
+  "paid": 0.0,
+  "remaining": 1896.0,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 12.0,
+    "line_total": 960.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 12.0,
+    "line_total": 936.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 173,
+  "invoice_no": "b2361",
+  "date": "2026/6/16",
+  "customer": "رضا الصعيدى حدائق القبة",
+  "customer_code": "1,004",
+  "total_qty": 67.0,
+  "invoice_total": 3996.0,
+  "paid": 0.0,
+  "remaining": 3996.0,
+  "items": [
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 15.0,
+    "line_total": 540.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 15.0,
+    "line_total": 525.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 58.0,
+    "qty": 12.0,
+    "line_total": 696.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "441",
+    "name": "استربس اسبشيال 900 جرام",
+    "unit": "كيس",
+    "unit_price": 165.0,
+    "qty": 10.0,
+    "line_total": 1650.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "405",
+    "name": "سجق اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 39.0,
+    "qty": 15.0,
+    "line_total": 585.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 174,
+  "invoice_no": "b2362",
+  "date": "2026/6/16",
+  "customer": "م فوزى",
+  "customer_code": "693",
+  "total_qty": 40.0,
+  "invoice_total": 15000.0,
+  "paid": 0.0,
+  "remaining": 15000.0,
+  "items": [
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 40.0,
+    "line_total": 15000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 175,
+  "invoice_no": "b2363",
+  "date": "2026/6/17",
+  "customer": "عميل نقدى",
+  "customer_code": "1",
+  "total_qty": 1.0,
+  "invoice_total": 460.0,
+  "paid": 460.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "435",
+    "name": "عجينة بقرى 5 ك",
+    "unit": "كيلو",
+    "unit_price": 460.0,
+    "qty": 1.0,
+    "line_total": 460.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 176,
+  "invoice_no": "b2364",
+  "date": "2026/6/17",
+  "customer": "مصطفى قمر بنى سويف",
+  "customer_code": "918",
+  "total_qty": 1410.0,
+  "invoice_total": 56255.25,
+  "paid": 0.0,
+  "remaining": 56255.25,
+  "items": [
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 375.0,
+    "line_total": 11156.25,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 375.0,
+    "line_total": 11475.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "405",
+    "name": "سجق اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 39.0,
+    "qty": 240.0,
+    "line_total": 7956.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "406",
+    "name": "سجق اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 84.0,
+    "qty": 120.0,
+    "line_total": 8568.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.0,
+    "qty": 300.0,
+    "line_total": 17100.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 177,
+  "invoice_no": "b2365",
+  "date": "2026/6/17",
+  "customer": "مصطفى قمر بنى سويف",
+  "customer_code": "918",
+  "total_qty": 75.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 45.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 30.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 178,
+  "invoice_no": "b2366",
+  "date": "2026/6/16",
+  "customer": "هايبر العابد",
+  "customer_code": "624",
+  "total_qty": 48.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 48.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 179,
+  "invoice_no": "b2367",
+  "date": "2026/6/16",
+  "customer": "شوكليت اند تشيز",
+  "customer_code": "903",
+  "total_qty": 1.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "7",
+    "name": "سجق 350 جم ابو هاشم",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 1.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 180,
+  "invoice_no": "b2368",
+  "date": "2026/6/18",
+  "customer": "منفذ بيع المنتجات الوطنية كفورنجم",
+  "customer_code": "643",
+  "total_qty": 46.0,
+  "invoice_total": 3792.6,
+  "paid": 0.0,
+  "remaining": 3792.6,
+  "items": [
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 12.0,
+    "line_total": 714.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "99",
+    "name": "سجق الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 73.0,
+    "qty": 12.0,
+    "line_total": 744.6,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "441",
+    "name": "استربس اسبشيال 900 جرام",
+    "unit": "كيس",
+    "unit_price": 165.0,
+    "qty": 10.0,
+    "line_total": 1650.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.0,
+    "qty": 12.0,
+    "line_total": 684.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 181,
+  "invoice_no": "b2369",
+  "date": "2026/6/18",
+  "customer": "هايبر العابد",
+  "customer_code": "624",
+  "total_qty": 100.0,
+  "invoice_total": 16500.0,
+  "paid": 0.0,
+  "remaining": 16500.0,
+  "items": [
+   {
+    "item_code": "441",
+    "name": "استربس اسبشيال 900 جرام",
+    "unit": "كيس",
+    "unit_price": 165.0,
+    "qty": 100.0,
+    "line_total": 16500.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 182,
+  "invoice_no": "b2370",
+  "date": "2026/6/21",
+  "customer": "م اللفى",
+  "customer_code": "50",
+  "total_qty": 120.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 120.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 183,
+  "invoice_no": "b2371",
+  "date": "2026/6/18",
+  "customer": "م العزالى م امام",
+  "customer_code": "786",
+  "total_qty": 222.0,
+  "invoice_total": 8399.7,
+  "paid": 0.0,
+  "remaining": 8399.7,
+  "items": [
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 75.0,
+    "line_total": 2167.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 75.0,
+    "line_total": 2040.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 36.0,
+    "line_total": 2142.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 36.0,
+    "line_total": 2050.2,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 184,
+  "invoice_no": "b2372",
+  "date": "2026/6/18",
+  "customer": "المحل ابو هاشم",
+  "customer_code": "10",
+  "total_qty": 35.0,
+  "invoice_total": 2630.0,
+  "paid": 0.0,
+  "remaining": 2630.0,
+  "items": [
+   {
+    "item_code": "2",
+    "name": "كبده اسكندرانى 400 ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 20.0,
+    "line_total": 1340.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "107",
+    "name": "سجق 800 ابو هاشم",
+    "unit": "طبق",
+    "unit_price": 86.0,
+    "qty": 15.0,
+    "line_total": 1290.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 185,
+  "invoice_no": "b2373",
+  "date": "2026/6/21",
+  "customer": "يوسف سعد الدايل مطروح",
+  "customer_code": "776",
+  "total_qty": 1251.0,
+  "invoice_total": 55351.05,
+  "paid": 0.0,
+  "remaining": 55351.05,
+  "items": [
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 75.0,
+    "line_total": 2167.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 150.0,
+    "line_total": 4080.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 105.0,
+    "line_total": 3123.75,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 375.0,
+    "line_total": 11475.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 96.0,
+    "line_total": 6364.8,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 180.0,
+    "line_total": 12240.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 55.0,
+    "qty": 120.0,
+    "line_total": 6600.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "398",
+    "name": "بانيه 900 جرام اسباشيل",
+    "unit": "كيس",
+    "unit_price": 62.0,
+    "qty": 150.0,
+    "line_total": 9300.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 186,
+  "invoice_no": "b2374",
+  "date": "2026/6/21",
+  "customer": "يوسف سعد الدايل مطروح",
+  "customer_code": "776",
+  "total_qty": 60.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 60.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 187,
+  "invoice_no": "b2375",
+  "date": "2026/6/22",
+  "customer": "المحل ابو هاشم",
+  "customer_code": "10",
+  "total_qty": 55.0,
+  "invoice_total": 5050.0,
+  "paid": 0.0,
+  "remaining": 5050.0,
+  "items": [
+   {
+    "item_code": "1",
+    "name": "مفروم صافى 400 جم ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 30.0,
+    "line_total": 2400.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "2",
+    "name": "كبده اسكندرانى 400 ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 20.0,
+    "line_total": 1340.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "33",
+    "name": "كيلو مفروم هندى",
+    "unit": "كيلو",
+    "unit_price": 262.0,
+    "qty": 5.0,
+    "line_total": 1310.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 188,
+  "invoice_no": "b2376",
+  "date": "2026/6/21",
+  "customer": "احمد صلح المنيا",
+  "customer_code": "710",
+  "total_qty": 840.0,
+  "invoice_total": 31263.0,
+  "paid": 0.0,
+  "remaining": 31263.0,
+  "items": [
+   {
+    "item_code": "108",
+    "name": "سجق الهنا 350",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 225.0,
+    "line_total": 6885.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 240.0,
+    "line_total": 13668.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 75.0,
+    "line_total": 2040.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 300.0,
+    "line_total": 8670.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 189,
+  "invoice_no": "b2377",
+  "date": "2026/6/22",
+  "customer": "مطعم نور الشام",
+  "customer_code": "877",
+  "total_qty": 99.0,
+  "invoice_total": 6579.0,
+  "paid": 0.0,
+  "remaining": 6579.0,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 60.0,
+    "line_total": 3417.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.0,
+    "qty": 36.0,
+    "line_total": 2052.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 3.0,
+    "line_total": 1110.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 190,
+  "invoice_no": "b2378",
+  "date": "2026/6/22",
+  "customer": "مطعم الدمشقى",
+  "customer_code": "876",
+  "total_qty": 35.0,
+  "invoice_total": 3247.4,
+  "paid": 0.0,
+  "remaining": 3247.4,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 12.0,
+    "line_total": 683.4,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "441",
+    "name": "استربس اسبشيال 900 جرام",
+    "unit": "كيس",
+    "unit_price": 165.0,
+    "qty": 10.0,
+    "line_total": 1650.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.0,
+    "qty": 12.0,
+    "line_total": 684.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "292",
+    "name": "عجينه سجق 5 كيلو الهنا",
+    "unit": "طبق",
+    "unit_price": 230.0,
+    "qty": 1.0,
+    "line_total": 230.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 191,
+  "invoice_no": "b2379",
+  "date": "2026/6/22",
+  "customer": "مجمدات قدرى",
+  "customer_code": "638",
+  "total_qty": 108.0,
+  "invoice_total": 4533.9,
+  "paid": 0.0,
+  "remaining": 4533.9,
+  "items": [
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 30.0,
+    "line_total": 816.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 15.0,
+    "line_total": 433.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "108",
+    "name": "سجق الهنا 350",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 15.0,
+    "line_total": 459.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 24.0,
+    "line_total": 1366.8,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "99",
+    "name": "سجق الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 73.0,
+    "qty": 12.0,
+    "line_total": 744.6,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 12.0,
+    "line_total": 714.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 192,
+  "invoice_no": "b2380",
+  "date": "2026/6/23",
+  "customer": "احمد عبود ( النور )",
+  "customer_code": "718",
+  "total_qty": 23.0,
+  "invoice_total": 8550.0,
+  "paid": 0.0,
+  "remaining": 8550.0,
+  "items": [
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 15.0,
+    "line_total": 5550.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 8.0,
+    "line_total": 3000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 193,
+  "invoice_no": "b2381",
+  "date": "2026/6/23",
+  "customer": "ثلجه السيد الوكيل القرين",
+  "customer_code": "438",
+  "total_qty": 195.0,
+  "invoice_total": 9180.0,
+  "paid": 0.0,
+  "remaining": 9180.0,
+  "items": [
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 120.0,
+    "line_total": 7140.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 75.0,
+    "line_total": 2040.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 194,
+  "invoice_no": "b2382",
+  "date": "2026/6/23",
+  "customer": "تلجة شريف الكابتن ابو كبير",
+  "customer_code": "654",
+  "total_qty": 20.0,
+  "invoice_total": 4600.0,
+  "paid": 0.0,
+  "remaining": 4600.0,
+  "items": [
+   {
+    "item_code": "292",
+    "name": "عجينه سجق 5 كيلو الهنا",
+    "unit": "طبق",
+    "unit_price": 230.0,
+    "qty": 20.0,
+    "line_total": 4600.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 195,
+  "invoice_no": "b2383",
+  "date": "2026/6/24",
+  "customer": "ثلجه المهدي",
+  "customer_code": "455",
+  "total_qty": 1410.0,
+  "invoice_total": 76117.5,
+  "paid": 0.0,
+  "remaining": 76117.5,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 1200.0,
+    "line_total": 68340.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 60.0,
+    "line_total": 3570.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 75.0,
+    "line_total": 2167.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 75.0,
+    "line_total": 2040.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 196,
+  "invoice_no": "b2384",
+  "date": "2026/6/25",
+  "customer": "الكوثر شبين الكوم",
+  "customer_code": "5",
+  "total_qty": 40.0,
+  "invoice_total": 3560.0,
+  "paid": 0.0,
+  "remaining": 3560.0,
+  "items": [
+   {
+    "item_code": "1",
+    "name": "مفروم صافى 400 جم ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 100.0,
+    "qty": 20.0,
+    "line_total": 2000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "2",
+    "name": "كبده اسكندرانى 400 ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 20.0,
+    "line_total": 1560.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 197,
+  "invoice_no": "b2385",
+  "date": "2026/6/25",
+  "customer": "سمك البر الشرقي",
+  "customer_code": "270",
+  "total_qty": 40.0,
+  "invoice_total": 3560.0,
+  "paid": 0.0,
+  "remaining": 3560.0,
+  "items": [
+   {
+    "item_code": "1",
+    "name": "مفروم صافى 400 جم ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 100.0,
+    "qty": 20.0,
+    "line_total": 2000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "2",
+    "name": "كبده اسكندرانى 400 ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 20.0,
+    "line_total": 1560.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 198,
+  "invoice_no": "b2386",
+  "date": "2026/6/25",
+  "customer": "م فوزى",
+  "customer_code": "693",
+  "total_qty": 64.0,
+  "invoice_total": 16611.6,
+  "paid": 0.0,
+  "remaining": 16611.6,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 12.0,
+    "line_total": 816.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 12.0,
+    "line_total": 795.6,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 40.0,
+    "line_total": 15000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 199,
+  "invoice_no": "b2387",
+  "date": "2026/6/25",
+  "customer": "المحل ابو هاشم",
+  "customer_code": "10",
+  "total_qty": 47.0,
+  "invoice_total": 3346.0,
+  "paid": 0.0,
+  "remaining": 3346.0,
+  "items": [
+   {
+    "item_code": "7",
+    "name": "سجق 350 جم ابو هاشم",
+    "unit": "طبق",
+    "unit_price": 40.05,
+    "qty": 10.0,
+    "line_total": 400.5,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "8",
+    "name": "كفته 350 جم ابو هاشم",
+    "unit": "طبق",
+    "unit_price": 32.8,
+    "qty": 10.0,
+    "line_total": 328.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "107",
+    "name": "سجق 800 ابو هاشم",
+    "unit": "طبق",
+    "unit_price": 86.0,
+    "qty": 10.0,
+    "line_total": 860.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 305.0,
+    "qty": 1.0,
+    "line_total": 305.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "255",
+    "name": "برجر ابو هاشم جامبو 1.5 كيلو",
+    "unit": "طبق",
+    "unit_price": 137.5,
+    "qty": 5.0,
+    "line_total": 687.5,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "421",
+    "name": "برجر ابو هاشم 1 ك",
+    "unit": "طبق",
+    "unit_price": 95.0,
+    "qty": 1.0,
+    "line_total": 95.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "2",
+    "name": "كبده اسكندرانى 400 ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 10.0,
+    "line_total": 670.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 200,
+  "invoice_no": "b2388",
+  "date": "2026/6/25",
+  "customer": "عميل نقدى",
+  "customer_code": "1",
+  "total_qty": 1.0,
+  "invoice_total": 155.0,
+  "paid": 155.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "447",
+    "name": "استربس الهنا 900 جرام",
+    "unit": "كيس",
+    "unit_price": 155.0,
+    "qty": 1.0,
+    "line_total": 155.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 201,
+  "invoice_no": "b2389",
+  "date": "2026/6/25",
+  "customer": "مطعم جدو",
+  "customer_code": "67",
+  "total_qty": 69.0,
+  "invoice_total": 14130.0,
+  "paid": 0.0,
+  "remaining": 14130.0,
+  "items": [
+   {
+    "item_code": "80",
+    "name": "برجر 1200 جم",
+    "unit": "طبق",
+    "unit_price": 175.0,
+    "qty": 54.0,
+    "line_total": 8505.0,
+    "discount_pct": 10.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 15.0,
+    "line_total": 5625.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 202,
+  "invoice_no": "b2402",
+  "date": "2026/6/13",
+  "customer": "ثلجة الجوهرة امبابة",
+  "customer_code": "987",
+  "total_qty": 48.0,
+  "invoice_total": 3984.0,
+  "paid": 0.0,
+  "remaining": 3984.0,
+  "items": [
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.0,
+    "qty": 24.0,
+    "line_total": 1368.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 12.0,
+    "line_total": 1800.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 12.0,
+    "line_total": 816.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 203,
+  "invoice_no": "b2403",
+  "date": "2026/6/13",
+  "customer": "م كامل المعتمدية",
+  "customer_code": "988",
+  "total_qty": 73.0,
+  "invoice_total": 7196.85,
+  "paid": 0.0,
+  "remaining": 7196.85,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 12.0,
+    "line_total": 816.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 15.0,
+    "line_total": 459.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 12.0,
+    "line_total": 795.6,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 15.0,
+    "line_total": 446.25,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "435",
+    "name": "عجينة بقرى 5 ك",
+    "unit": "كيلو",
+    "unit_price": 460.0,
+    "qty": 3.0,
+    "line_total": 1380.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 4.0,
+    "line_total": 1500.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 12.0,
+    "line_total": 1800.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 204,
+  "invoice_no": "b2404",
+  "date": "2026/6/13",
+  "customer": "الحرمين امبابة م خليل",
+  "customer_code": "989",
+  "total_qty": 3.0,
+  "invoice_total": 1380.0,
+  "paid": 0.0,
+  "remaining": 1380.0,
+  "items": [
+   {
+    "item_code": "435",
+    "name": "عجينة بقرى 5 ك",
+    "unit": "كيلو",
+    "unit_price": 460.0,
+    "qty": 3.0,
+    "line_total": 1380.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 205,
+  "invoice_no": "b2405",
+  "date": "2026/6/13",
+  "customer": "والى فتوح المريوطية",
+  "customer_code": "990",
+  "total_qty": 3.0,
+  "invoice_total": 1380.0,
+  "paid": 0.0,
+  "remaining": 1380.0,
+  "items": [
+   {
+    "item_code": "435",
+    "name": "عجينة بقرى 5 ك",
+    "unit": "كيلو",
+    "unit_price": 460.0,
+    "qty": 3.0,
+    "line_total": 1380.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 206,
+  "invoice_no": "b2406",
+  "date": "2026/6/15",
+  "customer": "حسنى حسيب فيصل",
+  "customer_code": "995",
+  "total_qty": 15.0,
+  "invoice_total": 2064.0,
+  "paid": 0.0,
+  "remaining": 2064.0,
+  "items": [
+   {
+    "item_code": "435",
+    "name": "عجينة بقرى 5 ك",
+    "unit": "كيلو",
+    "unit_price": 460.0,
+    "qty": 3.0,
+    "line_total": 1380.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.0,
+    "qty": 12.0,
+    "line_total": 684.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 207,
+  "invoice_no": "B2407",
+  "date": "2026/6/15",
+  "customer": "ثلجة الجمال فيصل",
+  "customer_code": "994",
+  "total_qty": 15.0,
+  "invoice_total": 1179.0,
+  "paid": 0.0,
+  "remaining": 1179.0,
+  "items": [
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.0,
+    "qty": 12.0,
+    "line_total": 684.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "441",
+    "name": "استربس اسبشيال 900 جرام",
+    "unit": "كيس",
+    "unit_price": 165.0,
+    "qty": 3.0,
+    "line_total": 495.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 208,
+  "invoice_no": "b2408",
+  "date": "2026/6/15",
+  "customer": "ابوهاشم صفط اللبن",
+  "customer_code": "991",
+  "total_qty": 27.0,
+  "invoice_total": 2880.0,
+  "paid": 0.0,
+  "remaining": 2880.0,
+  "items": [
+   {
+    "item_code": "435",
+    "name": "عجينة بقرى 5 ك",
+    "unit": "كيلو",
+    "unit_price": 460.0,
+    "qty": 3.0,
+    "line_total": 1380.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 12.0,
+    "line_total": 816.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.0,
+    "qty": 12.0,
+    "line_total": 684.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 209,
+  "invoice_no": "b2409",
+  "date": "2026/6/15",
+  "customer": "عادل المصرى الوراق",
+  "customer_code": "993",
+  "total_qty": 5.0,
+  "invoice_total": 816.3,
+  "paid": 0.0,
+  "remaining": 816.3,
+  "items": [
+   {
+    "item_code": "435",
+    "name": "عجينة بقرى 5 ك",
+    "unit": "كيلو",
+    "unit_price": 460.0,
+    "qty": 1.0,
+    "line_total": 460.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.0,
+    "qty": 1.0,
+    "line_total": 57.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "441",
+    "name": "استربس اسبشيال 900 جرام",
+    "unit": "كيس",
+    "unit_price": 165.0,
+    "qty": 1.0,
+    "line_total": 165.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 1.0,
+    "line_total": 68.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 1.0,
+    "line_total": 66.3,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 210,
+  "invoice_no": "B2410",
+  "date": "2026/6/15",
+  "customer": "الدكتور الجيزة",
+  "customer_code": "992",
+  "total_qty": 5.0,
+  "invoice_total": 816.3,
+  "paid": 0.0,
+  "remaining": 816.3,
+  "items": [
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 1.0,
+    "line_total": 66.3,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "435",
+    "name": "عجينة بقرى 5 ك",
+    "unit": "كيلو",
+    "unit_price": 460.0,
+    "qty": 1.0,
+    "line_total": 460.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 1.0,
+    "line_total": 68.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.0,
+    "qty": 1.0,
+    "line_total": 57.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "441",
+    "name": "استربس اسبشيال 900 جرام",
+    "unit": "كيس",
+    "unit_price": 165.0,
+    "qty": 1.0,
+    "line_total": 165.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 211,
+  "invoice_no": "b2411",
+  "date": "2026/6/16",
+  "customer": "عادل دشيشة المنصورية",
+  "customer_code": "1,000",
+  "total_qty": 25.0,
+  "invoice_total": 2071.6,
+  "paid": 0.0,
+  "remaining": 2071.6,
+  "items": [
+   {
+    "item_code": "435",
+    "name": "عجينة بقرى 5 ك",
+    "unit": "كيلو",
+    "unit_price": 460.0,
+    "qty": 1.0,
+    "line_total": 460.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 12.0,
+    "line_total": 816.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 12.0,
+    "line_total": 795.6,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 212,
+  "invoice_no": "b2412",
+  "date": "2026/6/16",
+  "customer": "ثلجة زنين انور سلم",
+  "customer_code": "915",
+  "total_qty": 24.0,
+  "invoice_total": 1632.0,
+  "paid": 0.0,
+  "remaining": 1632.0,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 24.0,
+    "line_total": 1632.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 213,
+  "invoice_no": "b2414",
+  "date": "2026/6/16",
+  "customer": "منفذ امان السيدة زينيب",
+  "customer_code": "1,001",
+  "total_qty": 67.0,
+  "invoice_total": 5769.85,
+  "paid": 0.0,
+  "remaining": 5769.85,
+  "items": [
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 15.0,
+    "line_total": 446.25,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 12.0,
+    "line_total": 795.6,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.0,
+    "qty": 12.0,
+    "line_total": 684.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "441",
+    "name": "استربس اسبشيال 900 جرام",
+    "unit": "كيس",
+    "unit_price": 165.0,
+    "qty": 20.0,
+    "line_total": 3300.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 8.0,
+    "line_total": 544.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 214,
+  "invoice_no": "b2415",
+  "date": "2026/6/16",
+  "customer": "بوقلظ السيدة زينيب",
+  "customer_code": "1,002",
+  "total_qty": 1.0,
+  "invoice_total": 460.0,
+  "paid": 0.0,
+  "remaining": 460.0,
+  "items": [
+   {
+    "item_code": "435",
+    "name": "عجينة بقرى 5 ك",
+    "unit": "كيلو",
+    "unit_price": 460.0,
+    "qty": 1.0,
+    "line_total": 460.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 215,
+  "invoice_no": "b2416",
+  "date": "2026/6/17",
+  "customer": "ثلجه المهندس",
+  "customer_code": "460",
+  "total_qty": 336.0,
+  "invoice_total": 19227.0,
+  "paid": 0.0,
+  "remaining": 19227.0,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 300.0,
+    "line_total": 17085.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 70.0,
+    "qty": 36.0,
+    "line_total": 2142.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 216,
+  "invoice_no": "b2417",
+  "date": "2026/6/17",
+  "customer": "ثلجه المهندس",
+  "customer_code": "460",
+  "total_qty": 12.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 12.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 217,
+  "invoice_no": "b2418",
+  "date": "2026/6/17",
+  "customer": "ثلجة زنين انور سلم",
+  "customer_code": "915",
+  "total_qty": 48.0,
+  "invoice_total": 3264.0,
+  "paid": 0.0,
+  "remaining": 3264.0,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 48.0,
+    "line_total": 3264.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 218,
+  "invoice_no": "b2419",
+  "date": "2026/6/17",
+  "customer": "عادل المصرى الوراق",
+  "customer_code": "993",
+  "total_qty": 10.0,
+  "invoice_total": 620.0,
+  "paid": 0.0,
+  "remaining": 620.0,
+  "items": [
+   {
+    "item_code": "398",
+    "name": "بانيه 900 جرام اسباشيل",
+    "unit": "كيس",
+    "unit_price": 62.0,
+    "qty": 10.0,
+    "line_total": 620.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 219,
+  "invoice_no": "b2420",
+  "date": "2026/6/17",
+  "customer": "الدكتور الجيزة",
+  "customer_code": "992",
+  "total_qty": 10.0,
+  "invoice_total": 620.0,
+  "paid": 0.0,
+  "remaining": 620.0,
+  "items": [
+   {
+    "item_code": "398",
+    "name": "بانيه 900 جرام اسباشيل",
+    "unit": "كيس",
+    "unit_price": 62.0,
+    "qty": 10.0,
+    "line_total": 620.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 220,
+  "invoice_no": "b2422",
+  "date": "2026/6/17",
+  "customer": "طيبة العجوزة",
+  "customer_code": "1,006",
+  "total_qty": 30.0,
+  "invoice_total": 1860.0,
+  "paid": 0.0,
+  "remaining": 1860.0,
+  "items": [
+   {
+    "item_code": "398",
+    "name": "بانيه 900 جرام اسباشيل",
+    "unit": "كيس",
+    "unit_price": 62.0,
+    "qty": 30.0,
+    "line_total": 1860.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 221,
+  "invoice_no": "b2424",
+  "date": "2026/6/17",
+  "customer": "عميل نقدى",
+  "customer_code": "1",
+  "total_qty": 3.0,
+  "invoice_total": 200.6,
+  "paid": 200.6,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 66.3,
+    "qty": 2.0,
+    "line_total": 132.6,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 68.0,
+    "qty": 1.0,
+    "line_total": 68.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 222,
+  "invoice_no": "b2425",
+  "date": "2026/6/20",
+  "customer": "ثلجة مصر والسودان",
+  "customer_code": "955",
+  "total_qty": 40.0,
+  "invoice_total": 9770.0,
+  "paid": 0.0,
+  "remaining": 9770.0,
+  "items": [
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 20.0,
+    "line_total": 7500.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "441",
+    "name": "استربس اسبشيال 900 جرام",
+    "unit": "كيس",
+    "unit_price": 165.0,
+    "qty": 10.0,
+    "line_total": 1650.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "398",
+    "name": "بانيه 900 جرام اسباشيل",
+    "unit": "كيس",
+    "unit_price": 62.0,
+    "qty": 10.0,
+    "line_total": 620.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 223,
+  "invoice_no": "b2426",
+  "date": "2026/6/20",
+  "customer": "عيسى المقطم",
+  "customer_code": "923",
+  "total_qty": 34.0,
+  "invoice_total": 2252.0,
+  "paid": 0.0,
+  "remaining": 2252.0,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 24.0,
+    "line_total": 1632.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "398",
+    "name": "بانيه 900 جرام اسباشيل",
+    "unit": "كيس",
+    "unit_price": 62.0,
+    "qty": 10.0,
+    "line_total": 620.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 224,
+  "invoice_no": "b2427",
+  "date": "2026/6/21",
+  "customer": "مطعم لهاليبو باب الشعرية",
+  "customer_code": "1,007",
+  "total_qty": 28.0,
+  "invoice_total": 10360.0,
+  "paid": 0.0,
+  "remaining": 10360.0,
+  "items": [
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 28.0,
+    "line_total": 10360.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 225,
+  "invoice_no": "b2428",
+  "date": "2026/6/22",
+  "customer": "البراهيمية فيصل",
+  "customer_code": "986",
+  "total_qty": 234.0,
+  "invoice_total": 15012.0,
+  "paid": 0.0,
+  "remaining": 15012.0,
+  "items": [
+   {
+    "item_code": "398",
+    "name": "بانيه 900 جرام اسباشيل",
+    "unit": "كيس",
+    "unit_price": 62.0,
+    "qty": 150.0,
+    "line_total": 9300.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 84.0,
+    "line_total": 5712.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 226,
+  "invoice_no": "b2429",
+  "date": "2026/6/22",
+  "customer": "عيسى المقطم",
+  "customer_code": "923",
+  "total_qty": 22.0,
+  "invoice_total": 1436.0,
+  "paid": 0.0,
+  "remaining": 1436.0,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 12.0,
+    "line_total": 816.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "398",
+    "name": "بانيه 900 جرام اسباشيل",
+    "unit": "كيس",
+    "unit_price": 62.0,
+    "qty": 10.0,
+    "line_total": 620.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 227,
+  "invoice_no": "b2430",
+  "date": "2026/6/23",
+  "customer": "ثلجه المهندس",
+  "customer_code": "460",
+  "total_qty": 300.0,
+  "invoice_total": 17085.0,
+  "paid": 0.0,
+  "remaining": 17085.0,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 67.0,
+    "qty": 300.0,
+    "line_total": 17085.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 228,
+  "invoice_no": "b2431",
+  "date": "2026/6/23",
+  "customer": "ثلجه المهندس",
+  "customer_code": "460",
+  "total_qty": 12.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "101",
+    "name": "كفته الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 12.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 229,
+  "invoice_no": "b2432",
+  "date": "2026/6/23",
+  "customer": "ثلجة مصر والسودان",
+  "customer_code": "955",
+  "total_qty": 24.0,
+  "invoice_total": 1611.6,
+  "paid": 0.0,
+  "remaining": 1611.6,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 12.0,
+    "line_total": 816.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 12.0,
+    "line_total": 795.6,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 230,
+  "invoice_no": "b2451",
+  "date": "2026/6/9",
+  "customer": "م الزينى قنا",
+  "customer_code": "968",
+  "total_qty": 48.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "120",
+    "name": "برجر الهنا 900 جرام",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 48.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 231,
+  "invoice_no": "b2452",
+  "date": "2026/6/13",
+  "customer": "كشرى هند بلبيس",
+  "customer_code": "976",
+  "total_qty": 30.0,
+  "invoice_total": 13800.0,
+  "paid": 0.0,
+  "remaining": 13800.0,
+  "items": [
+   {
+    "item_code": "435",
+    "name": "عجينة بقرى 5 ك",
+    "unit": "كيلو",
+    "unit_price": 460.0,
+    "qty": 30.0,
+    "line_total": 13800.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 232,
+  "invoice_no": "b2453",
+  "date": "2026/6/13",
+  "customer": "هايبر ابوعمار بلبيس",
+  "customer_code": "985",
+  "total_qty": 189.0,
+  "invoice_total": 10872.6,
+  "paid": 0.0,
+  "remaining": 10872.6,
+  "items": [
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 45.0,
+    "line_total": 1377.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 36.0,
+    "line_total": 2386.8,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 45.0,
+    "line_total": 1338.75,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "405",
+    "name": "سجق اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 39.0,
+    "qty": 15.0,
+    "line_total": 497.25,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "406",
+    "name": "سجق اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 84.0,
+    "qty": 12.0,
+    "line_total": 856.8,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "439",
+    "name": "استربس الهنا 800 جرام",
+    "unit": "طبق",
+    "unit_price": 150.0,
+    "qty": 24.0,
+    "line_total": 3600.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 12.0,
+    "line_total": 816.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 233,
+  "invoice_no": "b2454",
+  "date": "2026/6/14",
+  "customer": "البراهيمية فيصل",
+  "customer_code": "986",
+  "total_qty": 96.0,
+  "invoice_total": 6162.0,
+  "paid": 0.0,
+  "remaining": 6162.0,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 12.0,
+    "line_total": 816.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 60.0,
+    "line_total": 3978.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.0,
+    "qty": 24.0,
+    "line_total": 1368.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 234,
+  "invoice_no": "B2455",
+  "date": "2026/6/16",
+  "customer": "ثلجة الشرقاوى كفر صقر",
+  "customer_code": "975",
+  "total_qty": 471.0,
+  "invoice_total": 21821.25,
+  "paid": 0.0,
+  "remaining": 21821.25,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 120.0,
+    "line_total": 8160.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 150.0,
+    "line_total": 4590.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 45.0,
+    "line_total": 1338.75,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "405",
+    "name": "سجق اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 39.0,
+    "qty": 150.0,
+    "line_total": 4972.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "435",
+    "name": "عجينة بقرى 5 ك",
+    "unit": "كيلو",
+    "unit_price": 460.0,
+    "qty": 6.0,
+    "line_total": 2760.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 235,
+  "invoice_no": "b2456",
+  "date": "2026/6/16",
+  "customer": "ثلجة ابوالعز انشاص",
+  "customer_code": "998",
+  "total_qty": 27.0,
+  "invoice_total": 1275.0,
+  "paid": 0.0,
+  "remaining": 1275.0,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 12.0,
+    "line_total": 816.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 15.0,
+    "line_total": 459.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 236,
+  "invoice_no": "b2457",
+  "date": "2026/6/16",
+  "customer": "ثلجة حور طوخ",
+  "customer_code": "925",
+  "total_qty": 37.0,
+  "invoice_total": 2793.0,
+  "paid": 0.0,
+  "remaining": 2793.0,
+  "items": [
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 15.0,
+    "line_total": 459.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "346",
+    "name": "بانيه 800 جرام",
+    "unit": "طبق",
+    "unit_price": 57.0,
+    "qty": 12.0,
+    "line_total": 684.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "441",
+    "name": "استربس اسبشيال 900 جرام",
+    "unit": "كيس",
+    "unit_price": 165.0,
+    "qty": 10.0,
+    "line_total": 1650.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 237,
+  "invoice_no": "b2459",
+  "date": "2026/6/16",
+  "customer": "ثلجة المانة طوخ",
+  "customer_code": "999",
+  "total_qty": 3.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 1.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "405",
+    "name": "سجق اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 1.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 1.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 238,
+  "invoice_no": "b2460",
+  "date": "2026/6/16",
+  "customer": "ثلجة ابوالعز انشاص",
+  "customer_code": "998",
+  "total_qty": 3.0,
+  "invoice_total": 0.0,
+  "paid": 0.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 1.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 1.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "405",
+    "name": "سجق اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 0.0,
+    "qty": 1.0,
+    "line_total": 0.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 239,
+  "invoice_no": "b2461",
+  "date": "2026/6/17",
+  "customer": "م القماش السماعيلية",
+  "customer_code": "984",
+  "total_qty": 518.0,
+  "invoice_total": 30456.55,
+  "paid": 0.0,
+  "remaining": 30456.55,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 132.0,
+    "line_total": 8976.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 45.0,
+    "line_total": 1377.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 96.0,
+    "line_total": 6364.8,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 45.0,
+    "line_total": 1338.75,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "398",
+    "name": "بانيه 900 جرام اسباشيل",
+    "unit": "كيس",
+    "unit_price": 62.0,
+    "qty": 200.0,
+    "line_total": 12400.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 240,
+  "invoice_no": "b2462",
+  "date": "2026/6/18",
+  "customer": "ثلجة ابوالعز انشاص",
+  "customer_code": "998",
+  "total_qty": 160.0,
+  "invoice_total": 9920.0,
+  "paid": 0.0,
+  "remaining": 9920.0,
+  "items": [
+   {
+    "item_code": "398",
+    "name": "بانيه 900 جرام اسباشيل",
+    "unit": "كيس",
+    "unit_price": 62.0,
+    "qty": 160.0,
+    "line_total": 9920.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 241,
+  "invoice_no": "b2463",
+  "date": "2026/6/20",
+  "customer": "ثلجة المانة طوخ",
+  "customer_code": "999",
+  "total_qty": 89.0,
+  "invoice_total": 5284.1,
+  "paid": 0.0,
+  "remaining": 5284.1,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 12.0,
+    "line_total": 816.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 15.0,
+    "line_total": 459.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "405",
+    "name": "سجق اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 39.0,
+    "qty": 15.0,
+    "line_total": 497.25,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "398",
+    "name": "بانيه 900 جرام اسباشيل",
+    "unit": "كيس",
+    "unit_price": 62.0,
+    "qty": 10.0,
+    "line_total": 620.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "441",
+    "name": "استربس اسبشيال 900 جرام",
+    "unit": "كيس",
+    "unit_price": 165.0,
+    "qty": 10.0,
+    "line_total": 1650.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "402",
+    "name": "كفته اسبيشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 12.0,
+    "line_total": 795.6,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 15.0,
+    "line_total": 446.25,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 242,
+  "invoice_no": "b2464",
+  "date": "2026/6/20",
+  "customer": "شركة الشريف الزقازيق",
+  "customer_code": "971",
+  "total_qty": 300.0,
+  "invoice_total": 18600.0,
+  "paid": 0.0,
+  "remaining": 18600.0,
+  "items": [
+   {
+    "item_code": "398",
+    "name": "بانيه 900 جرام اسباشيل",
+    "unit": "كيس",
+    "unit_price": 62.0,
+    "qty": 300.0,
+    "line_total": 18600.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 243,
+  "invoice_no": "b2465",
+  "date": "2026/6/21",
+  "customer": "الغمراوى المقطم السوق التجارى",
+  "customer_code": "931",
+  "total_qty": 60.0,
+  "invoice_total": 4080.0,
+  "paid": 0.0,
+  "remaining": 4080.0,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 60.0,
+    "line_total": 4080.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 244,
+  "invoice_no": "b2466",
+  "date": "2026/6/21",
+  "customer": "الدوليه",
+  "customer_code": "962",
+  "total_qty": 518.0,
+  "invoice_total": 61555.0,
+  "paid": 0.0,
+  "remaining": 61555.0,
+  "items": [
+   {
+    "item_code": "398",
+    "name": "بانيه 900 جرام اسباشيل",
+    "unit": "كيس",
+    "unit_price": 62.0,
+    "qty": 150.0,
+    "line_total": 9300.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "441",
+    "name": "استربس اسبشيال 900 جرام",
+    "unit": "كيس",
+    "unit_price": 165.0,
+    "qty": 120.0,
+    "line_total": 19800.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "1",
+    "name": "مفروم صافى 400 جم ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 100.0,
+    "qty": 100.0,
+    "line_total": 10000.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "2",
+    "name": "كبده اسكندرانى 400 ( ابو هاشم )",
+    "unit": "طبق",
+    "unit_price": 78.0,
+    "qty": 100.0,
+    "line_total": 7800.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "255",
+    "name": "برجر ابو هاشم جامبو 1.5 كيلو",
+    "unit": "طبق",
+    "unit_price": 185.0,
+    "qty": 27.0,
+    "line_total": 4995.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "435",
+    "name": "عجينة بقرى 5 ك",
+    "unit": "كيلو",
+    "unit_price": 460.0,
+    "qty": 21.0,
+    "line_total": 9660.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 245,
+  "invoice_no": "b2467",
+  "date": "2026/6/23",
+  "customer": "شركة الشريف الزقازيق",
+  "customer_code": "971",
+  "total_qty": 220.0,
+  "invoice_total": 13640.0,
+  "paid": 0.0,
+  "remaining": 13640.0,
+  "items": [
+   {
+    "item_code": "398",
+    "name": "بانيه 900 جرام اسباشيل",
+    "unit": "كيس",
+    "unit_price": 62.0,
+    "qty": 220.0,
+    "line_total": 13640.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 246,
+  "invoice_no": "b2468",
+  "date": "2026/6/23",
+  "customer": "كامل ابوسف عرب الغديرى",
+  "customer_code": "973",
+  "total_qty": 39.0,
+  "invoice_total": 2377.5,
+  "paid": 0.0,
+  "remaining": 2377.5,
+  "items": [
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 30.0,
+    "line_total": 892.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "441",
+    "name": "استربس اسبشيال 900 جرام",
+    "unit": "كيس",
+    "unit_price": 165.0,
+    "qty": 9.0,
+    "line_total": 1485.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 247,
+  "invoice_no": "b2469",
+  "date": "2026/6/23",
+  "customer": "ثلجة ابوجزر ابوحماد",
+  "customer_code": "964",
+  "total_qty": 12.0,
+  "invoice_total": 816.0,
+  "paid": 0.0,
+  "remaining": 816.0,
+  "items": [
+   {
+    "item_code": "404",
+    "name": "برجر اسبشيال عائلى",
+    "unit": "طبق",
+    "unit_price": 80.0,
+    "qty": 12.0,
+    "line_total": 816.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 248,
+  "invoice_no": "b2470",
+  "date": "2026/6/24",
+  "customer": "الدوليه",
+  "customer_code": "962",
+  "total_qty": 1.0,
+  "invoice_total": 375.0,
+  "paid": 0.0,
+  "remaining": 375.0,
+  "items": [
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 1.0,
+    "line_total": 375.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 249,
+  "invoice_no": "b2471",
+  "date": "2026/6/24",
+  "customer": "احمد سمير بلطيم",
+  "customer_code": "974",
+  "total_qty": 161.0,
+  "invoice_total": 45170.0,
+  "paid": 0.0,
+  "remaining": 45170.0,
+  "items": [
+   {
+    "item_code": "398",
+    "name": "بانيه 900 جرام اسباشيل",
+    "unit": "كيس",
+    "unit_price": 62.0,
+    "qty": 60.0,
+    "line_total": 3720.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 50.0,
+    "line_total": 18500.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "435",
+    "name": "عجينة بقرى 5 ك",
+    "unit": "كيلو",
+    "unit_price": 450.0,
+    "qty": 51.0,
+    "line_total": 22950.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 250,
+  "invoice_no": "b2499",
+  "date": "2026/6/21",
+  "customer": "م اللفى",
+  "customer_code": "50",
+  "total_qty": 705.0,
+  "invoice_total": 82800.0,
+  "paid": 0.0,
+  "remaining": 82800.0,
+  "items": [
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 180.0,
+    "line_total": 67500.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "108",
+    "name": "سجق الهنا 350",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 75.0,
+    "line_total": 2295.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "102",
+    "name": "كفته الهنا 350",
+    "unit": "طبق",
+    "unit_price": 32.0,
+    "qty": 150.0,
+    "line_total": 4080.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "104",
+    "name": "برجر الهنا 400 جرام",
+    "unit": "طبق",
+    "unit_price": 34.0,
+    "qty": 75.0,
+    "line_total": 2167.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "403",
+    "name": "برجر اسبشيال صغير",
+    "unit": "طبق",
+    "unit_price": 36.0,
+    "qty": 75.0,
+    "line_total": 2295.0,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "399",
+    "name": "كفته اسبيشيال صغير",
+    "unit": "طبق",
+    "unit_price": 35.0,
+    "qty": 150.0,
+    "line_total": 4462.5,
+    "discount_pct": 15.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 251,
+  "invoice_no": "b2500",
+  "date": "2026/6/20",
+  "customer": "احمد الرفاعي بردين",
+  "customer_code": "561",
+  "total_qty": 22.0,
+  "invoice_total": 8140.0,
+  "paid": 0.0,
+  "remaining": 8140.0,
+  "items": [
+   {
+    "item_code": "257",
+    "name": "سجق الهنا 5 كيلو",
+    "unit": "طبق",
+    "unit_price": 370.0,
+    "qty": 22.0,
+    "line_total": 8140.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 252,
+  "invoice_no": "b2501",
+  "date": "2026/6/24",
+  "customer": "ابوسليم",
+  "customer_code": "328",
+  "total_qty": 160.0,
+  "invoice_total": 12438.0,
+  "paid": 0.0,
+  "remaining": 12438.0,
+  "items": [
+   {
+    "item_code": "421",
+    "name": "برجر ابو هاشم 1 ك",
+    "unit": "طبق",
+    "unit_price": 132.0,
+    "qty": 60.0,
+    "line_total": 7128.0,
+    "discount_pct": 10.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "8",
+    "name": "كفته 350 جم ابو هاشم",
+    "unit": "طبق",
+    "unit_price": 56.0,
+    "qty": 40.0,
+    "line_total": 2016.0,
+    "discount_pct": 10.0,
+    "tax_pct": 0.0
+   },
+   {
+    "item_code": "7",
+    "name": "سجق 350 جم ابو هاشم",
+    "unit": "طبق",
+    "unit_price": 61.0,
+    "qty": 60.0,
+    "line_total": 3294.0,
+    "discount_pct": 10.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 253,
+  "invoice_no": "b2502",
+  "date": "2026/6/25",
+  "customer": "كشرى الطيب ( النور )",
+  "customer_code": "719",
+  "total_qty": 26.0,
+  "invoice_total": 5980.0,
+  "paid": 0.0,
+  "remaining": 5980.0,
+  "items": [
+   {
+    "item_code": "292",
+    "name": "عجينه سجق 5 كيلو الهنا",
+    "unit": "طبق",
+    "unit_price": 230.0,
+    "qty": 26.0,
+    "line_total": 5980.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 254,
+  "invoice_no": "b2503",
+  "date": "2026/6/25",
+  "customer": "الجمعيه التعاونيه الزقازيق",
+  "customer_code": "623",
+  "total_qty": 2.0,
+  "invoice_total": 750.0,
+  "paid": 0.0,
+  "remaining": 750.0,
+  "items": [
+   {
+    "item_code": "13",
+    "name": "سجق شرقى 3 ك ابو هاشم",
+    "unit": "كيلو 3 كيس",
+    "unit_price": 375.0,
+    "qty": 2.0,
+    "line_total": 750.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 255,
+  "invoice_no": "b2551",
+  "date": "2026/6/27",
+  "customer": "م السوهاجى",
+  "customer_code": "864",
+  "total_qty": 10.0,
+  "invoice_total": 1550.0,
+  "paid": 0.0,
+  "remaining": 1550.0,
+  "items": [
+   {
+    "item_code": "447",
+    "name": "استربس الهنا 900 جرام",
+    "unit": "كيس",
+    "unit_price": 155.0,
+    "qty": 10.0,
+    "line_total": 1550.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ },
+ {
+  "page": 256,
+  "invoice_no": "b2552",
+  "date": "2026/6/27",
+  "customer": "عميل نقدى",
+  "customer_code": "1",
+  "total_qty": 3.0,
+  "invoice_total": 825.0,
+  "paid": 825.0,
+  "remaining": 0.0,
+  "items": [
+   {
+    "item_code": "33",
+    "name": "كيلو مفروم هندى",
+    "unit": "كيلو",
+    "unit_price": 275.0,
+    "qty": 3.0,
+    "line_total": 825.0,
+    "discount_pct": 0.0,
+    "tax_pct": 0.0
+   }
+  ]
+ }
+]
