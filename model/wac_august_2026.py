@@ -104,8 +104,8 @@ def num(v):
 
 
 # ---------------------------------------------------------------- المدخلات
-def load_july():
-    wb = openpyxl.load_workbook(F_JUL)
+def load_july(path=F_JUL):
+    wb = openpyxl.load_workbook(path)
     raw = OrderedDict()
     for r in wb["جرد الخامات آخر يوليو"].iter_rows(min_row=5, values_only=True):
         n = clean(r[0])
@@ -176,8 +176,8 @@ def load_count():
     return raw, fg
 
 
-def load_june_prices():
-    ws = openpyxl.load_workbook(F_JUN).worksheets[0]
+def load_june_prices(path=F_JUN):
+    ws = openpyxl.load_workbook(path).worksheets[0]
     by_price = defaultdict(list)
     for r in ws.iter_rows(min_row=5, values_only=True):
         if r[0] and isinstance(r[7], (int, float)):
@@ -185,9 +185,9 @@ def load_june_prices():
     return by_price
 
 
-def load_recipes(jun_by_price):
+def load_recipes(jun_by_price, path=F_BOM):
     """الوصفات كما بملف يونيه: خلطة فرعية (توابيل) + وصفة رئيسية + معامل الإنتاجية."""
-    wb = openpyxl.load_workbook(F_BOM)
+    wb = openpyxl.load_workbook(path)
     recipes = OrderedDict()
     for sheet in ("منتجات أبو هاشم", "منتجات سبيشال", "منتجات الهنا"):
         cur, sec = None, None
