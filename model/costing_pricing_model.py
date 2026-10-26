@@ -119,6 +119,15 @@ MIX = {
 BRAND_OF_RECIPE = {r: ("أبو هاشم" if "ابوهاشم" in r else "الهنا" if "الهنا" in r else "سبيشال")
                    for r in MIX}
 
+# Single-material recipes (management 26/10/2026): «مفروم صافي 350» = 0.32 kg Indian meat
+# + 6.25 packaging, «كبده اسكندراني 400» = 0.34 kg liver + 6.25, «كيلو مفروم هندي» = 1 kg
+# Indian meat + 2.00. The standard is the recipe at the month-end WAC, so June uses
+# «تسعير جرد اخر شهر ٦ سنة ٢٠٢٦»: Indian-meat pool («تشكيله هندى امامى») 253.00, «كبده» 169.4903.
+MIX["لحم هندي"] = 253.0
+MIX["كبده"] = 169.4903
+# Material kilos per unit where they differ from the pack weight in SKU.
+MAT_KG = {1: 0.32, 2: 0.34}
+
 # Casing (هانك) on sausage packs — management 26/10/2026, from «سعر انتاج تام-1.xlsx»:
 # every kilo of sausage carries 1/15 casing, and the brand's recipe sheet adds its cost to
 # the paste price — الهنا «هانك» 20/kg (300 per casing), اسبشيال 2026 «هانك» 250/15/kg.
@@ -155,9 +164,9 @@ SKU = OrderedDict([
  (403,("برجر اسبيشيال صغير","برجر اسبشيال",0.4 ,5.5 ,"برجر")),
  (399,("كفته اسبيشيال صغير","كفته اسبشيال",0.35,5.5 ,"كفته")),
  (435,("عجينة بقري 5 ك",None,5.0 ,0.0 ,"عجينة")),
- (1  ,("مفروم صافي 400 جم (ابو هاشم)",None,0.4 ,0.0 ,"مفروم")),
+ (1  ,("مفروم صافي 400 جم (ابو هاشم)","لحم هندي",0.4 ,6.25 ,"مفروم")),
  (441,("استريس اسبشيال 900 جرام",None,0.9 ,0.0 ,"استربس")),
- (2  ,("كبده اسكندراني 400 (ابو هاشم)",None,0.4 ,0.0 ,"كبده")),
+ (2  ,("كبده اسكندراني 400 (ابو هاشم)","كبده",0.4 ,6.25 ,"كبده")),
  (80 ,("برجر 1200 جم","برجر ابوهاشم",1.2 ,6.18 ,"برجر")),
  (99 ,("سجق الهنا 800 جرام","سجق الهنا",0.8 ,5.99 ,"سجق")),
  (255,("برجر ابو هاشم جامبو 1.5 كيلو","برجر ابوهاشم",1.5 ,6.07 ,"برجر")),
@@ -169,14 +178,14 @@ SKU = OrderedDict([
  (114,("كفته ابو هاشم 800","كفته ابوهاشم",0.8 ,5.35 ,"كفته")),
  (292,("عجينه سجق 5 كيلو الهنا","سجق الهنا",5.0 ,16.06,"عجينة")),
  (7  ,("سجق 350 جم ابو هاشم","سجق ابوهاشم",0.35,4.67 ,"سجق")),
- (33 ,("كيلو مفروم هندي",None,1.0 ,0.0 ,"مفروم")),
+ (33 ,("كيلو مفروم هندي","لحم هندي",1.0 ,2.0 ,"مفروم")),
  (8  ,("كفته 350 جم ابو هاشم","كفته ابوهاشم",0.35,4.5 ,"كفته")),
  (447,("استربس الهنا 900 جرام",None,0.9 ,0.0 ,"استربس")),
  (440,("استربس الهنا 1 كيلو",None,1.0 ,0.0 ,"استربس")),
 ])
 
 def brand_of(recipe, name):
-    if recipe: return BRAND_OF_RECIPE[recipe]
+    if recipe in BRAND_OF_RECIPE: return BRAND_OF_RECIPE[recipe]
     if "اسبشيال" in name or "اسباشيل" in name or "اسبيشيال" in name or "اسبشيل" in name: return "سبيشال"
     if "الهنا" in name: return "الهنا"
     if "ابو هاشم" in name or "ابوهاشم" in name: return "أبو هاشم"
@@ -218,7 +227,7 @@ def build():
         list_price = max(s["prices"]) if s["prices"] else avg_price
         old_price = avg_price                      # basis = realized avg (consistent w/ margin)
         std_cas  = casing_u(code, recipe, w, cat)
-        std_mat  = (w*MIX[recipe] + std_cas) if recipe else None      # per unit, casing included
+        std_mat  = (MAT_KG.get(code, w)*MIX[recipe] + std_cas) if recipe else None      # per unit, casing included
         std_pack = pkg if recipe else 0.0
         rows.append(dict(code=code, name=name, recipe=recipe, cat=cat,
                          brand=brand_of(recipe,name), weight=w, qty=qty, kg=w*qty,
