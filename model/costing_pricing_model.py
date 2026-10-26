@@ -119,6 +119,23 @@ MIX = {
 BRAND_OF_RECIPE = {r: ("أبو هاشم" if "ابوهاشم" in r else "الهنا" if "الهنا" in r else "سبيشال")
                    for r in MIX}
 
+# Casing (هانك) on sausage packs — management 26/10/2026, from «سعر انتاج تام-1.xlsx»:
+# every kilo of sausage carries 1/15 casing, and the brand's recipe sheet adds its cost to
+# the paste price — الهنا «هانك» 20/kg (300 per casing), اسبشيال 2026 «هانك» 250/15/kg.
+# MIX above is paste only for those two; أبو هاشم's 91.08 already includes its casing
+# (sheet الهاشم: paste 70.28 + «هنكات للكيلو» 20 = 90.28), so it gets none here.
+CASING_PER_KG = {"سجق الهنا": 20.0, "سجق اسبشيال": 250 / 15}
+# Kilos of sausage the standard costs the casing on, where that differs from the paste
+# weight in SKU: «سجق الهنا 300/700» in the standard are the 350/800 packs sold.
+CASING_KG = {108: 0.3, 99: 0.7}
+
+
+def casing_u(code, recipe, w, cat):
+    """Casing cost per unit; paste («عجينة») shares the sausage recipe but carries none."""
+    if cat != "سجق" or recipe not in CASING_PER_KG:
+        return 0.0
+    return CASING_PER_KG[recipe] * CASING_KG.get(code, w)
+
 # ============================================ 3. SOLD-SKU MASTER (June 2026) ====
 # code : (name, recipe|None, weight_kg, packaging_cost, category)
 # recipe=None => traded/other product with no BOM in source data (documented gap)
@@ -200,12 +217,14 @@ def build():
         avg_price = rev/qty if qty else 0.0        # qty-weighted realized price
         list_price = max(s["prices"]) if s["prices"] else avg_price
         old_price = avg_price                      # basis = realized avg (consistent w/ margin)
-        std_mat  = (w*MIX[recipe]) if recipe else None      # per unit
+        std_cas  = casing_u(code, recipe, w, cat)
+        std_mat  = (w*MIX[recipe] + std_cas) if recipe else None      # per unit, casing included
         std_pack = pkg if recipe else 0.0
         rows.append(dict(code=code, name=name, recipe=recipe, cat=cat,
                          brand=brand_of(recipe,name), weight=w, qty=qty, kg=w*qty,
                          revenue=rev, avg_price=avg_price, old_price=old_price, list_price=list_price,
-                         std_mat_u=std_mat, std_pack_u=std_pack, has_bom=recipe is not None))
+                         std_mat_u=std_mat, std_casing_u=std_cas, std_pack_u=std_pack,
+                         has_bom=recipe is not None))
 
     # ---- reconcile invoice gross sales to statement NET sales ----
     # Invoice gross sales exceed IS net sales by returns/bonus/allowances.
