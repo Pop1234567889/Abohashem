@@ -65,6 +65,29 @@ REFERENCE_REQUIRED = OrderedDict([
 ])
 
 
+# ---------------------------------------------------------------- وصفات الخامة الواحدة
+# تأكيد الإدارة 26/10/2026: المعيار = خلطة التصنيع بمتوسط آخر الشهر. المنتج التام: (الخامة، كجم، تعبئة).
+# مفروم صافي 350 = 0.32 كجم لحم هندى + 6.25؛ كبده اسكندراني (400 بالمبيعات) = 0.34 كجم كبده + 6.25.
+# تسرى من MATERIAL_FROM: تقييمات أغسطس وسبتمبر صدرت قبل الوصفتين فتبقى كما صدرت.
+MATERIAL_RULES = {
+    "مفروم ابو هاشم 350": (POOL, 0.32, 6.25),
+    "كبده اسكندراني 370": ("كبده", 0.34, 6.25),
+}
+MATERIAL_FROM = "2026-10"
+
+
+def material_rule(month: str, name: str):
+    if month < MATERIAL_FROM:
+        return None
+    return next((r for n, r in MATERIAL_RULES.items() if key(n) == key(name)), None)
+
+
+def material_price(rule, prices: dict, pool_wac):
+    item, kg, pkg = rule
+    p = pool_wac if item == POOL else prices.get(key(item))
+    return None if p is None else round(kg * p + pkg, 4)
+
+
 class MissingFiles(Exception):
     def __init__(self, month, missing):
         self.month, self.missing = month, missing
@@ -288,7 +311,13 @@ def run(month: str) -> dict:
         ks = [key(f["name"])] + ([key(alias)] if alias else [])
         rule = next((prev["rules"][k] for k in ks if k in prev["rules"]), None)
         row = {**f, "price": None, "rule": rule, "flag": False}
-        if rule:
+        mrule = material_rule(month, f["name"])
+        mprice = material_price(mrule, prices, pool["wac"]) if mrule else None
+        if mprice is not None:
+            item, w, pkg = mrule
+            row.update(price=mprice, note=f"من وصفة الإدارة: {w:g} كجم «{item.lstrip('@')}» × متوسط الشهر"
+                       f" + تعبئة {pkg:.2f} ج.م")
+        elif rule:
             rn, w, pkg = rule
             row.update(price=round(w * kg[rn] + pkg, 4), note=f"من وصفة «{rn}»: {w:g} كجم × سعر كجم الشهر"
                        + (f" + تعبئة {pkg:.2f} ج.م" if pkg else " بدون تكلفة تعبئة (غير محددة بالوصفة)"))

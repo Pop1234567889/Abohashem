@@ -119,6 +119,35 @@ MIX = {
 BRAND_OF_RECIPE = {r: ("أبو هاشم" if "ابوهاشم" in r else "الهنا" if "الهنا" in r else "سبيشال")
                    for r in MIX}
 
+# Single-material recipes (management 26/10/2026): «مفروم صافي 350» = 0.32 kg Indian meat
+# + 6.25 packaging, «كبده اسكندراني 400» = 0.34 kg liver + 6.25, «كيلو مفروم هندي» = 1 kg
+# Indian meat + 2.00. The standard is the recipe at the month-end WAC, so June uses
+# «تسعير جرد اخر شهر ٦ سنة ٢٠٢٦»: Indian-meat pool («تشكيله هندى امامى») 253.00, «كبده» 169.4903.
+MIX["لحم هندي"] = 253.0
+MIX["كبده"] = 169.4903
+# Material kilos per unit where they differ from the pack weight in SKU.
+MAT_KG = {1: 0.32, 2: 0.34}
+
+# Casing (هانك) on sausage packs — management 26/10/2026: every kilo of sausage of any brand
+# carries 1/15 casing, and the standard is the recipe at the month-end average, so June prices
+# it at June's «هانك» average (250.00 in «تسعير جرد اخر شهر ٦»). MIX is paste only for all
+# three sausages: سجق ابوهاشم was 91.0834 = June materials ÷ 98.96 kg, a divisor back-solved
+# from the standard file's 90.28 (paste 70.28 + casing 20 over 127.12 kg); it is now the
+# materials over the recipe's own 127.12 kg, like الهنا and اسبشيال, with the casing apart.
+MIX["سجق ابوهاشم"] = round(91.0834 * 98.9600314296844 / 127.12, 4)   # 70.9064
+HANK_JUNE = 250.0
+CASING_PER_KG = {r: HANK_JUNE / 15 for r in ("سجق الهنا", "سجق اسبشيال", "سجق ابوهاشم")}
+# Kilos of sausage the standard costs the casing on, where that differs from the paste
+# weight in SKU: «سجق الهنا 300/700» in the standard are the 350/800 packs sold.
+CASING_KG = {108: 0.3, 99: 0.7}
+
+
+def casing_u(code, recipe, w, cat):
+    """Casing cost per unit; paste («عجينة») shares the sausage recipe but carries none."""
+    if cat != "سجق" or recipe not in CASING_PER_KG:
+        return 0.0
+    return CASING_PER_KG[recipe] * CASING_KG.get(code, w)
+
 # ============================================ 3. SOLD-SKU MASTER (June 2026) ====
 # code : (name, recipe|None, weight_kg, packaging_cost, category)
 # recipe=None => traded/other product with no BOM in source data (documented gap)
@@ -138,9 +167,9 @@ SKU = OrderedDict([
  (403,("برجر اسبيشيال صغير","برجر اسبشيال",0.4 ,5.5 ,"برجر")),
  (399,("كفته اسبيشيال صغير","كفته اسبشيال",0.35,5.5 ,"كفته")),
  (435,("عجينة بقري 5 ك",None,5.0 ,0.0 ,"عجينة")),
- (1  ,("مفروم صافي 400 جم (ابو هاشم)",None,0.4 ,0.0 ,"مفروم")),
+ (1  ,("مفروم صافي 400 جم (ابو هاشم)","لحم هندي",0.4 ,6.25 ,"مفروم")),
  (441,("استريس اسبشيال 900 جرام",None,0.9 ,0.0 ,"استربس")),
- (2  ,("كبده اسكندراني 400 (ابو هاشم)",None,0.4 ,0.0 ,"كبده")),
+ (2  ,("كبده اسكندراني 400 (ابو هاشم)","كبده",0.4 ,6.25 ,"كبده")),
  (80 ,("برجر 1200 جم","برجر ابوهاشم",1.2 ,6.18 ,"برجر")),
  (99 ,("سجق الهنا 800 جرام","سجق الهنا",0.8 ,5.99 ,"سجق")),
  (255,("برجر ابو هاشم جامبو 1.5 كيلو","برجر ابوهاشم",1.5 ,6.07 ,"برجر")),
@@ -152,14 +181,14 @@ SKU = OrderedDict([
  (114,("كفته ابو هاشم 800","كفته ابوهاشم",0.8 ,5.35 ,"كفته")),
  (292,("عجينه سجق 5 كيلو الهنا","سجق الهنا",5.0 ,16.06,"عجينة")),
  (7  ,("سجق 350 جم ابو هاشم","سجق ابوهاشم",0.35,4.67 ,"سجق")),
- (33 ,("كيلو مفروم هندي",None,1.0 ,0.0 ,"مفروم")),
+ (33 ,("كيلو مفروم هندي","لحم هندي",1.0 ,2.0 ,"مفروم")),
  (8  ,("كفته 350 جم ابو هاشم","كفته ابوهاشم",0.35,4.5 ,"كفته")),
  (447,("استربس الهنا 900 جرام",None,0.9 ,0.0 ,"استربس")),
  (440,("استربس الهنا 1 كيلو",None,1.0 ,0.0 ,"استربس")),
 ])
 
 def brand_of(recipe, name):
-    if recipe: return BRAND_OF_RECIPE[recipe]
+    if recipe in BRAND_OF_RECIPE: return BRAND_OF_RECIPE[recipe]
     if "اسبشيال" in name or "اسباشيل" in name or "اسبيشيال" in name or "اسبشيل" in name: return "سبيشال"
     if "الهنا" in name: return "الهنا"
     if "ابو هاشم" in name or "ابوهاشم" in name: return "أبو هاشم"
@@ -200,12 +229,14 @@ def build():
         avg_price = rev/qty if qty else 0.0        # qty-weighted realized price
         list_price = max(s["prices"]) if s["prices"] else avg_price
         old_price = avg_price                      # basis = realized avg (consistent w/ margin)
-        std_mat  = (w*MIX[recipe]) if recipe else None      # per unit
+        std_cas  = casing_u(code, recipe, w, cat)
+        std_mat  = (MAT_KG.get(code, w)*MIX[recipe] + std_cas) if recipe else None      # per unit, casing included
         std_pack = pkg if recipe else 0.0
         rows.append(dict(code=code, name=name, recipe=recipe, cat=cat,
                          brand=brand_of(recipe,name), weight=w, qty=qty, kg=w*qty,
                          revenue=rev, avg_price=avg_price, old_price=old_price, list_price=list_price,
-                         std_mat_u=std_mat, std_pack_u=std_pack, has_bom=recipe is not None))
+                         std_mat_u=std_mat, std_casing_u=std_cas, std_pack_u=std_pack,
+                         has_bom=recipe is not None))
 
     # ---- reconcile invoice gross sales to statement NET sales ----
     # Invoice gross sales exceed IS net sales by returns/bonus/allowances.
