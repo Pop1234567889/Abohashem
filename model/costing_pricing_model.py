@@ -128,12 +128,15 @@ MIX["كبده"] = 169.4903
 # Material kilos per unit where they differ from the pack weight in SKU.
 MAT_KG = {1: 0.32, 2: 0.34}
 
-# Casing (هانك) on sausage packs — management 26/10/2026, from «سعر انتاج تام-1.xlsx»:
-# every kilo of sausage carries 1/15 casing, and the brand's recipe sheet adds its cost to
-# the paste price — الهنا «هانك» 20/kg (300 per casing), اسبشيال 2026 «هانك» 250/15/kg.
-# MIX above is paste only for those two; أبو هاشم's 91.08 already includes its casing
-# (sheet الهاشم: paste 70.28 + «هنكات للكيلو» 20 = 90.28), so it gets none here.
-CASING_PER_KG = {"سجق الهنا": 20.0, "سجق اسبشيال": 250 / 15}
+# Casing (هانك) on sausage packs — management 26/10/2026: every kilo of sausage of any brand
+# carries 1/15 casing, and the standard is the recipe at the month-end average, so June prices
+# it at June's «هانك» average (250.00 in «تسعير جرد اخر شهر ٦»). MIX is paste only for all
+# three sausages: سجق ابوهاشم was 91.0834 = June materials ÷ 98.96 kg, a divisor back-solved
+# from the standard file's 90.28 (paste 70.28 + casing 20 over 127.12 kg); it is now the
+# materials over the recipe's own 127.12 kg, like الهنا and اسبشيال, with the casing apart.
+MIX["سجق ابوهاشم"] = round(91.0834 * 98.9600314296844 / 127.12, 4)   # 70.9064
+HANK_JUNE = 250.0
+CASING_PER_KG = {r: HANK_JUNE / 15 for r in ("سجق الهنا", "سجق اسبشيال", "سجق ابوهاشم")}
 # Kilos of sausage the standard costs the casing on, where that differs from the paste
 # weight in SKU: «سجق الهنا 300/700» in the standard are the 350/800 packs sold.
 CASING_KG = {108: 0.3, 99: 0.7}

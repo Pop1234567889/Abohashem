@@ -1,8 +1,8 @@
 """الهانك فى نموذج التكاليف (تأكيد الإدارة 26/10/2026).
 
-كل كيلو سجق عليه 1/15 هانك، وأوراق الوصفات فى «سعر انتاج تام-1.xlsx» تضيف تكلفته إلى سعر
-العجينة. MIX فى النموذج سعر عجينة فقط للهنا واسبشيال، فيُضاف الهانك لعبوات السجق وحدها
-(لا للعجينة التى تشترك فى الوصفة)، ويبقى أبو هاشم كما هو لأن سعره يشمله.
+كل كيلو سجق من أى علامة عليه 1/15 هانك، والمعيار = الوصفة بمتوسط آخر الشهر، فيونيه بمتوسط «هانك»
+فى «تسعير جرد اخر شهر ٦» (250). MIX سعر عجينة فقط للسجق الثلاثة (أبو هاشم على كميات وصفته 127.12 كجم)،
+فيُضاف الهانك لعبوات السجق وحدها، لا للعجينة التى تشترك فى الوصفة.
 """
 import contextlib
 import io
@@ -19,6 +19,7 @@ with contextlib.redirect_stdout(io.StringIO()):
     import costing_pricing_model as M  # noqa: E402
 
 STANDARD = HERE.parents[1] / "سعر انتاج تام-1.xlsx"
+JUNE = HERE.parents[1] / "تسعير جرد اخر شهر ٦ سنة ٢٠٢٦.xlsx"
 
 
 @pytest.fixture(scope="module")
@@ -37,23 +38,37 @@ def _casing_cell(ws, label, header=None):
                 if isinstance(ws.cell(lab.row, c).value, (int, float)))
 
 
-def test_casing_per_kilo_is_the_standard_workbook():
+def test_casing_is_june_average_for_every_brand():
+    if not JUNE.exists():
+        pytest.skip("تسعير جرد اخر شهر ٦ غير موجود")
+    ws = openpyxl.load_workbook(JUNE, data_only=True).active
+    june = next(r[7].value for r in ws.iter_rows() if r[0].value and str(r[0].value).strip() == "هانك")
+    assert M.HANK_JUNE == june
+    assert M.CASING_PER_KG == {r: june / 15 for r in ("سجق الهنا", "سجق اسبشيال", "سجق ابوهاشم")}
+
+
+def test_standard_workbook_casing_quantity():
+    """The workbook's casing per kilo is 1/15 of its casing price (الهنا 20 = 300/15, اسبشيال 250/15)."""
     if not STANDARD.exists():
         pytest.skip("سعر انتاج تام-1.xlsx غير موجود")
     wb = openpyxl.load_workbook(STANDARD, data_only=True)
-    assert _casing_cell(wb["الهنا"], "هانك") == pytest.approx(M.CASING_PER_KG["سجق الهنا"])
-    assert _casing_cell(wb["اسبشيال 2026"], "هانك") == pytest.approx(M.CASING_PER_KG["سجق اسبشيال"])
-    # أبو هاشم: the sheet adds 20/kg too, and MIX already carries it (91.08 vs the sheet's 90.28)
+    assert _casing_cell(wb["الهنا"], "هانك") == pytest.approx(300 / 15)
+    assert _casing_cell(wb["اسبشيال 2026"], "هانك") == pytest.approx(250 / 15)
     assert _casing_cell(wb["الهاشم"], "هنكات للكيلو", "تكلفه سجق ابوهاشم") == 20
-    assert "سجق ابوهاشم" not in M.CASING_PER_KG
+
+
+def test_abu_hashem_paste_over_its_recipe_kilos():
+    # June materials were 91.0834 × 98.96 kg; the recipe's own kilos are 127.12
+    assert M.MIX["سجق ابوهاشم"] == pytest.approx(91.0834 * 98.9600314296844 / 127.12, abs=1e-4)
 
 
 def test_casing_goes_on_sausage_packs_only(rows):
-    expected = {257: 100.0, 108: 6.0, 99: 14.0, 405: 5.0, 406: 250 / 15 * 0.7}
+    c = 250 / 15
+    expected = {257: 5 * c, 108: 0.3 * c, 99: 0.7 * c, 405: 0.3 * c, 406: 0.7 * c, 13: 3 * c, 107: 0.8 * c, 7: 0.35 * c}
     for code, r in rows.items():
         assert r["std_casing_u"] == pytest.approx(expected.get(code, 0.0)), (code, r["name"])
     assert rows[292]["cat"] == "عجينة" and rows[292]["std_casing_u"] == 0      # paste shares the recipe
-    for code in (257, 108, 99, 405, 406):
+    for code in expected:
         r = rows[code]
         assert r["std_mat_u"] == pytest.approx(r["weight"] * M.MIX[r["recipe"]] + r["std_casing_u"])
 
